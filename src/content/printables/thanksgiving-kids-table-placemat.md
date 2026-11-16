@@ -11,6 +11,7 @@ ages: "4 to 9"
 time: "20 to 40 minutes"
 fields:
   - { key: "name", label: "Child's name", placeholder: "e.g. Leo", max: 12 }
+tool: "draw"
 image: "/images/thanksgiving-kids-table-placemat.png"
 imageAlt: "Thanksgiving placemat activity sheet with a turkey maze, tic-tac-toe grids, an empty plate and a thankful list"
 sources:

@@ -50,6 +50,8 @@
       if (kind === 'paper') setPaper(v);
     });
   });
+  // Apply the default buttons (page may open in draw mode)
+  maker.querySelectorAll('[data-seg="tool"] button.on, [data-seg="size"] button.on').forEach(function (b) { b.click(); });
   var pageStyle = document.createElement('style');
   document.head.appendChild(pageStyle);
   function setPaper(v) { pageStyle.textContent = '@page { size: ' + v + '; margin: 0.4in; }'; }

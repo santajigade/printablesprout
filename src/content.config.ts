@@ -20,6 +20,7 @@ const printables = defineCollection({
     // Editable text on the sheet. key must match data-field in the SVG.
     fields: z.array(z.object({ key: z.string(), label: z.string(), placeholder: z.string().default(''), max: z.number().default(20) })).default([]),
     // Alternative versions of the sheet. key must match data-variant in the SVG; the first is shown by default.
+    tool: z.enum(['fill', 'draw']).default('fill'),
     variants: z.array(z.object({ key: z.string(), label: z.string() })).default([]),
     image: z.string(),
     imageAlt: z.string(),

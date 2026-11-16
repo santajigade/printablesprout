@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const { d } = Astro.props; // printable frontmatter
+const draw = d.tool === 'draw'; // games and activity sheets open with the drawing pen
 const svgRaw = fs.readFileSync(path.join(process.cwd(), 'src/art', `${d.slug}.svg`), 'utf8')
   .replace(/<\?xml[^>]*>/, '')
   .replace('<svg ', '<svg id="sheet" role="img" aria-label="' + d.imageAlt.replace(/"/g, '') + '" ');
@@ -25,10 +26,17 @@ const COLORS = [
         </div>
       </div>
     )}
+    {draw ? (
+    <div class="lbl">Tool
+      <div class="seg" data-seg="tool"><button type="button" data-v="crayon" class="on">Draw and write</button><button type="button" data-v="fill">Tap to fill</button></div>
+      <div class="seg" data-seg="size"><button type="button" data-v="5" class="on">Thin</button><button type="button" data-v="12">Medium</button><button type="button" data-v="24">Thick</button></div>
+    </div>
+    ) : (
     <div class="lbl">Color tool
       <div class="seg" data-seg="tool"><button type="button" data-v="fill" class="on">Tap to fill</button><button type="button" data-v="crayon">Crayon</button></div>
       <div class="seg" data-seg="size"><button type="button" data-v="5">Thin</button><button type="button" data-v="12" class="on">Medium</button><button type="button" data-v="24">Thick</button></div>
     </div>
+    )}
     <div class="lbl">Colors
       <div class="palette">
         {COLORS.map(([hex, name], i) => <button type="button" class={i === 1 ? 'sw on' : 'sw'} data-color={hex} aria-label={name} title={name} style={`background:${hex}`}></button>)}
