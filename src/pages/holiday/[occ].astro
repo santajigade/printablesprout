@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import Ad from '../../components/Ad.astro';
+import { allPrintables } from '../../lib/printables';
+import { OCCASIONS } from '../../lib/site';
+export async function getStaticPaths() {
+  const items = await allPrintables();
+  return OCCASIONS.map((o) => ({ params: { occ: o.slug }, props: { o, list: items.filter((p) => p.data.occasion === o.slug) } }));
+}
+const { o, list } = Astro.props;
+---
+<Base title={`Free ${o.name} Printables`} description={`Free ${o.name} printables for kids: coloring pages, activities and charts. Color online or print on US Letter and A4.`} noindex={!list.length}>
+  <section class="wrap listing">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/category/holiday-printables/">Holidays</a> › {o.name}</nav>
+    <h1>Free {o.name} Printables</h1>
+    <p class="intro">{list.length ? `${o.label}. Color these online or print them free.` : `${o.name} printables are coming soon.`}</p>
+    <div class="grid">{list.map((p) => <Card item={p} />)}</div>
+    <Ad />
+  </section>
+</Base>

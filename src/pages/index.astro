@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Ad from '../components/Ad.astro';
+import { allPrintables } from '../lib/printables';
+import { SITE, CATEGORIES, OCCASIONS, upcomingOccasion } from '../lib/site';
+const items = await allPrintables();
+const fresh = items.slice(0, 8);
+const occ = upcomingOccasion();
+// Spotlight: the next occasion after the banner one that already has printables
+const spot = OCCASIONS.map((o) => ({ o, list: items.filter((p) => p.data.occasion === o.slug) }))
+  .filter((x) => x.list.length && (!occ || x.o.slug !== occ.slug))
+  .sort((a, b) => Date.parse(a.o.next) - Date.parse(b.o.next))
+  .find((x) => Date.parse(x.o.next) >= Date.now());
+const jsonld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'WebSite', name: SITE.name, url: SITE.url,
+    potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/search/?q={q}`, 'query-input': 'required name=q' } },
+  { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: `${SITE.url}/icon-512.png`, email: SITE.email,
+    publishingPrinciples: `${SITE.url}/editorial-policy/` },
+] };
+---
+<Base title={SITE.name} description="Free printables for parents and teachers: coloring pages, chore charts, routines and holiday activities. Color online or print free on Letter and A4." jsonld={jsonld}>
+  <section class="wrap hero">
+    {occ && <a class="season" href={`/holiday/${occ.slug}/`}>{occ.label}</a>}
+    <h1>Free printables for busy parents and teachers</h1>
+    <p>Color online or print free. Add your child's name to any page. Original art that prints right on Letter and A4.</p>
+    <form class="searchbox" action="/search/" method="get" role="search">
+      <label for="q" class="sr">Search printables</label>
+      <input id="q" name="q" type="search" placeholder="Try turkey, chore chart, dinosaur" />
+      <button type="submit">Search</button>
+    </form>
+    <div class="chips">
+      {OCCASIONS.filter((o) => items.some((p) => p.data.occasion === o.slug)).slice(0, 3).map((o) => <a class="chip" href={`/holiday/${o.slug}/`}>{o.name}</a>)}
+      <a class="chip" href="/category/chore-reward-charts/">Chore charts</a>
+      <a class="chip" href="/category/coloring-pages/">Coloring pages</a>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="sec-head"><h2>Browse by type</h2></div>
+    <div class="tiles">
+      {CATEGORIES.map((c) => <a class="tile" href={`/category/${c.slug}/`} style={`background:${c.bg}`}><strong>{c.name}</strong><span>{c.sub}</span></a>)}
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="sec-head"><h2>New this week</h2><a href="/category/coloring-pages/">See coloring pages</a></div>
+    <div class="grid">{fresh.map((p) => <Card item={p} />)}</div>
+  </section>
+
+  <Ad />
+
+  {spot && (
+    <section class="wrap section">
+      <div class="promo">
+        <div>
+          <h2>Coming up: {spot.o.name}</h2>
+          <p>{spot.list.length === 1 ? 'A new printable is' : `${spot.list.length} printables are`} ready for {spot.o.name.toLowerCase()}. Color online or print free.</p>
+        </div>
+        <a class="btn btn-dark" href={`/holiday/${spot.o.slug}/`}>See {spot.o.name} printables</a>
+      </div>
+    </section>
+  )}
+
+  <section class="wrap trust">
+    <div><strong>Original art only</strong><span>Every page is drawn for this site. No famous characters.</span></div>
+    <div><strong>Letter and A4</strong><span>Black line art that saves ink and fits both paper sizes.</span></div>
+    <div><strong>Free for home and class</strong><span>Print as many copies as your family or classroom needs.</span></div>
+  </section>
+</Base>

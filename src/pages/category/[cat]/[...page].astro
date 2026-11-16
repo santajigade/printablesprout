@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Card from '../../../components/Card.astro';
+import Pager from '../../../components/Pager.astro';
+import Ad from '../../../components/Ad.astro';
+import { allPrintables } from '../../../lib/printables';
+import { CATEGORIES, PER_PAGE } from '../../../lib/site';
+export async function getStaticPaths({ paginate }) {
+  const items = await allPrintables();
+  return CATEGORIES.flatMap((c) => paginate(items.filter((p) => p.data.category === c.name), { params: { cat: c.slug }, props: { c }, pageSize: PER_PAGE }));
+}
+const { page, c } = Astro.props;
+const intro = page.data.length ? `Free ${c.name.toLowerCase()} you can color online or print on Letter and A4. ${c.sub}.` : 'New printables in this section are on the way. Browse the other sections in the meantime.';
+---
+<Base title={`Free ${c.name}`} description={`Free printable ${c.name.toLowerCase()} for parents and teachers. Color online, add a name, or print on US Letter and A4.`} noindex={page.currentPage > 1 || !page.data.length}>
+  <section class="wrap listing">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › {c.name}</nav>
+    <h1>Free {c.name}</h1>
+    <p class="intro">{intro}</p>
+    <div class="grid">{page.data.map((p) => <Card item={p} />)}</div>
+    <Ad />
+    <Pager page={page} base={`/category/${c.slug}/`} />
+  </section>
+</Base>

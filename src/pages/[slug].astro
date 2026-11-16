@@ -1,0 +1,86 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Ad from '../components/Ad.astro';
+import ColorTool from '../components/ColorTool.astro';
+import { allPrintables } from '../lib/printables';
+import { SITE, AUTHOR, catByName, occBySlug, fmtDate } from '../lib/site';
+export async function getStaticPaths() {
+  const items = await allPrintables();
+  const pages = await getCollection('pages');
+  return [
+    ...items.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry, kind: 'printable', items } })),
+    ...pages.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry, kind: 'page' } })),
+  ];
+}
+const { entry, kind, items } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+let jsonld, related = [], cat, occ;
+if (kind === 'printable') {
+  cat = catByName(d.category);
+  occ = d.occasion ? occBySlug(d.occasion) : undefined;
+  const same = items.filter((p) => p.data.slug !== d.slug && ((d.occasion && p.data.occasion === d.occasion) || p.data.category === d.category));
+  const rest = items.filter((p) => p.data.slug !== d.slug && !same.includes(p));
+  related = [...same, ...rest].slice(0, 4);
+  const url = `${SITE.url}/${d.slug}/`;
+  const crumbs = [{ name: 'Home', item: `${SITE.url}/` }, { name: d.category, item: `${SITE.url}/category/${cat.slug}/` }];
+  if (occ) crumbs.push({ name: occ.name, item: `${SITE.url}/holiday/${occ.slug}/` });
+  crumbs.push({ name: d.title, item: url });
+  const graph: any[] = [
+    { '@type': 'Article', headline: d.title, description: d.description, mainEntityOfPage: url,
+      image: [new URL(d.image, SITE.url).href, new URL(`/og/${d.slug}.png`, SITE.url).href],
+      datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(), keywords: d.keywords,
+      author: { '@type': 'Person', name: AUTHOR.name, url: `${SITE.url}/author/${AUTHOR.slug}/`, sameAs: [AUTHOR.linkedin] },
+      publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: `${SITE.url}/icon-512.png` } } },
+    { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.item })) },
+  ];
+  if (d.faq.length) graph.push({ '@type': 'FAQPage', mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+  jsonld = { '@context': 'https://schema.org', '@graph': graph };
+}
+const initials = AUTHOR.name.split(' ').map((s) => s[0]).join('');
+---
+{kind === 'printable' ? (
+<Base title={d.title} description={d.description} image={`/og/${d.slug}.png`} imageAlt={d.imageAlt} type="article" jsonld={jsonld}
+  publishedTime={d.date} modifiedTime={d.updated ?? d.date} keywords={d.keywords}>
+  <div class="wrap pr-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href={`/category/${cat.slug}/`}>{d.category}</a>{occ && <> › <a href={`/holiday/${occ.slug}/`}>{occ.name}</a></>}</nav>
+    <h1>{d.title}</h1>
+    <p class="byline">By <a href={`/author/${AUTHOR.slug}/`}>{d.author}</a> · Updated <time datetime={(d.updated ?? d.date).toISOString()}>{fmtDate(d.updated ?? d.date)}</time></p>
+  </div>
+  <ColorTool d={d} />
+  <div class="wrap">
+    <div class="prose" style="padding-top:20px">
+      <div class="facts">
+        <div><strong>Ages</strong>{d.ages}</div>
+        <div><strong>Paper</strong>US Letter or A4</div>
+        <div><strong>Time</strong>{d.time}</div>
+        <div><strong>Color</strong>Online or by hand</div>
+      </div>
+      <Content />
+    </div>
+    {d.faq.length > 0 && (
+      <section class="faq"><h2>Questions parents ask</h2>
+        {d.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+      </section>
+    )}
+    <div class="author-box">
+      <div class="avatar" aria-hidden="true">{initials}</div>
+      <div><strong><a href={`/author/${AUTHOR.slug}/`}>{AUTHOR.name}</a></strong>, {AUTHOR.role}<br />{AUTHOR.bio}</div>
+    </div>
+    <p class="note">Free for personal and classroom use. Please share a link to this page rather than the file. Adult supervision is recommended for all activities.</p>
+  </div>
+  <Ad />
+  {related.length > 0 && (
+    <section class="wrap section">
+      <div class="sec-head"><h2>{occ ? `More ${occ.name} printables` : `More ${d.category}`}</h2><a href={occ ? `/holiday/${occ.slug}/` : `/category/${cat.slug}/`}>View all</a></div>
+      <div class="grid">{related.map((p) => <Card item={p} />)}</div>
+    </section>
+  )}
+</Base>
+) : (
+<Base title={d.title} description={d.description}>
+  <article class="page-body"><h1>{d.title}</h1><Content /></article>
+</Base>
+)}

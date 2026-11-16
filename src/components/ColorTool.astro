@@ -1,0 +1,47 @@
+---
+// Page A layout: controls on the left, the sheet on the right.
+// The SVG art lives in src/art/<slug>.svg and is inlined at build time.
+import fs from 'node:fs';
+import path from 'node:path';
+const { d } = Astro.props; // printable frontmatter
+const svgRaw = fs.readFileSync(path.join(process.cwd(), 'src/art', `${d.slug}.svg`), 'utf8')
+  .replace(/<\?xml[^>]*>/, '')
+  .replace('<svg ', '<svg id="sheet" role="img" aria-label="' + d.imageAlt.replace(/"/g, '') + '" ');
+const COLORS = [
+  ['#d7263d', 'Red'], ['#e8742c', 'Orange'], ['#f2b134', 'Gold'], ['#ffe066', 'Yellow'], ['#7cb342', 'Light green'], ['#2e7d32', 'Green'],
+  ['#4fc3f7', 'Sky blue'], ['#1e5aa8', 'Blue'], ['#8e44ad', 'Purple'], ['#f48fb1', 'Pink'], ['#8d5a2b', 'Brown'], ['#5d4037', 'Dark brown'],
+  ['#9e9e9e', 'Gray'], ['#212121', 'Black'], ['#ffd1a9', 'Peach'], ['#c5e1a5', 'Mint'], ['#b3e5fc', 'Ice blue'], ['#ffffff', 'White (eraser)'],
+];
+---
+<section class="wrap maker" id="maker" data-slug={d.slug}>
+  <div class="controls">
+    {d.fields.map((f) => (
+      <label>{f.label}<input type="text" data-input={f.key} maxlength={f.max} placeholder={f.placeholder} autocomplete="off" /></label>
+    ))}
+    {d.variants.length > 1 && (
+      <div class="lbl">Version
+        <div class="seg" data-seg="variant">
+          {d.variants.map((v, i) => <button type="button" data-v={v.key} class={i === 0 ? 'on' : ''}>{v.label}</button>)}
+        </div>
+      </div>
+    )}
+    <div class="lbl">Color tool
+      <div class="seg" data-seg="tool"><button type="button" data-v="fill" class="on">Tap to fill</button><button type="button" data-v="crayon">Crayon</button></div>
+      <div class="seg" data-seg="size"><button type="button" data-v="5">Thin</button><button type="button" data-v="12" class="on">Medium</button><button type="button" data-v="24">Thick</button></div>
+    </div>
+    <div class="lbl">Colors
+      <div class="palette">
+        {COLORS.map(([hex, name], i) => <button type="button" class={i === 1 ? 'sw on' : 'sw'} data-color={hex} aria-label={name} title={name} style={`background:${hex}`}></button>)}
+      </div>
+    </div>
+    <div class="row2"><button type="button" class="tbtn" data-act="undo">Undo</button><button type="button" class="tbtn" data-act="clear">Clear colors</button></div>
+    <div class="lbl">Paper size
+      <div class="seg" data-seg="paper"><button type="button" data-v="letter" class="on">US Letter</button><button type="button" data-v="A4">A4</button></div>
+    </div>
+    <button type="button" class="act act-print" data-act="print">Print or save as PDF</button>
+    <button type="button" class="act act-png" data-act="png">Download picture (PNG)</button>
+    <p class="pdfs">Blank PDF: <a href={`/pdf/${d.slug}-letter.pdf`} download>US Letter</a> · <a href={`/pdf/${d.slug}-a4.pdf`} download>A4</a></p>
+  </div>
+  <div class="sheet-box" set:html={svgRaw} />
+</section>
+<script is:inline src="/js/sprout.js" defer></script>

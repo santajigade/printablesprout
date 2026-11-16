@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { allPrintables } from '../../lib/printables';
+import { AUTHOR, SITE } from '../../lib/site';
+const items = (await allPrintables()).filter((p) => p.data.author === AUTHOR.name);
+const jsonld = { '@context': 'https://schema.org', '@type': 'ProfilePage', mainEntity: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.role, description: AUTHOR.bio, url: `${SITE.url}/author/${AUTHOR.slug}/`, sameAs: [AUTHOR.linkedin], worksFor: { '@type': 'Organization', name: SITE.name } } };
+---
+<Base title={`${AUTHOR.name}, ${AUTHOR.role}`} description={`About ${AUTHOR.name}, who designs and tests the printables on ${SITE.name}.`} jsonld={jsonld}>
+  <section class="wrap listing">
+    <h1>{AUTHOR.name}</h1>
+    <p class="intro"><strong>{AUTHOR.role}, {SITE.name}.</strong> {AUTHOR.bio}</p>
+    <p class="intro">How I work: every printable starts as original line art, gets a test print on US Letter and A4, and is checked on a phone and a computer before it goes live. Facts on a page, such as holiday dates, come from official sources. Read the <a href="/editorial-policy/">editorial policy</a> for details. Connect on <a href={AUTHOR.linkedin} rel="noopener" target="_blank">LinkedIn</a>.</p>
+    <h2>Printables by {AUTHOR.name.split(' ')[0]}</h2>
+    <div class="grid">{items.map((p) => <Card item={p} />)}</div>
+  </section>
+</Base>

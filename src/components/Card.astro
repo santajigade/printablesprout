@@ -1,0 +1,15 @@
+---
+const { item } = Astro.props;
+const d = item.data;
+const online = true;
+const named = d.fields.length > 0;
+---
+<a href={`/${d.slug}/`} class="card">
+  <div class="card-img"><img src={d.image} alt={d.imageAlt} loading="lazy" width="600" height="776" /></div>
+  <span class="card-title">{d.title.split(':')[0]}</span>
+  <span class="card-pills">
+    {online && <span class="pill pill-teal">Color online</span>}
+    {named && <span class="pill pill-purple">Add a name</span>}
+    <span class="pill">Ages {d.ages}</span>
+  </span>
+</a>

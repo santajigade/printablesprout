@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Search" description="Search PrintableSprout printables" noindex>
+  <section class="wrap listing">
+    <h1>Search printables</h1>
+    <form class="searchbox" style="margin:0 0 20px" action="/search/" method="get" role="search"><label for="q" class="sr">Search</label><input id="q" name="q" type="search" placeholder="Try turkey, chore chart, dinosaur" /><button>Search</button></form>
+    <p id="count" class="intro"></p>
+    <div id="results" class="grid"></div>
+  </section>
+  <script is:inline>
+    const q = new URLSearchParams(location.search).get('q') || '';
+    document.getElementById('q').value = q;
+    const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    if (q.trim()) fetch('/search.json').then((r) => r.json()).then((all) => {
+      const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+      const hits = all.filter((p) => words.every((w) => (p.t + ' ' + p.d + ' ' + p.c + ' ' + p.k).toLowerCase().includes(w)));
+      document.getElementById('count').textContent = hits.length + (hits.length === 1 ? ' printable found' : ' printables found');
+      document.getElementById('results').innerHTML = hits.map((p) =>
+        `<a class="card" href="/${encodeURI(p.s)}/"><div class="card-img"><img src="${esc(p.i)}" alt="" loading="lazy"></div><span class="card-title">${esc(p.t.split(':')[0])}</span></a>`).join('');
+    });
+  </script>
+</Base>
