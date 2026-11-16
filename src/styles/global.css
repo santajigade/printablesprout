@@ -157,3 +157,14 @@ h1, h2, h3 { font-family: var(--head); line-height: 1.2; }
   .sheet-box { position: absolute; left: 0; top: 0; width: 100%; border: 0; box-shadow: none; padding: 0; margin: 0; }
   .sheet-box svg { max-height: 100vh; }
 }
+
+/* share buttons */
+.pr-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; }
+.share { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.share-l { font-size: 14px; font-weight: 700; color: var(--soft); margin-right: 2px; }
+.sh { display: inline-flex; border: 0; padding: 0; background: none; cursor: pointer; border-radius: 50%; line-height: 0; transition: transform .15s; }
+.sh:hover, .sh:focus-visible { transform: translateY(-2px); }
+.sh-pinterest { color: #e60023; } .sh-facebook { color: #1877f2; } .sh-whatsapp { color: #25d366; }
+.sh-x { color: #111; } .sh-email { color: #6b6257; } .sh-copy { color: var(--accent); }
+.share-ok { font-size: 13px; color: var(--soft); min-width: 80px; }
+@media print { .share { display: none !important; } }

@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import Ad from '../components/Ad.astro';
 import ColorTool from '../components/ColorTool.astro';
+import Share from '../components/Share.astro';
 import { allPrintables } from '../lib/printables';
 import { SITE, AUTHOR, catByName, occBySlug, fmtDate } from '../lib/site';
 export async function getStaticPaths() {
@@ -47,7 +48,10 @@ const initials = AUTHOR.name.split(' ').map((s) => s[0]).join('');
   <div class="wrap pr-head">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href={`/category/${cat.slug}/`}>{d.category}</a>{occ && <> › <a href={`/holiday/${occ.slug}/`}>{occ.name}</a></>}</nav>
     <h1>{d.title}</h1>
-    <p class="byline">By <a href={`/author/${AUTHOR.slug}/`}>{d.author}</a> · Updated <time datetime={(d.updated ?? d.date).toISOString()}>{fmtDate(d.updated ?? d.date)}</time></p>
+    <div class="pr-meta">
+      <p class="byline">By <a href={`/author/${AUTHOR.slug}/`}>{d.author}</a> · Updated <time datetime={(d.updated ?? d.date).toISOString()}>{fmtDate(d.updated ?? d.date)}</time></p>
+      <Share slug={d.slug} title={d.title} />
+    </div>
   </div>
   <ColorTool d={d} />
   <div class="wrap">
