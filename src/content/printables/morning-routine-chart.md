@@ -16,6 +16,7 @@ fields:
   - { key: "s4", label: "Step 4", placeholder: "Eat breakfast", max: 20 }
   - { key: "s5", label: "Step 5", placeholder: "Put on my shoes", max: 20 }
   - { key: "s6", label: "Step 6", placeholder: "Grab my backpack", max: 20 }
+  - { key: "time", label: "Out the door by", placeholder: "e.g. 7:45 am", max: 12 }
 image: "/images/morning-routine-chart.png"
 imageAlt: "Morning routine chart with six picture steps from bed to backpack and check circles for Monday to Friday"
 sources:

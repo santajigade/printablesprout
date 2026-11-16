@@ -10,6 +10,7 @@ ages: "4 to 12"
 time: "5 minutes to set up"
 fields:
   - { key: "name", label: "Child's name", placeholder: "e.g. Maya", max: 12 }
+  - { key: "week", label: "Week of", placeholder: "e.g. Nov 16", max: 14 }
   - { key: "c1", label: "Chore 1", placeholder: "Make my bed", max: 20 }
   - { key: "c2", label: "Chore 2", placeholder: "Put toys away", max: 20 }
   - { key: "c3", label: "Chore 3", placeholder: "Feed the pet", max: 20 }

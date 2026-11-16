@@ -16,6 +16,7 @@ fields:
   - { key: "s4", label: "Step 4", placeholder: "Story time", max: 20 }
   - { key: "s5", label: "Step 5", placeholder: "Hugs and goodnight", max: 20 }
   - { key: "s6", label: "Step 6", placeholder: "Lights out", max: 20 }
+  - { key: "time", label: "Lights out at", placeholder: "e.g. 7:30 pm", max: 12 }
 image: "/images/bedtime-routine-chart.png"
 imageAlt: "Bedtime routine chart with six picture steps from bath to lights out and check circles for each night of the week"
 sources:

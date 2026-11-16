@@ -11,6 +11,7 @@ ages: "3 to 10"
 time: "15 to 30 minutes"
 fields:
   - { key: "name", label: "Child's name", placeholder: "e.g. Emma", max: 14 }
+  - { key: "date", label: "Date", placeholder: "e.g. Nov 26, 2026", max: 16 }
 variants:
   - { key: "write", label: "Writing lines" }
   - { key: "pattern", label: "Patterns" }
