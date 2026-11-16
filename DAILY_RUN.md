@@ -3,8 +3,9 @@
 Follow these steps exactly. Read `CLAUDE.md` first; its writing and art rules apply to every step.
 
 ## 1. Set up
+If the repo is not in the session, attach `santajigade/printablesprout` with push access (add_repo), then:
 ```
-git clone https://github.com/santajigade/printablesprout && cd printablesprout
+git clone --depth 1 https://github.com/santajigade/printablesprout && cd printablesprout
 npm ci
 pip install playwright --break-system-packages   # only if `python3 -c "import playwright"` fails
 ```
@@ -13,7 +14,7 @@ Render needs Chrome or Chromium (`/usr/bin/google-chrome` is used when present; 
 ## 2. Check the season
 Open `src/lib/site.ts`. If any `OCCASIONS.next` date is in the past, set it to the next year's date (verify the date from an official source such as an opm.gov or uscourts.gov holiday schedule, or the occasion's official site) and update its `label`.
 
-## 3. Pick today's topics (2 to 4)
+## 3. Pick today's topics (3, never more)
 1. `python3 scripts/dupes.py` to see what is published.
 2. From `TOPIC_QUEUE.md`, take `todo` rows: occasions 3 to 45 days away first, then evergreen rows from the top.
 3. A fresh timely topic not in the queue is allowed only if it adds real value (for example a newly announced event date) and passes the duplicate check.
@@ -47,7 +48,7 @@ Fix every ERROR. Never push a failing build. If a printable cannot be fixed, del
 ```
 git add -A && git commit -m "printables: <short list of titles>" && git push origin main
 ```
-4. Wait for the "Build and deploy to Hostinger" GitHub Action to finish, then confirm each new page loads at `https://printablesprout.com/<slug>/`.
+4. Wait for the "Build and deploy to Hostinger" GitHub Action to finish (poll `https://api.github.com/repos/santajigade/printablesprout/actions/runs?per_page=1` until `status` is `completed`) and confirm `conclusion` is `success`. If a browser is available, also open each new `https://printablesprout.com/<slug>/` and confirm it loads.
 
 ## 9. Report (one short message)
 - Titles and live URLs of what was published
