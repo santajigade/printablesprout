@@ -7,7 +7,7 @@ interface Props {
 }
 const { title, description, image, imageAlt, type = 'website', jsonld, noindex, publishedTime, modifiedTime, keywords } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
-const ogImage = new URL(image ?? '/og-default.png', SITE.url).href;
+const ogImage = new URL(image ?? '/og-default.png', SITE.url).href + '?v=2'; // bump v when share images change so apps refetch
 const fullTitle = title === SITE.name ? `${SITE.name}: ${SITE.tagline}` : `${title} | ${SITE.name}`;
 const year = new Date().getFullYear();
 ---
