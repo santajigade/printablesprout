@@ -11,11 +11,17 @@ time: "5 minutes to set up"
 fields:
   - { key: "name", label: "Child's name", placeholder: "e.g. Liam", max: 12 }
   - { key: "s1", label: "Step 1", placeholder: "Bath time", max: 20 }
+  - { key: "t1", label: "Step 1 time", placeholder: "e.g. 6:45", max: 8 }
   - { key: "s2", label: "Step 2", placeholder: "Pajamas on", max: 20 }
+  - { key: "t2", label: "Step 2 time", placeholder: "e.g. 7:00", max: 8 }
   - { key: "s3", label: "Step 3", placeholder: "Brush my teeth", max: 20 }
+  - { key: "t3", label: "Step 3 time", placeholder: "e.g. 7:10", max: 8 }
   - { key: "s4", label: "Step 4", placeholder: "Story time", max: 20 }
+  - { key: "t4", label: "Step 4 time", placeholder: "e.g. 7:15", max: 8 }
   - { key: "s5", label: "Step 5", placeholder: "Hugs and goodnight", max: 20 }
+  - { key: "t5", label: "Step 5 time", placeholder: "e.g. 7:25", max: 8 }
   - { key: "s6", label: "Step 6", placeholder: "Lights out", max: 20 }
+  - { key: "t6", label: "Step 6 time", placeholder: "e.g. 7:30", max: 8 }
   - { key: "time", label: "Lights out at", placeholder: "e.g. 7:30 pm", max: 12 }
 image: "/images/bedtime-routine-chart.png"
 imageAlt: "Bedtime routine chart with six picture steps from bath to lights out and check circles for each night of the week"
@@ -39,6 +45,8 @@ Bedtime is easier when the steps are the same every night and your child can see
 The American Academy of Pediatrics explains that <a href="https://healthychildren.org/English/healthy-living/oral-health/Pages/Brush-Book-Bed.aspx" target="_blank" rel="noopener">a predictable nighttime routine helps children learn what comes next</a>, and its Brush, Book, Bed approach puts brushing teeth before story time. This chart follows that order: bath, pajamas, teeth, story, hugs, then lights out. Once the teeth are brushed, the calm part of the night begins.
 
 ## Steps on the chart
+
+Each step has a time slot next to its number. Type a time for every step before printing, such as 6:45 for bath time and 7:30 for lights out, or leave the lines blank and write the times by hand. A clock time next to each picture helps older kids keep pace without being reminded.
 
 1. Bath time
 2. Pajamas on

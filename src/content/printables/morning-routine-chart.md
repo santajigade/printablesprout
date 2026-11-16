@@ -11,11 +11,17 @@ time: "5 minutes to set up"
 fields:
   - { key: "name", label: "Child's name", placeholder: "e.g. Ava", max: 12 }
   - { key: "s1", label: "Step 1", placeholder: "Get out of bed", max: 20 }
+  - { key: "t1", label: "Step 1 time", placeholder: "e.g. 7:00", max: 8 }
   - { key: "s2", label: "Step 2", placeholder: "Brush my teeth", max: 20 }
+  - { key: "t2", label: "Step 2 time", placeholder: "e.g. 7:10", max: 8 }
   - { key: "s3", label: "Step 3", placeholder: "Get dressed", max: 20 }
+  - { key: "t3", label: "Step 3 time", placeholder: "e.g. 7:20", max: 8 }
   - { key: "s4", label: "Step 4", placeholder: "Eat breakfast", max: 20 }
+  - { key: "t4", label: "Step 4 time", placeholder: "e.g. 7:30", max: 8 }
   - { key: "s5", label: "Step 5", placeholder: "Put on my shoes", max: 20 }
+  - { key: "t5", label: "Step 5 time", placeholder: "e.g. 7:45", max: 8 }
   - { key: "s6", label: "Step 6", placeholder: "Grab my backpack", max: 20 }
+  - { key: "t6", label: "Step 6 time", placeholder: "e.g. 7:50", max: 8 }
   - { key: "time", label: "Out the door by", placeholder: "e.g. 7:45 am", max: 12 }
 image: "/images/morning-routine-chart.png"
 imageAlt: "Morning routine chart with six picture steps from bed to backpack and check circles for Monday to Friday"
@@ -33,6 +39,8 @@ faq:
 School mornings go smoother when kids know what comes next without being told. This chart shows six morning steps with a picture for each, plus a circle for every school day from Monday to Friday. Your child colors a circle as they finish each step.
 
 ## The six steps on the chart
+
+Each step has a time slot next to its number. Type a time for every step before printing, such as 7:00 for getting up and 7:45 for shoes, or leave the lines blank and write the times by hand. A clock time next to each picture helps older kids keep pace without being reminded.
 
 1. Get out of bed
 2. Brush my teeth
