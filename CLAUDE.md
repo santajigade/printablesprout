@@ -35,6 +35,7 @@ The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.
 - Start with the dashed page border and end with the small `printablesprout.com` footer text, like the existing files.
 - Every shape a child should be able to color has `class="f" fill="#fff"`. At least 8 fillable shapes; aim for 15 to 40. Details that should not be fillable (eyes, veins, lines) have no class.
 - Title text: `data-field="name" data-tpl="{name}'s Snowman" data-empty="Build a Snowman"` with `class="f"`, white fill and a dark stroke (see existing files). Any other editable text uses `data-field="<key>"` and must be listed in the frontmatter `fields`.
+- Every write-in line on the sheet (date, week, time, goal, prize) must be an editable field, with `data-empty` showing the blank line for printing. Routine and schedule charts get an editable time for each step.
 - Alternative versions go in `<g data-variant="<key>">` groups (all but the first with `style="display:none"`) and are listed in `variants`.
 - Fonts: `font-family="Trebuchet MS, Segoe UI, Arial, sans-serif"` only. No embedded images, no external links, no scripts.
 - **Original designs only.** Never draw famous characters, mascots, logos or brands (Disney, Pokemon, Bluey, Paw Patrol, Minecraft, Mario and so on), even "inspired by". Real people and their likeness are not drawn either.
