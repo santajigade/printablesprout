@@ -6,7 +6,7 @@ export const SITE = {
   // Paste the AdSense publisher id (ca-pub-XXXX) to turn on ads site wide
   adsenseClient: '',
   // Paste the GA4 Measurement ID (G-XXXXXXXXXX) to turn on analytics site wide
-  ga4Id: '',
+  ga4Id: 'G-Z900QRHXNK',
 };
 
 export const AUTHOR = {
