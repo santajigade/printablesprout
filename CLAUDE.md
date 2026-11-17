@@ -13,6 +13,7 @@ The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.
 - `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)
 - `scripts/check.py` : quality checks, must pass before every push
 - `scripts/dupes.py` : duplicate check, run before every new topic
+- `scripts/social/` : daily social videos, thumbnails and jingle (see `SOCIAL_RUN.md`); output goes to `social-out/` (git ignored, never deployed)
 
 ## Writing rules (follow every time)
 
