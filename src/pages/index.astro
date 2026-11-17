@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import Ad from '../components/Ad.astro';
 import { allPrintables } from '../lib/printables';
-import { SITE, CATEGORIES, OCCASIONS, upcomingOccasion } from '../lib/site';
+import { SITE, SOCIAL, CATEGORIES, OCCASIONS, upcomingOccasion } from '../lib/site';
 const items = await allPrintables();
 const fresh = items.slice(0, 8);
 const occ = upcomingOccasion();
@@ -16,7 +16,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'WebSite', name: SITE.name, url: SITE.url,
     potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/search/?q={q}`, 'query-input': 'required name=q' } },
   { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: `${SITE.url}/icon-512.png`, email: SITE.email,
-    publishingPrinciples: `${SITE.url}/editorial-policy/` },
+    publishingPrinciples: `${SITE.url}/editorial-policy/`, sameAs: SOCIAL.map((s) => s.url) },
 ] };
 ---
 <Base title={SITE.name} description="Free printables for parents and teachers: coloring pages, chore charts, routines and holiday activities. Color online or print free on Letter and A4." jsonld={jsonld}>

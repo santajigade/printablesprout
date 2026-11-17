@@ -170,3 +170,8 @@ h1, h2, h3 { font-family: var(--head); line-height: 1.2; }
 .sh-x { color: #111; } .sh-email { color: #6b6257; } .sh-copy { color: var(--accent); }
 .share-ok { font-size: 13px; color: var(--soft); min-width: 80px; }
 @media print { .share { display: none !important; } }
+
+/* footer social icons */
+.footer-grid .social { display: flex; gap: 10px; margin-top: 16px; }
+.footer-grid .social a { display: inline-flex; margin: 0; border-radius: 50%; line-height: 0; transition: transform .15s; }
+.footer-grid .social a:hover { transform: translateY(-2px); }

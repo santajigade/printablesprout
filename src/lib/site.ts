@@ -9,6 +9,14 @@ export const SITE = {
   ga4Id: 'G-Z900QRHXNK',
 };
 
+// Official social profiles (footer icons and Organization sameAs)
+export const SOCIAL = [
+  { key: 'pinterest', name: 'Pinterest', url: 'https://www.pinterest.com/printablesprout/' },
+  { key: 'facebook', name: 'Facebook', url: 'https://www.facebook.com/printablesprout' },
+  { key: 'instagram', name: 'Instagram', url: 'https://www.instagram.com/printablesprout/' },
+  { key: 'linkedin', name: 'LinkedIn', url: 'https://www.linkedin.com/company/printablesprout/' },
+];
+
 export const AUTHOR = {
   name: 'Santaji Gadepatil',
   slug: 'santaji-gadepatil',
