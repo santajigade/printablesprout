@@ -75,7 +75,7 @@ def render(pw_page, slug):
         {sh(0, card + 'left:60px;top:120px;transform:rotate(-7deg)')}
         {sh(1, card + 'left:200px;top:95px;transform:rotate(4deg)')}
         <div style="position:absolute;left:600px;top:0;bottom:0;width:540px;display:flex;flex-direction:column;justify-content:center;gap:22px">
-          <div class="t" style="font-size:34px">Printable<span style="color:#c2541b">Sprout</span></div>
+          <div class="t" style="font-size:34px;display:flex;align-items:center"><svg width="44" height="44" style="vertical-align:middle;margin-right:14px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" rx="32" fill="#c2541b"/><g transform="translate(60,100) scale(1.05)"><path d="M0 0 C 0 -12 0 -20 0 -26" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M0 -24 C -6 -44 -26 -52 -44 -48 C -40 -30 -22 -20 0 -24 Z" fill="#fff"/><path d="M0 -26 C 6 -50 28 -60 48 -54 C 42 -34 22 -22 0 -26 Z" fill="#ffe1c7"/></g></svg>Printable<span style="color:#c2541b">Sprout</span></div>
           <div class="t" style="font-size:58px;line-height:1.08">{t}</div>
           <div style="display:flex;gap:10px;flex-wrap:wrap"><div class="c"><b>Color</b> online</div><div class="c"><b>Add</b> a name</div><div class="c"><b>Print</b> free</div></div>
         </div></div>'''
