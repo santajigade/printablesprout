@@ -7,7 +7,8 @@ The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.
 ## Repo layout
 - `src/content/printables/<slug>.md` : one printable page (frontmatter + page text)
 - `src/art/<slug>.svg` : the printable's original line art (inlined into the page, rendered to PNG/PDF)
-- `public/images/<slug>.png`, `public/og/<slug>.png`, `public/pdf/<slug>-letter.pdf`, `public/pdf/<slug>-a4.pdf` : made by `python3 scripts/render.py <slug>`
+- `public/images/<slug>.png`, `public/og/<slug>.png`, `public/pins/<slug>.png` (1000x1500 Pinterest pin), `public/pdf/<slug>-letter.pdf`, `public/pdf/<slug>-a4.pdf` : made by `python3 scripts/render.py <slug>`
+- `src/pages/pins.xml.ts` : Pinterest auto-publish RSS feed at `/pins.xml` (new printables become Pins automatically)
 - `src/content/pages/*.md` : trust pages (about, editorial policy, corrections, contact, privacy, terms, disclaimer)
 - `src/lib/site.ts` : site name, categories, occasions (with next dates for the seasonal banner), nav, author, AdSense and GA4 ids
 - `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)

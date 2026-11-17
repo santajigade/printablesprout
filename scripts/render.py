@@ -55,7 +55,7 @@ def render(pw_page, slug):
     svg = open(os.path.join(ROOT, 'src/art', slug + '.svg')).read()
     svg = re.sub(r'<\?xml[^>]*>', '', svg)
     sheet = svg.replace('<svg ', '<svg id="s" ', 1)
-    for d in ('images', 'og', 'pdf'):
+    for d in ('images', 'og', 'pdf', 'pins'):
         os.makedirs(os.path.join(ROOT, 'public', d), exist_ok=True)
 
     # Thumbnail
@@ -84,6 +84,32 @@ def render(pw_page, slug):
     pw_page.evaluate(COLOR_JS)
     pw_page.wait_for_timeout(150)
     pw_page.screenshot(path=os.path.join(ROOT, 'public/og', slug + '.png'))
+
+    # Pinterest pin, 1000x1500: title on top, colored sheet, call to action
+    full = re.search(r'^title:\s*"(.*)"', open(os.path.join(ROOT, 'src/content/printables', slug + '.md')).read(), re.M).group(1)
+    ptitle, _, psub = full.partition(':')
+    ptitle, psub = html.escape(ptitle.strip()), html.escape(psub.strip())
+    tsize = 84 if len(ptitle) < 22 else 72 if len(ptitle) < 32 else 60
+    badge = open(os.path.join(ROOT, 'public/favicon.svg')).read().replace('<svg ', '<svg width="54" height="54" style="margin-right:12px" ', 1)
+    pcard = 'position:absolute;left:180px;top:390px;width:640px;height:828px;background:#fff;border-radius:14px;box-shadow:0 18px 44px rgba(80,40,10,.25);overflow:hidden;transform:rotate(-2deg);'
+    pin = f'''<style>{FONTS} .t{{font-family:Fredoka,Arial,sans-serif}} .c{{background:#fff;color:#c2541b;border-radius:999px;padding:12px 26px;font-size:30px}}</style>
+      <div style="position:relative;width:1000px;height:1500px;overflow:hidden;background:#fff3e6;font-family:Nunito,Arial,sans-serif;color:#2b2420">
+        <div style="position:absolute;width:820px;height:820px;border-radius:50%;background:#ffe1c7;left:420px;top:-300px"></div>
+        <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:#e6f4ea;left:-240px;top:760px"></div>
+        <div class="t" style="position:absolute;top:44px;left:0;width:1000px;display:flex;justify-content:center;align-items:center;font-size:44px">{badge}Printable<span style="color:#c2541b">Sprout</span></div>
+        <div class="t" style="position:absolute;top:140px;left:50px;width:900px;text-align:center;font-size:{tsize}px;line-height:1.06">{ptitle}</div>
+        <div style="position:absolute;top:{140 + (tsize*1.1 if len(ptitle) < 22 else tsize*2.2) + 16:.0f}px;left:50px;width:900px;text-align:center;font-size:34px;color:#5a4a3f">{psub}</div>
+        {sh(1, pcard)}
+        <div class="t" style="position:absolute;right:70px;top:360px;background:#c2541b;color:#fff;font-size:44px;border-radius:999px;padding:14px 34px;transform:rotate(7deg);box-shadow:0 8px 20px rgba(80,40,10,.25)">FREE</div>
+        <div style="position:absolute;left:0;top:1280px;width:1000px;height:220px;background:#c2541b"></div>
+        <div class="t" style="position:absolute;left:0;top:1306px;width:1000px;display:flex;justify-content:center;gap:16px"><div class="c">Color online</div><div class="c">Add a name</div><div class="c">Print free</div></div>
+        <div class="t" style="position:absolute;left:0;top:1405px;width:1000px;text-align:center;color:#fff;font-size:44px">printablesprout.com</div>
+      </div>'''
+    pw_page.set_viewport_size({'width': 1000, 'height': 1500})
+    pw_page.set_content(page_html(pin, ''))
+    pw_page.evaluate(COLOR_JS)
+    pw_page.wait_for_timeout(150)
+    pw_page.screenshot(path=os.path.join(ROOT, 'public/pins', slug + '.png'))
 
     # PDFs (blank sheet, scaled to fit the printable area)
     for size, w, h in (('letter', '8.5in', '11in'), ('a4', '210mm', '297mm')):
