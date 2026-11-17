@@ -89,7 +89,7 @@ def render(pw_page, slug):
     full = re.search(r'^title:\s*"(.*)"', open(os.path.join(ROOT, 'src/content/printables', slug + '.md')).read(), re.M).group(1)
     ptitle, _, psub = full.partition(':')
     ptitle, psub = html.escape(ptitle.strip()), html.escape(psub.strip())
-    tsize = 84 if len(ptitle) < 22 else 72 if len(ptitle) < 32 else 60
+    tsize = 80 if len(ptitle) < 20 else 70 if len(ptitle) < 32 else 60
     badge = open(os.path.join(ROOT, 'public/favicon.svg')).read().replace('<svg ', '<svg width="54" height="54" style="margin-right:12px" ', 1)
     pcard = 'position:absolute;left:180px;top:390px;width:640px;height:828px;background:#fff;border-radius:14px;box-shadow:0 18px 44px rgba(80,40,10,.25);overflow:hidden;transform:rotate(-2deg);'
     pin = f'''<style>{FONTS} .t{{font-family:Fredoka,Arial,sans-serif}} .c{{background:#fff;color:#c2541b;border-radius:999px;padding:12px 26px;font-size:30px}}</style>
@@ -97,8 +97,10 @@ def render(pw_page, slug):
         <div style="position:absolute;width:820px;height:820px;border-radius:50%;background:#ffe1c7;left:420px;top:-300px"></div>
         <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:#e6f4ea;left:-240px;top:760px"></div>
         <div class="t" style="position:absolute;top:44px;left:0;width:1000px;display:flex;justify-content:center;align-items:center;font-size:44px">{badge}Printable<span style="color:#c2541b">Sprout</span></div>
-        <div class="t" style="position:absolute;top:140px;left:50px;width:900px;text-align:center;font-size:{tsize}px;line-height:1.06">{ptitle}</div>
-        <div style="position:absolute;top:{140 + (tsize*1.1 if len(ptitle) < 22 else tsize*2.2) + 16:.0f}px;left:50px;width:900px;text-align:center;font-size:34px;color:#5a4a3f">{psub}</div>
+        <div style="position:absolute;top:130px;left:50px;width:900px;height:250px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px;text-align:center">
+          <div class="t" style="font-size:{tsize}px;line-height:1.06">{ptitle}</div>
+          <div style="font-size:34px;color:#5a4a3f">{psub}</div>
+        </div>
         {sh(1, pcard)}
         <div class="t" style="position:absolute;right:70px;top:360px;background:#c2541b;color:#fff;font-size:44px;border-radius:999px;padding:14px 34px;transform:rotate(7deg);box-shadow:0 8px 20px rgba(80,40,10,.25)">FREE</div>
         <div style="position:absolute;left:0;top:1280px;width:1000px;height:220px;background:#c2541b"></div>
