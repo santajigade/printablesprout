@@ -48,7 +48,7 @@ Fix every ERROR. Never push a failing build. If a printable cannot be fixed, del
 ```
 git add -A && git commit -m "printables: <short list of titles>" && git push origin main
 ```
-4. Wait for the "Build and deploy to Hostinger" GitHub Action to finish (poll `https://api.github.com/repos/santajigade/printablesprout/actions/runs?per_page=1` until `status` is `completed`) and confirm `conclusion` is `success`. If a browser is available, also open each new `https://printablesprout.com/<slug>/` and confirm it loads.
+4. Wait for the "Build and deploy to Hostinger" GitHub Action to finish (poll `https://api.github.com/repos/santajigade/printablesprout/actions/runs?per_page=1` until `status` is `completed`) and confirm `conclusion` is `success`. The successful deploy run is the confirmation. Do not fetch the live pages with WebFetch or any other tool that asks the owner for permission: these runs are unattended and must never stop on an approval prompt.
 
 ## 9. Report (one short message)
 - Titles and live URLs of what was published
