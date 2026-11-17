@@ -19,11 +19,11 @@ The daily run takes topics from this table. Rules:
 | 8 | done 2026-11-16 | christmas-tree-coloring-page | Coloring Pages | christmas | christmas tree coloring page | Twelve fillable ornaments, counting game, group theme game |
 | 9 | done 2026-11-16 | snowman-coloring-page | Coloring Pages | winter | snowman coloring page | Six-armed snowflake science moment with NOAA link |
 | 10 | done 2026-11-16 | dinosaur-coloring-page | Coloring Pages | | dinosaur coloring page | Sauropod size facts from museums, story prompts |
-| 11 | todo | thanksgiving-bingo | Activities and Games | thanksgiving | thanksgiving bingo printable | Four different cards so a family can play together, call list sheet |
-| 12 | todo | pumpkin-pie-coloring-page | Coloring Pages | thanksgiving | pumpkin pie coloring page | Pie slices as separate shapes for fraction talk with kids |
-| 13 | todo | gingerbread-house-coloring-page | Coloring Pages | christmas | gingerbread house coloring page | Many small candy shapes for tap to fill, design your own roof |
-| 14 | todo | christmas-ornament-coloring-pages | Coloring Pages | christmas | christmas ornament coloring pages | Six ornaments to color, cut and hang, with hole punch marks |
-| 15 | todo | reindeer-coloring-page | Coloring Pages | christmas | reindeer coloring page | Original friendly reindeer (no named characters), antler counting |
+| 11 | skip | thanksgiving-bingo | Activities and Games | thanksgiving | thanksgiving bingo printable | Four different cards so a family can play together, call list sheet |
+| 12 | done 2026-11-16 | pumpkin-pie-coloring-page | Coloring Pages | thanksgiving | pumpkin pie coloring page | Pie slices as separate shapes for fraction talk with kids |
+| 13 | done 2026-11-16 | gingerbread-house-coloring-page | Coloring Pages | christmas | gingerbread house coloring page | Many small candy shapes for tap to fill, design your own roof |
+| 14 | skip | christmas-ornament-coloring-pages | Coloring Pages | christmas | christmas ornament coloring pages | Six ornaments to color, cut and hang, with hole punch marks |
+| 15 | done 2026-11-16 | reindeer-coloring-page | Coloring Pages | christmas | reindeer coloring page | Original friendly reindeer (no named characters), antler counting |
 | 16 | todo | christmas-bingo | Activities and Games | christmas | christmas bingo printable | Four cards plus caller sheet, picture squares for pre-readers |
 | 17 | todo | winter-scavenger-hunt | Activities and Games | winter | winter scavenger hunt printable | Indoor and outdoor versions, picture checklist |
 | 18 | todo | hot-cocoa-coloring-page | Coloring Pages | winter | hot cocoa coloring page | Marshmallow shapes to fill, winter vocabulary words |
