@@ -24,8 +24,8 @@ The daily run takes topics from this table. Rules:
 | 13 | done 2026-11-16 | gingerbread-house-coloring-page | Coloring Pages | christmas | gingerbread house coloring page | Many small candy shapes for tap to fill, design your own roof |
 | 14 | skip | christmas-ornament-coloring-pages | Coloring Pages | christmas | christmas ornament coloring pages | Six ornaments to color, cut and hang, with hole punch marks |
 | 15 | done 2026-11-16 | reindeer-coloring-page | Coloring Pages | christmas | reindeer coloring page | Original friendly reindeer (no named characters), antler counting |
-| 16 | todo | christmas-bingo | Activities and Games | christmas | christmas bingo printable | Four cards plus caller sheet, picture squares for pre-readers |
-| 17 | todo | winter-scavenger-hunt | Activities and Games | winter | winter scavenger hunt printable | Indoor and outdoor versions, picture checklist |
+| 16 | skip | christmas-bingo | Activities and Games | christmas | christmas bingo printable | Four cards plus caller sheet, picture squares for pre-readers |
+| 17 | done 2026-11-17 | winter-scavenger-hunt | Activities and Games | winter | winter scavenger hunt printable | Indoor and outdoor versions, picture checklist |
 | 18 | todo | hot-cocoa-coloring-page | Coloring Pages | winter | hot cocoa coloring page | Marshmallow shapes to fill, winter vocabulary words |
 | 19 | todo | mitten-matching-game | Activities and Games | winter | mitten matching printable | Pattern matching for preschoolers, cut and play |
 | 20 | todo | snowflake-coloring-pages | Coloring Pages | winter | snowflake coloring pages | Six-sided designs with NOAA facts, draw-your-own template |
@@ -67,9 +67,9 @@ The daily run takes topics from this table. Rules:
 | 56 | todo | number-tracing-1-to-10 | Activities and Games |  | number tracing printable | Count and color objects for each number |
 | 57 | todo | shapes-coloring-page | Coloring Pages |  | shapes coloring page | Shape names and sides to count |
 | 58 | todo | birthday-coloring-page | Coloring Pages |  | birthday coloring page | Editable name and age on a cake to color |
-| 59 | todo | turkey-color-by-number | Activities and Games | thanksgiving | turkey color by number | Numbered shapes that work with tap to fill online, color key on the sheet |
-| 60 | todo | thanksgiving-word-search | Activities and Games | thanksgiving | thanksgiving word search printable | Big letters, circle words online with the pen, answer key version |
-| 61 | todo | christmas-maze | Activities and Games | christmas | christmas maze printable | Easy and hard versions on one page, solve online with the pen |
+| 59 | done 2026-11-17 | turkey-color-by-number | Activities and Games | thanksgiving | turkey color by number | Numbered shapes that work with tap to fill online, color key on the sheet |
+| 60 | done 2026-11-17 | thanksgiving-word-search | Activities and Games | thanksgiving | thanksgiving word search printable | Big letters, circle words online with the pen, answer key version |
+| 61 | skip | christmas-maze | Activities and Games | christmas | christmas maze printable | Easy and hard versions on one page, solve online with the pen |
 | 62 | todo | christmas-color-by-number | Activities and Games | christmas | christmas color by number | Numbered shapes for tap to fill, color key on the sheet |
 | 63 | todo | christmas-word-search | Activities and Games | christmas | christmas word search printable | Easy and hard grids as versions, answer key version |
 | 64 | todo | christmas-dot-to-dot | Activities and Games | christmas | christmas dot to dot printable | Numbered dots 1 to 30, connect online with the pen, then color |
