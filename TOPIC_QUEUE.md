@@ -26,9 +26,9 @@ The daily run takes topics from this table. Rules:
 | 15 | done 2026-11-16 | reindeer-coloring-page | Coloring Pages | christmas | reindeer coloring page | Original friendly reindeer (no named characters), antler counting |
 | 16 | skip | christmas-bingo | Activities and Games | christmas | christmas bingo printable | Four cards plus caller sheet, picture squares for pre-readers |
 | 17 | done 2026-11-17 | winter-scavenger-hunt | Activities and Games | winter | winter scavenger hunt printable | Indoor and outdoor versions, picture checklist |
-| 18 | todo | hot-cocoa-coloring-page | Coloring Pages | winter | hot cocoa coloring page | Marshmallow shapes to fill, winter vocabulary words |
-| 19 | todo | mitten-matching-game | Activities and Games | winter | mitten matching printable | Pattern matching for preschoolers, cut and play |
-| 20 | todo | snowflake-coloring-pages | Coloring Pages | winter | snowflake coloring pages | Six-sided designs with NOAA facts, draw-your-own template |
+| 18 | done 2026-11-18 | hot-cocoa-coloring-page | Coloring Pages | winter | hot cocoa coloring page | Marshmallow shapes to fill, winter vocabulary words |
+| 19 | done 2026-11-18 | mitten-matching-game | Activities and Games | winter | mitten matching printable | Pattern matching for preschoolers, cut and play |
+| 20 | done 2026-11-18 | snowflake-coloring-pages | Coloring Pages | winter | snowflake coloring pages | Six-sided designs with NOAA facts, draw-your-own template |
 | 21 | todo | penguin-coloring-page | Coloring Pages | winter | penguin coloring page | Facts from an official zoo or NOAA source, simple shapes |
 | 22 | todo | all-about-me-new-year | Activities and Games | new-year | all about me printable | Time capsule page with height, favorites, drawing box |
 | 23 | todo | kindness-challenge-calendar | Activities and Games |  | kindness challenge for kids | 30 days of small kind acts, color one a day |
