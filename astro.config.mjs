@@ -8,7 +8,7 @@ const SITE_URL = 'https://printablesprout.com';
 // Tell Google when each printable last changed
 const lastmod = {};
 const usedCats = new Set(), usedOccs = new Set();
-const catSlug = { 'Coloring Pages': 'coloring-pages', 'Holiday Printables': 'holiday-printables', 'Chore and Reward Charts': 'chore-reward-charts', 'Daily Routines': 'daily-routines', 'Activities and Games': 'activities-games', 'For Parents': 'for-parents' };
+const catSlug = { 'Coloring Pages': 'coloring-pages', 'Holiday Printables': 'holiday-printables', 'Chore and Reward Charts': 'chore-reward-charts', 'Daily Routines': 'daily-routines', 'Activities': 'activities-games', 'For Parents': 'for-parents' };
 const dir = './src/content/printables';
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.md'))) {
   const head = fs.readFileSync(path.join(dir, f), 'utf8').split('\n---')[0];

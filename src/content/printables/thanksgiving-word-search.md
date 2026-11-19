@@ -3,7 +3,7 @@ title: "Thanksgiving Word Search: Free Printable With Easy and Hard Grids"
 slug: "thanksgiving-word-search"
 description: "Free Thanksgiving word search with an easy 8 by 8 grid, a hard 11 by 11 grid and answer keys. Big letters, circle words online or print Letter and A4."
 date: 2026-11-17T19:50:00-05:00
-category: "Activities and Games"
+category: "Activities"
 occasion: "thanksgiving"
 tags: ["thanksgiving", "word search", "spelling", "kids table"]
 keywords: "thanksgiving word search printable, easy thanksgiving word search, thanksgiving word search for kids"

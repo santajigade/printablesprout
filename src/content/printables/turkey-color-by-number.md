@@ -3,7 +3,7 @@ title: "Turkey Color by Number: Free Thanksgiving Math Printable"
 slug: "turkey-color-by-number"
 description: "Free turkey color by number for Thanksgiving with a numbers version and an addition version, six color key and tap to fill online. Letter and A4 PDF."
 date: 2026-11-17T19:45:00-05:00
-category: "Activities and Games"
+category: "Activities"
 occasion: "thanksgiving"
 tags: ["thanksgiving", "turkey", "color by number", "math", "addition"]
 keywords: "turkey color by number, thanksgiving color by number, color by number addition printable"

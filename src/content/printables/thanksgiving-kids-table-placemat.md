@@ -3,7 +3,7 @@ title: "Thanksgiving Kids' Table Placemat: Free Printable Activity Sheet"
 slug: "thanksgiving-kids-table-placemat"
 description: "Free Thanksgiving placemat for the kids' table with a turkey maze, pumpkin tic-tac-toe, a plate to draw on and a thankful list. Print on Letter or A4."
 date: 2026-11-16T05:10:00-05:00
-category: "Activities and Games"
+category: "Activities"
 occasion: "thanksgiving"
 tags: ["thanksgiving", "placemat", "maze", "kids table"]
 keywords: "thanksgiving placemat printable, kids table activity sheet, thanksgiving maze for kids"

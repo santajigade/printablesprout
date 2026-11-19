@@ -71,7 +71,7 @@ body { padding-top: var(--hh); }
 .sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 16px; }
 .sec-head h2 { margin: 0; font-size: 28px; }
 .sec-head a { font-weight: 800; }
-.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
 .tile { border-radius: 16px; padding: 22px 18px; display: flex; flex-direction: column; gap: 6px; min-height: 120px; text-decoration: none; }
 .tile strong { font-family: var(--head); font-weight: 600; font-size: 20px; color: var(--ink); }
 .tile span { font-size: 14px; color: #4f463f; }

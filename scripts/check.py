@@ -4,7 +4,7 @@ Exits with code 1 if any ERROR is found. WARN lines are advisory."""
 import os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CATS = ['Coloring Pages', 'Holiday Printables', 'Chore and Reward Charts', 'Daily Routines', 'Activities and Games', 'For Parents']
+CATS = ['Coloring Pages', 'Holiday Printables', 'Chore and Reward Charts', 'Daily Routines', 'Activities', 'For Parents']
 BANNED_HEADINGS = ['conclusion', 'final thoughts', 'key takeaways', 'summary', 'wrapping up', 'the bottom line', 'in conclusion', 'final takeaway', 'overview']
 CLICHES = ['delve', 'game-changer', "in today's fast-paced", 'it is worth noting', 'landscape', 'navigate the', 'unlock the', 'elevate your', 'look no further']
 BANNED_ART = ['disney', 'pokemon', 'pokémon', 'marvel', 'paw patrol', 'peppa', 'bluey', 'mickey', 'elsa', 'sonic', 'minecraft', 'mario', 'barbie', 'spider-man', 'spiderman']

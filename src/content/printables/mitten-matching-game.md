@@ -3,7 +3,7 @@ title: "Mitten Matching Game: Free Winter Pattern Printable for Preschool"
 slug: "mitten-matching-game"
 description: "Free mitten matching printable: draw lines between six mitten pairs, or cut out 12 cards for a memory game. Answer key included. Print on Letter or A4."
 date: 2026-11-18T19:55:00-05:00
-category: "Activities and Games"
+category: "Activities"
 occasion: "winter"
 tags: ["winter", "mittens", "matching", "memory game", "preschool"]
 keywords: "mitten matching printable, mitten matching game, winter matching worksheet preschool"

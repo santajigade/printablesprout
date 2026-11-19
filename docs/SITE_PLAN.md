@@ -10,7 +10,7 @@
 | Holiday Printables | /category/holiday-printables/ | Holiday crafts, countdowns, cards, wish lists |
 | Chore and Reward Charts | /category/chore-reward-charts/ | Chore, reward, reading, potty, screen time charts |
 | Daily Routines | /category/daily-routines/ | Morning, bedtime, after school, visual schedules |
-| Activities and Games | /category/activities-games/ | Mazes, bingo, scavenger hunts, placemats, tracing |
+| Activities | /category/activities-games/ | Mazes, bingo, scavenger hunts, placemats, tracing |
 | For Parents | /category/for-parents/ | Planners, checklists, lunchbox notes |
 
 Header menu: Coloring Pages, Charts and Routines (dropdown), Activities, Holidays (dropdown of occasions), For Parents, Search.

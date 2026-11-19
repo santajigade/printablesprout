@@ -3,7 +3,7 @@ title: "Winter Scavenger Hunt for Kids: Free Indoor and Outdoor Printable"
 slug: "winter-scavenger-hunt"
 description: "Free winter scavenger hunt with an outdoor and an indoor version, 12 picture squares for pre-readers and a warm clothes check. Print Letter or A4."
 date: 2026-11-17T19:55:00-05:00
-category: "Activities and Games"
+category: "Activities"
 occasion: "winter"
 tags: ["winter", "scavenger hunt", "outdoor play", "indoor activity"]
 keywords: "winter scavenger hunt printable, winter scavenger hunt for kids, indoor scavenger hunt printable"

@@ -30,7 +30,7 @@ export const CATEGORIES = [
   { name: 'Holiday Printables', slug: 'holiday-printables', sub: 'Thanksgiving to Halloween', bg: '#fbe3e8' },
   { name: 'Chore and Reward Charts', slug: 'chore-reward-charts', sub: 'Add names, chores and goals', bg: '#e3f1ef' },
   { name: 'Daily Routines', slug: 'daily-routines', sub: 'Morning and bedtime charts', bg: '#e7e3f6' },
-  { name: 'Activities and Games', slug: 'activities-games', sub: 'Mazes, placemats and bingo', bg: '#fdf1cf' },
+  { name: 'Activities', title: 'Free Printable Activities for Kids', slug: 'activities-games', sub: 'Mazes, placemats and bingo', bg: '#fdf1cf' },
   { name: 'For Parents', slug: 'for-parents', sub: 'Planners and checklists', bg: '#e6eef8' },
 ] as const;
 

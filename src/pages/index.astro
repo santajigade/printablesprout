@@ -40,6 +40,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     <div class="sec-head"><h2>Browse by type</h2></div>
     <div class="tiles">
       {CATEGORIES.map((c) => <a class="tile" href={`/category/${c.slug}/`} style={`background:${c.bg}`}><strong>{c.name}</strong><span>{c.sub}</span></a>)}
+      <a class="tile" href="/games/" style="background:#dff0e6"><strong>Games</strong><span>Play online: math, ABC and more</span></a>
     </div>
   </section>
 
