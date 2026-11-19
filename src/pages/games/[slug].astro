@@ -50,9 +50,9 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     <p class="gp-privacy">This game uses no tracking cookies, shows no personalized ads and collects nothing from your child. <a href="/privacy-policy/">Privacy policy</a></p>
   </section>
 
-  <article class="prose">
+  <div class="wrap gp-left"><article class="prose">
     {game.sections.map((s) => (<><h2>{s.h}</h2><Fragment set:html={s.html} /></>))}
-  </article>
+  </article></div>
 
   <section class="wrap section">
     <div class="g-sheetbox">
@@ -71,10 +71,10 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     </section>
   )}
 
-  <section class="faq">
+  <section class="wrap gp-left"><div class="faq">
     <h2>{game.name} questions</h2>
     {game.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
-  </section>
+  </div></section>
 
   <section class="wrap section">
     <div class="sec-head"><h2>More learning games</h2><a href="/games/">All games</a></div>

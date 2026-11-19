@@ -130,10 +130,10 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     </div>
   </section>
 
-  <section class="faq g-faq" aria-labelledby="faq-h">
+  <section class="wrap gp-left" aria-labelledby="faq-h"><div class="faq g-faq">
     <h2 id="faq-h">Questions parents and teachers ask</h2>
     {FAQ.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
-  </section>
+  </div></section>
 
   <script is:inline>
     (function () {
@@ -221,7 +221,8 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
   .g-h2 { font-size: 28px; margin: 0 0 16px; }
   .g-trust { padding-bottom: 0; }
   .g-trust > div { background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
-  .g-faq { padding-left: 24px; padding-right: 24px; padding-bottom: 32px; }
+  .g-faq { padding-bottom: 32px; }
+  .gp-left .faq { margin-left: 0; }
   @media (max-width: 600px) {
     .g-cta { flex-direction: column; width: 100%; max-width: 360px; }
     .g-cta .btn { text-align: center; }

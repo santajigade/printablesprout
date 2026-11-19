@@ -111,3 +111,4 @@
 @keyframes gk-wig { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-4deg); } 75% { transform: rotate(4deg); } }
 @media (prefers-reduced-motion: reduce) { .gk-float, .gk-msg.bounce, .gk-dot.new, .gk-stars span, .gk-wiggle, .gk-no { animation: none !important; } }
 .gk-small { font-size: 14px; color: var(--soft); }
+.gp-left .prose, .gp-left .faq { margin-left: 0; }
