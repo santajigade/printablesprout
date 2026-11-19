@@ -16,7 +16,12 @@ h1, h2, h3 { font-family: var(--head); line-height: 1.2; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Header */
-.site-header { background: var(--white); border-bottom: 1px solid #efe6da; position: relative; z-index: 20; }
+/* Fixed header: body gets top padding equal to the header height (--hh, updated by a tiny script in Base.astro) */
+:root { --hh: 73px; }
+html { scroll-padding-top: calc(var(--hh) + 12px); }
+body { padding-top: var(--hh); }
+.site-header { background: var(--white); border-bottom: 1px solid #efe6da; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; transition: box-shadow .2s ease, border-color .2s ease; }
+.site-header.scrolled { box-shadow: 0 4px 16px rgba(60,40,20,.10); border-bottom-color: transparent; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 14px; padding-bottom: 14px; }
 .logo { font-family: var(--head); font-weight: 700; font-size: 26px; color: var(--ink); text-decoration: none; white-space: nowrap; display: inline-flex; align-items: center; gap: 10px; }
 .logo-mark { width: 36px; height: 36px; flex: none; }
@@ -35,8 +40,10 @@ h1, h2, h3 { font-family: var(--head); line-height: 1.2; }
 .menu-btn { display: none; }
 @media (max-width: 900px) {
   .menu-btn { display: inline-flex; }
-  .main-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: var(--white); flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 24px 18px; border-bottom: 1px solid var(--line); }
+  .main-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: var(--white); flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 4px; padding: 12px 24px 18px; border-bottom: 1px solid var(--line); max-height: calc(100vh - var(--hh)); max-height: calc(100dvh - var(--hh)); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 10px 20px rgba(60,40,20,.10); }
   body.nav-open .main-nav { display: flex; }
+  .main-nav > a, .nav-group > a { display: block; padding: 8px 0; }
+  .nav-group { width: 100%; }
   .nav-drop { display: block; position: static; border: 0; box-shadow: none; padding: 0 0 0 12px; }
 }
 
@@ -153,7 +160,8 @@ h1, h2, h3 { font-family: var(--head); line-height: 1.2; }
 
 /* Print: only the sheet */
 @media print {
-  body { background: #fff; }
+  body { background: #fff; padding-top: 0; }
+  .site-header { position: static; box-shadow: none; }
   body * { visibility: hidden !important; }
   .sheet-box, .sheet-box * { visibility: visible !important; }
   .sheet-box { position: absolute; left: 0; top: 0; width: 100%; border: 0; box-shadow: none; padding: 0; margin: 0; }

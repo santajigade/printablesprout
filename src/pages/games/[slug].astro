@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { allPrintables } from '../../lib/printables';
+import { GAMES, SUBJECT_NAME, type Game } from '../../lib/games';
+import { SITE } from '../../lib/site';
+import '../../styles/games.css';
+
+export function getStaticPaths() {
+  return GAMES.map((g) => ({ params: { slug: g.slug }, props: { game: g } }));
+}
+const { game } = Astro.props as { game: Game };
+const url = `${SITE.url}/games/${game.slug}/`;
+const items = await allPrintables();
+const related = game.related.map((s) => items.find((p) => p.data.slug === s)).filter(Boolean);
+const others = GAMES.filter((g) => g.slug !== game.slug);
+
+const jsonld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'LearningResource', name: game.name, url, description: game.description,
+    learningResourceType: 'Game', isAccessibleForFree: true, inLanguage: 'en',
+    image: `${SITE.url}/images/games/${game.slug}.svg`,
+    typicalAgeRange: `${game.minAge}-${game.maxAge}`,
+    teaches: game.subjects.map((s) => SUBJECT_NAME[s]).join(', '),
+    audience: { '@type': 'PeopleAudience', suggestedMinAge: game.minAge, suggestedMaxAge: game.maxAge },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url } },
+  { '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+    { '@type': 'ListItem', position: 2, name: 'Games', item: `${SITE.url}/games/` },
+    { '@type': 'ListItem', position: 3, name: game.name, item: url } ] },
+  { '@type': 'FAQPage', mainEntity: game.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+] };
+---
+<Base title={game.title} description={game.description} keywords={game.keywords} jsonld={jsonld} childSafe imageAlt={game.alt}>
+  <div class="wrap gp-head">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/games/">Games</a> / {game.name}</p>
+    <h1>{game.h1}</h1>
+    <p class="gp-intro">{game.intro}</p>
+    <p class="card-pills">
+      <span class="pill">{game.ageLabel}</span>
+      {game.subjects.map((s) => <span class="pill pill-teal">{SUBJECT_NAME[s]}</span>)}
+      <span class="pill pill-purple">Free, no sign-up</span>
+    </p>
+  </div>
+
+  <section class="wrap" aria-label={`${game.name} game`}>
+    <div id="gk" class="gk-root" data-game={game.slug} data-sheet={game.sheet}>
+      <p class="gk-loading">Loading the game...</p>
+      <noscript><p class="gk-loading">This game needs JavaScript. Please turn it on in your browser settings to play.</p></noscript>
+    </div>
+    <p class="gp-privacy">This game uses no tracking cookies, shows no personalized ads and collects nothing from your child. <a href="/privacy-policy/">Privacy policy</a></p>
+  </section>
+
+  <article class="prose">
+    {game.sections.map((s) => (<><h2>{s.h}</h2><Fragment set:html={s.html} /></>))}
+  </article>
+
+  <section class="wrap section">
+    <div class="g-sheetbox">
+      <div>
+        <h2>Matching worksheet: {game.sheetName}</h2>
+        <p>Practice the same skill on paper. Print it free on Letter or A4.</p>
+      </div>
+      <a class="btn btn-accent" href={game.sheet}>Get the worksheet</a>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wrap section">
+      <div class="sec-head"><h2>Related free printables</h2><a href="/category/activities-games/">All activities</a></div>
+      <div class="grid">{related.map((p) => <Card item={p} />)}</div>
+    </section>
+  )}
+
+  <section class="faq">
+    <h2>{game.name} questions</h2>
+    {game.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+  </section>
+
+  <section class="wrap section">
+    <div class="sec-head"><h2>More learning games</h2><a href="/games/">All games</a></div>
+    <div class="gp-more">
+      {others.map((g) => (
+        <a class="gp-mini" href={`/games/${g.slug}/`}>
+          <img src={`/images/games/${g.slug}.svg`} alt={g.alt} width="400" height="300" loading="lazy" decoding="async" />
+          <span>{g.name}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <script is:inline src="/js/games/kit.js"></script>
+  <script is:inline src={`/js/games/${game.slug}.js`}></script>
+</Base>

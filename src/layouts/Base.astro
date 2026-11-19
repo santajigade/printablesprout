@@ -4,8 +4,12 @@ import '../styles/global.css';
 interface Props {
   title: string; description: string; image?: string; imageAlt?: string; type?: string; jsonld?: object; noindex?: boolean;
   publishedTime?: Date; modifiedTime?: Date; keywords?: string;
+  /** Child-directed page: no analytics, no ads, no tracking cookies */
+  childSafe?: boolean;
 }
-const { title, description, image, imageAlt, type = 'website', jsonld, noindex, publishedTime, modifiedTime, keywords } = Astro.props;
+const { title, description, image, imageAlt, type = 'website', jsonld, noindex, publishedTime, modifiedTime, keywords, childSafe } = Astro.props;
+const analytics = !childSafe && SITE.ga4Id;
+const ads = !childSafe && SITE.adsenseClient;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const ogImage = new URL(image ?? '/og-default.png', SITE.url).href + '?v=3'; // bump v when share images change so apps refetch
 const fullTitle = title === SITE.name ? `${SITE.name}: ${SITE.tagline}` : `${title} | ${SITE.name}`;
@@ -49,18 +53,18 @@ const SOCIAL_ICONS: Record<string, string> = {"pinterest": '<circle cx="12" cy="
   <meta name="twitter:image" content={ogImage} />
   <meta name="p:domain_verify" content="28f8bbc86560af7926c4d56c63c67beb" />
   {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
-  {SITE.ga4Id && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`}></script>}
-  {SITE.ga4Id && <script is:inline define:vars={{ ga4Id: SITE.ga4Id }}>
+  {analytics && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`}></script>}
+  {analytics && <script is:inline define:vars={{ ga4Id: SITE.ga4Id }}>
     window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); };
     gtag('js', new Date()); gtag('config', ga4Id);
   </script>}
-  {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
+  {ads && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
       <a href="/" class="logo" aria-label="PrintableSprout home"><svg class="logo-mark" viewBox="0 0 120 120" aria-hidden="true"><rect width="120" height="120" rx="32" fill="#c2541b"/><g transform="translate(60,100) scale(1.05)"><path d="M0 0 C 0 -12 0 -20 0 -26" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M0 -24 C -6 -44 -26 -52 -44 -48 C -40 -30 -22 -20 0 -24 Z" fill="#fff"/><path d="M0 -26 C 6 -50 28 -60 48 -54 C 42 -34 22 -22 0 -26 Z" fill="#ffe1c7"/></g></svg><span class="logo-text">Printable<span>Sprout</span></span></a>
-      <nav class="main-nav" aria-label="Main">
+      <nav class="main-nav" id="main-nav" aria-label="Main">
         {NAV.map((n) => (n.children || n.occasions) ? (
           <div class="nav-group">
             <a href={n.href}>{n.label} <span aria-hidden="true">▾</span></a>
@@ -75,12 +79,27 @@ const SOCIAL_ICONS: Record<string, string> = {"pinterest": '<circle cx="12" cy="
         <a href="/search/" class="icon-btn" aria-label="Search">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         </a>
-        <button class="icon-btn menu-btn" type="button" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">
+        <button class="icon-btn menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
         </button>
       </div>
     </div>
   </header>
+  <script is:inline>
+    (function () {
+      var h = document.querySelector('.site-header'), b = document.body, btn = h.querySelector('.menu-btn'), root = document.documentElement;
+      function size() { root.style.setProperty('--hh', h.offsetHeight + 'px'); }
+      function shade() { h.classList.toggle('scrolled', window.scrollY > 4); }
+      function setOpen(open) { b.classList.toggle('nav-open', open); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+      size(); shade();
+      window.addEventListener('scroll', shade, { passive: true });
+      window.addEventListener('resize', function () { size(); if (window.innerWidth > 900) setOpen(false); });
+      if (document.fonts) document.fonts.ready.then(size);
+      btn.addEventListener('click', function () { setOpen(!b.classList.contains('nav-open')); });
+      h.querySelector('.main-nav').addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    })();
+  </script>
   <main><slot /></main>
   <footer class="site-footer">
     <div class="wrap footer-grid">
