@@ -92,6 +92,8 @@
     else GK.finish(f, { title: 'A to Z, all done!', text: 'You traced ' + stars + ' letters. Now try them with a crayon on paper.', sheet: root.dataset.sheet, onReplay: build });
   }
 
+  GK.solve = function () { if (!passed) { passed = true; stars++; advance(); } };
+
   f = GK.frame({ root: root, rounds: 0, levels: [{ key: 'upper', label: 'ABC' }, { key: 'lower', label: 'abc' }], onLevel: build });
   build();
 })();

@@ -126,6 +126,8 @@
   }
 
   var GK = {
+    /* Test hook: each game sets GK.solve = function () { one correct move }. Used only by scripts/playtest_games.py. */
+    solve: null,
     el: el, sfx: SFX, confetti: confetti, burst: burst,
     rand: function (a, b) { return a + Math.floor(Math.random() * (b - a + 1)); },
     shuffle: function (a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; },

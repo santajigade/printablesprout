@@ -42,6 +42,7 @@
     do { h = GK.rand(1, 12); m = GK.pick(MINS[f.level]); key = h + ':' + m; } while (key === last);
     last = key;
     var right = txt(h, m), opts = [right];
+    GK.solve = function () { f.area.querySelectorAll('.gk-choice').forEach(function (x) { if (x.textContent === right) x.click(); }); };
     var cands = [txt(h % 12 + 1, m), txt(h === 1 ? 12 : h - 1, m)];
     var others = MINS[f.level].length > 1 ? MINS[f.level] : MINS.half;
     others.forEach(function (mm) { if (mm !== m) cands.push(txt(h, mm)); });

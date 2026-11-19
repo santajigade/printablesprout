@@ -50,6 +50,15 @@
     }
   }
 
+  GK.solve = function () {
+    if (lock) return;
+    var cards = [].slice.call(f.area.querySelectorAll('.gk-card:not(.done)'));
+    var up = cards.filter(function (c) { return c.classList.contains('up'); });
+    var first = up[0] || cards[0]; if (!first) return;
+    if (!up.length) first.click();
+    cards.forEach(function (c) { if (c !== first && c.dataset.pic === first.dataset.pic && !c.classList.contains('up')) c.click(); });
+  };
+
   f = GK.frame({ root: root, levels: [{ key: '6', label: '6 cards' }, { key: '12', label: '12 cards' }, { key: '16', label: '16 cards' }], onLevel: start });
   start();
 })();

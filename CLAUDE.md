@@ -3,6 +3,7 @@
 Static Astro site of free printables for US parents and teachers. Every push to `main` builds and deploys to Hostinger by FTP (`.github/workflows/deploy.yml`, secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` under Settings > Secrets and variables > Actions). Live about 2 minutes after push. This project is separate from every other site: never copy files, secrets or settings from other repos.
 
 The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.md`.
+The daily learning games run (2 games a day, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
 
 ## Repo layout
 - `src/content/printables/<slug>.md` : one printable page (frontmatter + page text)
@@ -12,6 +13,8 @@ The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.
 - `src/content/pages/*.md` : trust pages (about, editorial policy, corrections, contact, privacy, terms, disclaimer)
 - `src/lib/site.ts` : site name, categories, occasions (with next dates for the seasonal banner), nav, author, AdSense and GA4 ids
 - `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)
+- `src/lib/games.ts`, `src/pages/games/`, `public/js/games/` (`kit.js` = shared sounds, confetti and game frame), `public/images/games/`, `src/styles/games.css` : the learning games at /games/ (child directed: no analytics, ads or external links)
+- `scripts/check_games.py` and `scripts/playtest_games.py` : game checks and the browser play test
 - `scripts/check.py` : quality checks, must pass before every push
 - `scripts/dupes.py` : duplicate check, run before every new topic
 - `scripts/social/` : daily social videos, thumbnails and jingle (see `SOCIAL_RUN.md`); output goes to `social-out/` (git ignored, never deployed)

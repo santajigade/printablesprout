@@ -29,6 +29,7 @@
     var ans = a * b, opts = [ans];
     var near = [ans + a, ans - a, ans + b, ans - b, ans + 1, ans - 1, ans + 10, (a + 1) * b, a * (b + 1)];
     GK.shuffle(near).forEach(function (n) { if (opts.length < 4 && n > 0 && opts.indexOf(n) < 0) opts.push(n); });
+    GK.solve = function () { f.ch.querySelectorAll('button').forEach(function (x) { if (x.textContent === String(ans)) x.click(); }); };
     f.q.textContent = a + ' × ' + b + ' = ?';
     f.ch.innerHTML = '';
     GK.shuffle(opts).forEach(function (o) {

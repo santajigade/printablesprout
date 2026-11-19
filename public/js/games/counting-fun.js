@@ -10,6 +10,7 @@
     var max = MAX[f.level], n;
     do { n = GK.rand(1, max); } while (n === last && max > 1);
     last = n;
+    GK.solve = function () { f.area.querySelectorAll('.gk-choice').forEach(function (b) { if (b.textContent === String(n)) b.click(); }); };
     var thing = GK.pick(THINGS), opts = [n];
     while (opts.length < 3) {
       var d = GK.rand(Math.max(1, n - 3), Math.min(max, n + 3));

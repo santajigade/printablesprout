@@ -111,6 +111,15 @@
     }, 1100);
   }
 
+  GK.solve = function () {
+    var left = price - total(); if (left < 0) { purse = []; draw(); left = price; }
+    var btns = [].slice.call(f.area.querySelectorAll('.gk-coin'));
+    var L = LEVELS[f.level], M = MONEY[L.cur];
+    var all = M.coins.concat(L.notes ? M.notes.map(function (n) { return Object.assign({ note: true }, n); }) : []);
+    all.map(function (m, i) { return [m, btns[i]]; }).sort(function (a, b) { return b[0].v - a[0].v; }).forEach(function (p) { while (left >= p[0].v) { p[1].click(); left -= p[0].v; } });
+    f.area.querySelector('.gk-big').click();
+  };
+
   f = GK.frame({ root: root, rounds: ROUNDS, levels: [{ key: 'inr-s', label: '₹ Coins' }, { key: 'inr-b', label: '₹ Coins + notes' }, { key: 'usd-s', label: '$ Coins' }, { key: 'usd-b', label: '$ Coins + bills' }], onLevel: start });
   start();
 })();
