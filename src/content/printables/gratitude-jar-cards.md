@@ -12,6 +12,14 @@ time: "10 minutes to set up, then 2 minutes a day"
 fields:
   - { key: "name", label: "Family or child's name", placeholder: "e.g. Garcia", max: 12 }
   - { key: "prompt", label: "Your own question", placeholder: "Best part of your day?", max: 22 }
+  - { key: "a1", label: "Heart card answer", placeholder: "e.g. My grandma", max: 26 }
+  - { key: "a2", label: "Sun card answer", placeholder: "e.g. My best friend", max: 26 }
+  - { key: "a3", label: "Apple card answer", placeholder: "e.g. Pancakes", max: 26 }
+  - { key: "a4", label: "House card answer", placeholder: "e.g. My cozy bed", max: 26 }
+  - { key: "a5", label: "Leaf card answer", placeholder: "e.g. Red leaves", max: 26 }
+  - { key: "a6", label: "Envelope card answer", placeholder: "e.g. My teacher", max: 26 }
+  - { key: "a7", label: "Star card answer", placeholder: "e.g. Riding my bike", max: 26 }
+  - { key: "a8", label: "Smiley card answer", placeholder: "e.g. Snow day", max: 26 }
 tool: "draw"
 variants:
   - { key: "prompts", label: "Question cards" }
@@ -28,6 +36,8 @@ sources:
 faq:
   - q: "Can I change the question on the last card?"
     a: "Yes. Type your own question in the box above the sheet, up to 22 characters, and it replaces \"Best part of your day?\" on the smiley card. Short questions such as \"Who made you laugh?\" fit best."
+  - q: "Can we type the answers instead of writing them?"
+    a: "Yes. Each card has its own answer box above the sheet, named after its picture (Heart card, Sun card and so on). What you type appears on the card's first line, in both the Question cards and Blank cards versions, so you can print typed cards or leave the boxes empty for handwriting."
   - q: "What if my child cannot write yet?"
     a: "Use the Blank cards version and let your child draw the answer in the space under the lines, or write down what they say for them. A drawing of a dog counts just as much as a sentence."
 ---
