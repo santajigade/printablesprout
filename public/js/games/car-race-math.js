@@ -3,10 +3,10 @@
   var GATES = 10, LANES = 3;
   // speed is in road heights per second; each level starts slower for harder sums
   var LEVELS = {
-    // slow on purpose so children have time to think: about 13, 15 and 20 seconds per gate at the start
-    add: { speed: 0.07, gain: 0.003 },
-    times: { speed: 0.06, gain: 0.003 },
-    brain: { speed: 0.045, gain: 0.002 },
+    // very slow on purpose so children have time to think: about 20, 23 and 30 seconds per gate, and the road never speeds up
+    add: { speed: 0.045, gain: 0 },
+    times: { speed: 0.04, gain: 0 },
+    brain: { speed: 0.03, gain: 0 },
   };
   var f, cv, cx, W = 0, H = 0, dpr = 1, raf = 0, lastT = 0;
   var lane, carX, gate, q, done, speed, scroll, running, busy, wobble, waitT, qEl, startBtn, trees;
