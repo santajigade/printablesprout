@@ -128,3 +128,12 @@
 .gk-fs-choices { max-width: 520px; }
 .gk-fs-letter { font-size: clamp(34px, 7vw, 46px); min-height: 84px; }
 @media (max-width: 600px) { .gk-fs-choices { grid-template-columns: repeat(2, 1fr); } .gk-fs-choices.gk-fs-n3 { grid-template-columns: repeat(3, 1fr); } }
+
+/* Road Race Math */
+.gk-rr-q { font-variant-numeric: tabular-nums; }
+.gk-rr-wrap { position: relative; width: 100%; max-width: 560px; border-radius: 20px; overflow: hidden; border: 3px solid #2a2522; line-height: 0; }
+.gk-rr-canvas { display: block; width: 100%; touch-action: none; outline: none; }
+.gk-rr-canvas:focus-visible { box-shadow: inset 0 0 0 4px var(--blue); }
+.gk-rr-start { white-space: nowrap; position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); line-height: 1.2; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.gk-rr-pad { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; width: 100%; max-width: 560px; }
+.gk-rr-btn { min-height: 72px; font-size: 34px; }

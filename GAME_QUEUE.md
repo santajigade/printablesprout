@@ -1,6 +1,6 @@
 # Game queue
 
-The daily games run (`GAMES_RUN.md`) takes the first 2 `todo` rows, ideally with 2 different subjects. Every game must be a different kind of play from the games already live: a new mechanic or a new skill, never the same game with new pictures (that is scaled content).
+The daily games run (`GAMES_RUN.md`) takes the first 4 `todo` rows (at least 3 subjects, at least 1 big game for ages 9 to 10). Every game must be a different kind of play from the games already live: a new mechanic or a new skill, never the same game with new pictures (that is scaled content).
 
 Status: `todo`, `done YYYY-MM-DD`, or `skip` (with a short reason in the notes column).
 Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
@@ -28,7 +28,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 18 | todo | number-line-jump | Number Line Jump | math | 6-8 | a frog jumps along a number line; tap where it lands after +/- jumps | activities category |
 | 19 | todo | marathi-akshar | Marathi Akshar Tracing | hindi-marathi | 3-5, 6-8 | trace Marathi letters (reuse the ABC tracing approach with Devanagari); verify letter order from a reliable source | activities category |
 | 20 | todo | rhyme-time | Rhyme Time | english | 6-8 | tap the picture that rhymes with the word | activities category |
-| 21 | todo | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
+| 21 | done 2026-11-20 | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
 | 22 | todo | simon-colors | Color Echo | brain | 3-5, 6-8 | watch and listen to a color sequence, repeat it; one more step each round | activities category |
 | 23 | todo | days-of-week | Days of the Week Train | life | 3-5, 6-8 | put day carriages in order, then answer "what comes after" | weekly-chore-chart |
 | 24 | todo | fraction-pizza | Fraction Pizza | math | 9-10 | tap slices to show a fraction, then compare fractions | activities category |
@@ -52,3 +52,13 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 42 | todo | weather-dress-up | Dress for the Weather | life | 3-5 | pick clothes that suit sunny, rainy or snowy days | activities category |
 | 43 | todo | word-ladder | Word Ladder | english | 9-10 | change one letter at a time to climb from one word to another | activities category |
 | 44 | todo | tangram-shapes | Shape Puzzle | brain | 6-8, 9-10 | slide simple shapes into an outline | activities category |
+| 45 | todo | area-builder | Area and Perimeter Builder | math | 9-10 | paint rectangles on a grid to hit a target area and perimeter; later levels ask for two shapes with the same area but different perimeters | activities category |
+| 46 | todo | logic-grid | Logic Grid Detective | brain | 9-10 | solve who-has-what puzzles from 3 to 5 clues on a 3x3, then 4x4 grid; mark yes and no cells | activities category |
+| 47 | todo | coordinate-treasure | Treasure Map Coordinates | math | 9-10 | read clues as (x, y) points and dig on a grid to find treasure; last level uses all four quadrants | activities category |
+| 48 | todo | balance-algebra | Balance Scale Puzzles | math | 9-10 | find the weight of the mystery box that keeps the scale level; two step and two box levels | activities category |
+| 49 | todo | disc-tower | Disc Tower Puzzle | brain | 6-8, 9-10 | move discs between three pegs, never a big disc on a small one; 3 to 6 discs with a move counter | activities category |
+| 50 | todo | code-breaker | Code Breaker | english | 9-10 | decode a secret message with a letter and number key, then crack a shift code from a hint | activities category |
+| 51 | todo | decimal-dash | Decimal Dash | math | 9-10 | place tenths and hundredths on a zooming number line and compare decimals | activities category |
+| 52 | todo | angle-golf | Angle Mini Golf | math | 9-10 | set the angle in degrees and the power to putt the ball into the hole on a canvas course; learn acute, right and obtuse | activities category |
+| 53 | todo | elapsed-time | Train Timetable | life | 9-10 | read a simple timetable and work out how long trips take and when to leave | activities category |
+| 54 | todo | sum-squares | Sum Squares | brain | 9-10 | fill a small cross-sum grid so every row and column adds to its target | activities category |

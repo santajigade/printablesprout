@@ -3,7 +3,7 @@
 Static Astro site of free printables for US parents and teachers. Every push to `main` builds and deploys to Hostinger by FTP (`.github/workflows/deploy.yml`, secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` under Settings > Secrets and variables > Actions). Live about 2 minutes after push. This project is separate from every other site: never copy files, secrets or settings from other repos.
 
 The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.md`.
-The daily learning games run (2 games a day, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
+The daily learning games run (4 games a day, at least 1 a big game for ages 9 to 10, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
 
 ## Repo layout
 - `src/content/printables/<slug>.md` : one printable page (frontmatter + page text)

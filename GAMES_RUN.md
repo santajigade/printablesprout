@@ -1,6 +1,6 @@
 # Daily games run (scheduled once a day, 8 AM IST)
 
-Add **2 new learning games** to printablesprout.com/games/, never more. Fewer is fine: skip a game rather than publish a weak or broken one. Read `CLAUDE.md` first; its style rules (simple American English, no AI cliches, no generic headings, **no em dash or en dash characters anywhere**, original art only, no brands or famous characters) apply to every game.
+Add **4 new learning games** to printablesprout.com/games/, never more (Santaji raised it from 2 to 4 on 2026-11-20). **At least 1 of the 4 must be a big, harder game for ages 9 to 10**: 3 or more levels, real multi step thinking, and enough play for 10 minutes or more (for example a canvas game or a multi step puzzle). Fewer is fine: skip a game rather than publish a weak or broken one. Read `CLAUDE.md` first; its style rules (simple American English, no AI cliches, no generic headings, **no em dash or en dash characters anywhere**, original art only, no brands or famous characters) apply to every game.
 
 The games are child directed. Never break these rules:
 - No tracking, analytics, ads, cookies, `localStorage`, `fetch`, network calls or `window.open` in a game.
@@ -27,8 +27,8 @@ Read these before writing anything:
 
 Do not change existing games, `kit.js` behavior, the page template, the /games/ index page or the site layout. You may ADD a new helper or sound to `kit.js` only if two or more games need it; if you do, run the play test on every game (step 7).
 
-## 3. Pick today's 2 games
-1. From `GAME_QUEUE.md`, take the first 2 `todo` rows, preferring 2 different subjects.
+## 3. Pick today's 4 games
+1. From `GAME_QUEUE.md`, take the first 4 `todo` rows, covering at least 3 different subjects. If none of them is for ages 9 to 10, replace the last one with the first `todo` row whose ages include 9-10.
 2. Read the live games list in `src/lib/games.ts`. If a row would be the same kind of play as a live game (same mechanic and same skill), mark it `skip (too close to <slug>)` and take the next row.
 3. Write a one line value add for each game: what a child practices here that the other games on the site do not give them. If you cannot name one, skip it.
 
@@ -61,20 +61,20 @@ python3 scripts/playtest_games.py <slug1> <slug2>
 ```
 Every one must pass with zero errors. `playtest_games.py` plays each new game to the win screen on every level at desktop and on the first level at 390 px mobile, fails on any JavaScript error, cookie or sideways scrolling, and saves screenshots in `/tmp/playtest/`.
 
-Then OPEN and LOOK at `/tmp/playtest/<slug>-1366-play.png`, `<slug>-390-play.png` and `<slug>-1366-end.png` for each game. Fix anything that overlaps, is cut off, is too small to tap or looks broken, rebuild and run the play test again. If a game still fails after real effort, delete all its files and its `games.ts` entry, mark the row `skip (<reason>)`, and publish the other one.
+Then OPEN and LOOK at `/tmp/playtest/<slug>-1366-play.png`, `<slug>-390-play.png` and `<slug>-1366-end.png` for each game. Fix anything that overlaps, is cut off, is too small to tap or looks broken, rebuild and run the play test again. If a game still fails after real effort, delete all its files and its `games.ts` entry, mark the row `skip (<reason>)`, and publish the others.
 
 ## 7. Publish
 1. Mark the published rows in `GAME_QUEUE.md` as `done YYYY-MM-DD`.
-2. If fewer than 15 `todo` rows remain, append 20 new ideas that are different kinds of play from everything in the queue, covering all 5 subjects and all 3 age groups.
+2. If fewer than 30 `todo` rows remain, append 20 new ideas (at least 6 of them big games for ages 9 to 10) that are different kinds of play from everything in the queue, covering all 5 subjects and all 3 age groups.
 3. Commit and push (other daily runs also push to main, so rebase first):
 ```
-git add -A && git commit -m "games: <Game One>, <Game Two>"
+git add -A && git commit -m "games: <Game One>, <Game Two>, <Game Three>, <Game Four>"
 git pull --rebase origin main && git push origin HEAD:main
 ```
 4. Wait for the "Build and deploy to Hostinger" GitHub Action to finish (`gh run list -R santajigade/printablesprout -L 1`, or poll `https://api.github.com/repos/santajigade/printablesprout/actions/runs?per_page=1`) and confirm `conclusion` is `success`. Do not fetch the live pages with WebFetch or any tool that asks the owner for permission: this run is unattended and must never stop on an approval prompt.
 
 ## 8. Report (one short message)
-- The 2 game names and live URLs (https://printablesprout.com/games/<slug>/)
+- The game names (up to 4) and live URLs (https://printablesprout.com/games/<slug>/)
 - Anything skipped and why
 - Reminder: request indexing for the new URLs in Google Search Console
 - If anything failed (check, play test, build, push, deploy), say what and where
