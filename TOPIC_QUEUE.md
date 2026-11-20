@@ -29,7 +29,7 @@ The daily run takes topics from this table. Rules:
 | 18 | done 2026-11-18 | hot-cocoa-coloring-page | Coloring Pages | winter | hot cocoa coloring page | Marshmallow shapes to fill, winter vocabulary words |
 | 19 | done 2026-11-18 | mitten-matching-game | Activities | winter | mitten matching printable | Pattern matching for preschoolers, cut and play |
 | 20 | done 2026-11-18 | snowflake-coloring-pages | Coloring Pages | winter | snowflake coloring pages | Six-sided designs with NOAA facts, draw-your-own template |
-| 21 | todo | penguin-coloring-page | Coloring Pages | winter | penguin coloring page | Facts from an official zoo or NOAA source, simple shapes |
+| 21 | done 2026-11-19 | penguin-coloring-page | Coloring Pages | winter | penguin coloring page | Facts from an official zoo or NOAA source, simple shapes |
 | 22 | todo | all-about-me-new-year | Activities | new-year | all about me printable | Time capsule page with height, favorites, drawing box |
 | 23 | todo | kindness-challenge-calendar | Activities |  | kindness challenge for kids | 30 days of small kind acts, color one a day |
 | 24 | todo | 100th-day-of-school-printable | Activities |  | 100th day of school printable | Count to 100 chart, I can do 100 things page |
@@ -70,11 +70,11 @@ The daily run takes topics from this table. Rules:
 | 59 | done 2026-11-17 | turkey-color-by-number | Activities | thanksgiving | turkey color by number | Numbered shapes that work with tap to fill online, color key on the sheet |
 | 60 | done 2026-11-17 | thanksgiving-word-search | Activities | thanksgiving | thanksgiving word search printable | Big letters, circle words online with the pen, answer key version |
 | 61 | skip | christmas-maze | Activities | christmas | christmas maze printable | Easy and hard versions on one page, solve online with the pen |
-| 62 | todo | christmas-color-by-number | Activities | christmas | christmas color by number | Numbered shapes for tap to fill, color key on the sheet |
-| 63 | todo | christmas-word-search | Activities | christmas | christmas word search printable | Easy and hard grids as versions, answer key version |
-| 64 | todo | christmas-dot-to-dot | Activities | christmas | christmas dot to dot printable | Numbered dots 1 to 30, connect online with the pen, then color |
-| 65 | todo | winter-spot-the-difference | Activities | winter | spot the difference printable for kids | Two pictures, circle the differences with the pen, answer key version |
-| 66 | todo | snowman-dot-to-dot | Activities | winter | snowman dot to dot | Count to 20 and connect, then color the snowman |
+| 62 | skip | christmas-color-by-number | Activities | christmas | christmas color by number | Numbered shapes for tap to fill, color key on the sheet |
+| 63 | skip | christmas-word-search | Activities | christmas | christmas word search printable | Easy and hard grids as versions, answer key version |
+| 64 | skip | christmas-dot-to-dot | Activities | christmas | christmas dot to dot printable | Numbered dots 1 to 30, connect online with the pen, then color |
+| 65 | done 2026-11-19 | winter-spot-the-difference | Activities | winter | spot the difference printable for kids | Two pictures, circle the differences with the pen, answer key version |
+| 66 | skip | snowman-dot-to-dot | Activities | winter | snowman dot to dot | Count to 20 and connect, then color the snowman |
 | 67 | todo | dinosaur-maze | Activities |  | dinosaur maze printable | Help the dinosaur find its egg, easy and hard versions |
 | 68 | todo | animal-dot-to-dot | Activities |  | animal dot to dot printable | Three animals from 1 to 25, color after connecting |
 | 69 | todo | animal-color-by-number | Activities |  | color by number for kids | Numbered shapes for tap to fill, simple 6 color key |
@@ -82,7 +82,7 @@ The daily run takes topics from this table. Rules:
 | 71 | todo | tic-tac-toe-boards | Activities |  | tic tac toe printable | Nine boards per sheet, scoreboard with editable player names |
 | 72 | todo | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
 | 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
-| 74 | todo | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
+| 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
 | 75 | todo | christmas-wish-list-for-kids | Holiday Printables | christmas | christmas wish list printable | Editable name, picture boxes for pre-writers, one gift for someone else line |
 | 76 | todo | christmas-thank-you-notes-for-kids | Holiday Printables | christmas | kids thank you notes printable | Fill in the blank notes with editable name, drawing box |
 | 77 | todo | new-year-goals-for-kids | Holiday Printables | new-year | new year goals for kids printable | Editable goal boxes, picture prompts, check-in dates |
