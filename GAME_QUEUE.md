@@ -14,8 +14,8 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 4 | done 2026-11-19 | telling-time | Telling Time | math, life | 6-8 | read analog clock, pick time | morning-routine-chart |
 | 5 | done 2026-11-19 | money-match | Money Match | math, life | 6-8 | pay exact price with coins (INR/USD) | reward-sticker-chart |
 | 6 | done 2026-11-19 | memory-match | Memory Match | brain | 3-5, 6-8 | flip cards, find pairs | mitten-matching-game |
-| 7 | todo | shape-sorter | Shape Sorter | math | 3-5 | a shape name is shown, tap the matching shape; levels add more shapes and colors | activities category |
-| 8 | todo | first-sound | First Sound Finder | english | 3-5 | a picture appears, tap the letter it starts with | thanksgiving-word-search |
+| 7 | done 2026-11-20 | shape-sorter | Shape Sorter | math | 3-5 | a shape name is shown, tap the matching shape; levels add more shapes and colors | activities category |
+| 8 | done 2026-11-20 | first-sound | First Sound Finder | english | 3-5 | a picture appears, tap the letter it starts with | thanksgiving-word-search |
 | 9 | todo | pattern-train | Pattern Train | brain | 3-5 | finish the color and shape pattern on the train carriages | activities category |
 | 10 | todo | addition-balloons | Addition Balloons | math | 6-8 | pop the balloon with the right sum; levels to 10, 20, 100 | activities category |
 | 11 | todo | hindi-swar | Hindi Swar Match | hindi-marathi | 3-5, 6-8 | hear and see a Hindi vowel (swar), tap the matching letter; verify every letter and word from a reliable source | activities category |

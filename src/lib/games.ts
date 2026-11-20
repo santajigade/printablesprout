@@ -157,6 +157,52 @@ export const GAMES: Game[] = [
     ],
     related: ['mitten-matching-game', 'winter-scavenger-hunt'],
   },
+  {
+    slug: 'shape-sorter', name: 'Shape Sorter', blurb: 'Read the shape name and tap the matching shape, even when it is turned or tiny.',
+    ageLabel: 'Ages 3 to 5', ages: ['3-5'], minAge: 3, maxAge: 6, subjects: ['math'],
+    sheet: '/category/activities-games/', sheetName: 'Activity sheets',
+    alt: 'A red circle, a tilted yellow square, a green triangle and a purple hexagon with a check mark',
+    title: 'Shape Game for Kids: Find Circles, Squares and More Free',
+    description: 'Free shape game for kids aged 3 to 5. Tap the circle, triangle or hexagon, even when it is turned or small, then add colors. No sign-up, no ads.',
+    keywords: 'shape game for kids, shapes for preschoolers, learn shapes online, kindergarten shape game',
+    h1: 'Shape Sorter: Find the Shape Game',
+    intro: 'The game names a shape, and your child taps the one that matches from a row of colorful shapes. The shapes come big, small, tipped and turned, so children learn that a triangle is still a triangle when it is standing on its point.',
+    sections: [
+      { h: 'How to play Shape Sorter', html: '<ol><li>Pick a level. "4 shapes" uses circles, squares, triangles and rectangles. "8 shapes" adds the hexagon, oval, star and heart. "Shapes and colors" asks for both, like "the blue triangle".</li><li>Read the words at the top out loud with your child.</li><li>Tap the shape that matches. A right answer fills a dot and the game says one thing about that shape, such as how many sides it has.</li><li>A wrong tap only shakes the button and tells you what shape it was, so you can try again.</li><li>Fill ten dots to see the stars.</li></ol>' },
+      { h: 'Why the shapes are turned and resized', html: '<p>Many young children think a triangle must sit flat on its bottom edge, or that a square tipped on its corner becomes a "diamond". US kindergarten math standards ask children to name shapes correctly no matter which way they are turned or how big they are, so every round here mixes sizes and angles on purpose.</p><p>Colors change every round for the same reason. A red square and a yellow square are both squares. On the "Shapes and colors" level, children have to check two things at once, which is good practice for sorting.</p><p>One more detail grown ups notice: a square is a special kind of rectangle. To keep the game fair, when it asks for a rectangle it never shows a square in the same round.</p>' },
+      { h: 'What to say about each shape', html: '<table><thead><tr><th>Shape</th><th>Words to use</th><th>Hunt for one at home</th></tr></thead><tbody><tr><td>Circle</td><td>round, no corners</td><td>a plate or a clock</td></tr><tr><td>Square</td><td>4 sides all the same, 4 corners</td><td>a cracker or a sticky note</td></tr><tr><td>Rectangle</td><td>2 long sides, 2 short sides</td><td>a door or a book</td></tr><tr><td>Triangle</td><td>3 sides, 3 corners</td><td>a sandwich cut corner to corner</td></tr><tr><td>Hexagon</td><td>6 sides, 6 corners</td><td>some floor tiles or nuts and bolts</td></tr><tr><td>Oval</td><td>round but stretched</td><td>an egg or a serving platter</td></tr></tbody></table><p>Ask your child to run a finger along the edge and count the sides out loud. Counting corners with a tap on each one works well too.</p>' },
+      { h: 'Shapes off the screen', html: '<p>After a few rounds, go on a shape walk around the kitchen or the classroom and name what you find. For quiet table time, the <a href="/category/activities-games/">activity sheets</a> give your child something to color and circle with a crayon. The <a href="/christmas-tree-coloring-page/">Christmas tree coloring page</a> is full of triangles to spot, and the <a href="/games/counting-fun/">Counting Fun</a> game pairs well for a short math session.</p>' },
+    ],
+    faq: [
+      { q: 'Which shapes are in the game?', a: 'Circle, square, triangle and rectangle on the first level. The second and third levels add hexagon, oval, star and heart, eight shapes in all.' },
+      { q: 'My child picks the square when the game asks for a rectangle. Is that wrong?', a: 'A square is a special rectangle, so that thinking is not silly. The game avoids the problem by never showing a square when it asks for a rectangle. You can say: "Squares have four sides that are all the same. This rectangle has long sides and short sides."' },
+      { q: 'Does my child need to read?', a: 'Not at first. Read the shape name aloud together. Many children start to recognize the written words "circle" and "star" after a few rounds, which is a nice bonus.' },
+    ],
+    related: ['christmas-tree-coloring-page', 'mitten-matching-game'],
+  },
+  {
+    slug: 'first-sound', name: 'First Sound Finder', blurb: 'Look at the picture, say the word and tap the letter it starts with.',
+    ageLabel: 'Ages 3 to 5', ages: ['3-5'], minAge: 3, maxAge: 6, subjects: ['english'],
+    sheet: '/thanksgiving-word-search/', sheetName: 'Thanksgiving word search',
+    alt: 'A red apple next to letter buttons A, M and S, with A marked correct',
+    title: 'Beginning Sounds Game: Tap the First Letter Free Online',
+    description: 'Free beginning sounds game for kids aged 3 to 5. Say the picture name and tap the letter it starts with, in capital or small letters. No ads.',
+    keywords: 'beginning sounds game, first sound game, phonics games for kids, letter sounds game',
+    h1: 'First Sound Finder: a Beginning Sounds Game',
+    intro: 'A big picture appears, like a moon, a fox or a pizza. Your child says the word out loud, listens to the very first sound, and taps the letter that makes it.',
+    sections: [
+      { h: 'How a round works', html: '<ol><li>Choose a level. "Easy" gives 3 letter buttons and short words. "ABC" gives 4 buttons and more pictures. "abc small letters" uses lowercase letters, the kind children see most in books.</li><li>Look at the picture and say its name: "sun".</li><li>Stretch the start of the word: "sssun". Then tap the letter that makes that sound.</li><li>Not sure what the picture is? Tap Hint. The word appears with its first letter hidden, like _un.</li><li>A right answer shows the whole word with the first letter in orange. Ten right answers finish the game.</li></ol>' },
+      { h: 'A one week plan for beginning sounds', html: '<p>Short daily practice beats one long session. Here is a simple week that takes about five minutes a day.</p><ul><li><strong>Monday:</strong> play the Easy level together. You say the word, your child taps.</li><li><strong>Tuesday:</strong> Easy level again, but now your child says the word first.</li><li><strong>Wednesday:</strong> play "I spy something that starts with mmm" around the house. No screen today.</li><li><strong>Thursday:</strong> try the ABC level with 4 letters.</li><li><strong>Friday:</strong> switch to small letters, then let your child pick five toys and name their first sounds.</li></ul><p>Hearing the first sound in a spoken word is a building block for reading. US kindergarten reading standards include isolating the first sound in simple words, so this game fits right alongside kindergarten work and the year before it.</p>' },
+      { h: 'How the words were picked', html: '<p>Every word starts with the usual sound of its first letter, so a child who listens carefully can always get it right. Words that start with two letters making one sound, like "ship", "chair" and "phone", are left out for now, and so are tricky starts like the soft c in "city". The letter X is skipped because almost no simple picture words start with its sound.</p><p>Some pictures have two names. A horse might be a pony to your child. When that happens, the other starting letter is kept off the buttons. C and K make the same sound in "cat" and "kite", so a C word never shows a K button, and the other way around.</p>' },
+      { h: 'Letters on paper', html: '<p>When your child knows a few sounds, hunt for words on the <a href="/thanksgiving-word-search/">Thanksgiving word search</a> and say the first sound of each word you find. The <a href="/winter-scavenger-hunt/">winter scavenger hunt</a> works as a sound hunt too: before checking off an item, name its first sound. To practice writing the letters, try <a href="/games/abc-tracing/">ABC Tracing</a>.</p>' },
+    ],
+    faq: [
+      { q: 'Does the game say the words out loud?', a: 'No. The game shows pictures, and your child says the words. Saying them out loud is part of the practice, and a grown up can help with the first few. Tap Hint to see the word if a picture is unclear.' },
+      { q: 'Why does "ice cream" start with I if the sound is different from "igloo"?', a: 'Vowels make more than one sound. In "ice" the I says its own name. Both are I sounds, so the answer is still I. Short vowel words like "apple", "egg" and "umbrella" are in the game too.' },
+      { q: 'Should my child learn capital or small letters first?', a: 'Most books use small letters, so children meet them more often. Many children learn capitals first because they are easier to tell apart. Play the ABC level first, then switch to small letters when the capitals come easily.' },
+    ],
+    related: ['thanksgiving-word-search', 'winter-scavenger-hunt'],
+  },
 ];
 
 export const gameBySlug = (s: string) => GAMES.find((g) => g.slug === s);

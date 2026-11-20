@@ -112,3 +112,19 @@
 @media (prefers-reduced-motion: reduce) { .gk-float, .gk-msg.bounce, .gk-dot.new, .gk-stars span, .gk-wiggle, .gk-no { animation: none !important; } }
 .gk-small { font-size: 14px; color: var(--soft); }
 .gp-left .prose, .gp-left .faq { margin-left: 0; }
+
+/* Shape Sorter */
+.gk-shp-word { font-weight: 800; }
+.gk-shp-grid { display: grid; gap: 14px; width: 100%; max-width: 640px; grid-template-columns: repeat(3, 1fr); }
+.gk-shp-grid.gk-shp-n4 { grid-template-columns: repeat(4, 1fr); }
+.gk-shp-btn { display: flex; align-items: center; justify-content: center; padding: 10px; aspect-ratio: 1 / 1; min-height: 90px; }
+.gk-shp-svg { width: 100%; height: 100%; max-width: 150px; max-height: 150px; overflow: visible; }
+@media (max-width: 600px) { .gk-shp-grid, .gk-shp-grid.gk-shp-n4 { grid-template-columns: repeat(2, 1fr); gap: 10px; } .gk-shp-grid.gk-shp-n3 { grid-template-columns: repeat(3, 1fr); } .gk-shp-grid.gk-shp-n6 { grid-template-columns: repeat(3, 1fr); } }
+
+/* First Sound Finder */
+.gk-fs-pic { font-size: clamp(84px, 18vw, 130px); line-height: 1.1; width: 1.5em; height: 1.4em; display: flex; align-items: center; justify-content: center; background: #fff7ee; border: 2px dashed var(--line2); border-radius: 28px; }
+.gk-fs-word { font-family: var(--head); font-size: clamp(24px, 5vw, 32px); letter-spacing: 2px; min-height: 1.3em; margin: -6px 0 0; color: var(--muted); }
+.gk-fs-word b { color: var(--accent); }
+.gk-fs-choices { max-width: 520px; }
+.gk-fs-letter { font-size: clamp(34px, 7vw, 46px); min-height: 84px; }
+@media (max-width: 600px) { .gk-fs-choices { grid-template-columns: repeat(2, 1fr); } .gk-fs-choices.gk-fs-n3 { grid-template-columns: repeat(3, 1fr); } }
