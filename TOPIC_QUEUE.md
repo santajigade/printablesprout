@@ -30,8 +30,8 @@ The daily run takes topics from this table. Rules:
 | 19 | done 2026-11-18 | mitten-matching-game | Activities | winter | mitten matching printable | Pattern matching for preschoolers, cut and play |
 | 20 | done 2026-11-18 | snowflake-coloring-pages | Coloring Pages | winter | snowflake coloring pages | Six-sided designs with NOAA facts, draw-your-own template |
 | 21 | done 2026-11-19 | penguin-coloring-page | Coloring Pages | winter | penguin coloring page | Facts from an official zoo or NOAA source, simple shapes |
-| 22 | todo | all-about-me-new-year | Activities | new-year | all about me printable | Time capsule page with height, favorites, drawing box |
-| 23 | todo | kindness-challenge-calendar | Activities |  | kindness challenge for kids | 30 days of small kind acts, color one a day |
+| 22 | done 2026-11-20 | all-about-me-new-year | Activities | new-year | all about me printable | Time capsule page with height, favorites, drawing box |
+| 23 | done 2026-11-20 | kindness-challenge-calendar | Activities |  | kindness challenge for kids | 30 days of small kind acts, color one a day |
 | 24 | todo | 100th-day-of-school-printable | Activities |  | 100th day of school printable | Count to 100 chart, I can do 100 things page |
 | 25 | todo | valentines-coloring-page | Coloring Pages | valentines-day | valentines day coloring page | Hearts and animals, write a kind message |
 | 26 | todo | valentines-bingo | Activities | valentines-day | valentines bingo printable | Four cards plus caller sheet for class parties |
@@ -83,7 +83,7 @@ The daily run takes topics from this table. Rules:
 | 72 | todo | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
 | 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
 | 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
-| 75 | todo | christmas-wish-list-for-kids | Holiday Printables | christmas | christmas wish list printable | Editable name, picture boxes for pre-writers, one gift for someone else line |
+| 75 | done 2026-11-20 | christmas-wish-list-for-kids | Holiday Printables | christmas | christmas wish list printable | Editable name, picture boxes for pre-writers, one gift for someone else line |
 | 76 | todo | christmas-thank-you-notes-for-kids | Holiday Printables | christmas | kids thank you notes printable | Fill in the blank notes with editable name, drawing box |
 | 77 | todo | new-year-goals-for-kids | Holiday Printables | new-year | new year goals for kids printable | Editable goal boxes, picture prompts, check-in dates |
 | 78 | todo | new-years-eve-countdown-bags | Holiday Printables | new-year | new years eve countdown for kids | Hourly activity labels for an early kid countdown |
