@@ -16,10 +16,10 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 6 | done 2026-11-19 | memory-match | Memory Match | brain | 3-5, 6-8 | flip cards, find pairs | mitten-matching-game |
 | 7 | done 2026-11-20 | shape-sorter | Shape Sorter | math | 3-5 | a shape name is shown, tap the matching shape; levels add more shapes and colors | activities category |
 | 8 | done 2026-11-20 | first-sound | First Sound Finder | english | 3-5 | a picture appears, tap the letter it starts with | thanksgiving-word-search |
-| 9 | todo | pattern-train | Pattern Train | brain | 3-5 | finish the color and shape pattern on the train carriages | activities category |
-| 10 | todo | addition-balloons | Addition Balloons | math | 6-8 | pop the balloon with the right sum; levels to 10, 20, 100 | activities category |
-| 11 | todo | hindi-swar | Hindi Swar Match | hindi-marathi | 3-5, 6-8 | hear and see a Hindi vowel (swar), tap the matching letter; verify every letter and word from a reliable source | activities category |
-| 12 | todo | odd-one-out | Odd One Out | brain | 3-5, 6-8 | 4 pictures, tap the one that does not belong, game says why | activities category |
+| 9 | done 2026-11-21 | pattern-train | Pattern Train | brain | 3-5 | finish the color and shape pattern on the train carriages | activities category |
+| 10 | skip (too close to car-race-math) | addition-balloons | Addition Balloons | math | 6-8 | pop the balloon with the right sum; levels to 10, 20, 100 | same mechanic and skill as the Add and subtract level of Road Race Math |
+| 11 | done 2026-11-21 | hindi-swar | Hindi Swar Match | hindi-marathi | 3-5, 6-8 | hear and see a Hindi vowel (swar), tap the matching letter; verify every letter and word from a reliable source | activities category |
+| 12 | done 2026-11-21 | odd-one-out | Odd One Out | brain | 3-5, 6-8 | 4 pictures, tap the one that does not belong, game says why | activities category |
 | 13 | todo | set-the-clock | Set the Clock | math, life | 6-8 | drag or tap the clock hands to show a given time (reverse of Telling Time) | morning-routine-chart |
 | 14 | todo | spelling-builder | Spelling Builder | english | 6-8 | tap scrambled letter tiles in order to spell the picture word | thanksgiving-word-search |
 | 15 | todo | more-or-less | More or Less | math | 3-5 | two groups, tap the one with more (or fewer) | turkey-color-by-number |
@@ -31,7 +31,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 21 | done 2026-11-20 | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
 | 22 | todo | simon-colors | Color Echo | brain | 3-5, 6-8 | watch and listen to a color sequence, repeat it; one more step each round | activities category |
 | 23 | todo | days-of-week | Days of the Week Train | life | 3-5, 6-8 | put day carriages in order, then answer "what comes after" | weekly-chore-chart |
-| 24 | todo | fraction-pizza | Fraction Pizza | math | 9-10 | tap slices to show a fraction, then compare fractions | activities category |
+| 24 | done 2026-11-21 | fraction-pizza | Fraction Pizza | math | 9-10 | tap slices to show a fraction, then compare fractions | activities category |
 | 25 | todo | opposites-match | Opposites Match | english | 3-5, 6-8 | match picture opposites: big and small, hot and cold | activities category |
 | 26 | todo | hindi-ginti | Hindi Ginti 1 to 20 | hindi-marathi | 3-5, 6-8 | count objects, tap the Hindi number word; verify spellings | activities category |
 | 27 | todo | place-value-blocks | Place Value Blocks | math | 6-8 | build a number with hundreds, tens and ones blocks | activities category |
