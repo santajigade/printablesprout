@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+<rect x="20" y="20" width="810" height="1060" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+
+<text x="425" y="88" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" class="f" fill="#fff" stroke="#222" stroke-width="3" paint-order="stroke" data-field="name" data-tpl="{name}'s 100th Day" data-empty="100th Day of School">100th Day of School</text>
+
+<g data-variant="chart">
+<text x="425" y="126" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#222" >Color a square for each number you can read. Color every 10th square too!</text>
+<rect x="120" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >1</text>
+<rect x="181" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >2</text>
+<rect x="242" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >3</text>
+<rect x="303" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >4</text>
+<rect x="364" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >5</text>
+<rect x="425" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >6</text>
+<rect x="486" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >7</text>
+<rect x="547" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >8</text>
+<rect x="608" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >9</text>
+<rect x="669" y="150" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="188.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >10</text>
+<rect x="120" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >11</text>
+<rect x="181" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >12</text>
+<rect x="242" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >13</text>
+<rect x="303" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >14</text>
+<rect x="364" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >15</text>
+<rect x="425" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >16</text>
+<rect x="486" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >17</text>
+<rect x="547" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >18</text>
+<rect x="608" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >19</text>
+<rect x="669" y="211" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="249.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >20</text>
+<rect x="120" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >21</text>
+<rect x="181" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >22</text>
+<rect x="242" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >23</text>
+<rect x="303" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >24</text>
+<rect x="364" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >25</text>
+<rect x="425" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >26</text>
+<rect x="486" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >27</text>
+<rect x="547" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >28</text>
+<rect x="608" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >29</text>
+<rect x="669" y="272" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="310.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >30</text>
+<rect x="120" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >31</text>
+<rect x="181" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >32</text>
+<rect x="242" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >33</text>
+<rect x="303" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >34</text>
+<rect x="364" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >35</text>
+<rect x="425" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >36</text>
+<rect x="486" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >37</text>
+<rect x="547" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >38</text>
+<rect x="608" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >39</text>
+<rect x="669" y="333" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="371.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >40</text>
+<rect x="120" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >41</text>
+<rect x="181" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >42</text>
+<rect x="242" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >43</text>
+<rect x="303" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >44</text>
+<rect x="364" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >45</text>
+<rect x="425" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >46</text>
+<rect x="486" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >47</text>
+<rect x="547" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >48</text>
+<rect x="608" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >49</text>
+<rect x="669" y="394" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="432.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >50</text>
+<rect x="120" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >51</text>
+<rect x="181" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >52</text>
+<rect x="242" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >53</text>
+<rect x="303" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >54</text>
+<rect x="364" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >55</text>
+<rect x="425" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >56</text>
+<rect x="486" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >57</text>
+<rect x="547" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >58</text>
+<rect x="608" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >59</text>
+<rect x="669" y="455" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="493.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >60</text>
+<rect x="120" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >61</text>
+<rect x="181" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >62</text>
+<rect x="242" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >63</text>
+<rect x="303" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >64</text>
+<rect x="364" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >65</text>
+<rect x="425" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >66</text>
+<rect x="486" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >67</text>
+<rect x="547" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >68</text>
+<rect x="608" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >69</text>
+<rect x="669" y="516" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="554.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >70</text>
+<rect x="120" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >71</text>
+<rect x="181" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >72</text>
+<rect x="242" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >73</text>
+<rect x="303" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >74</text>
+<rect x="364" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >75</text>
+<rect x="425" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >76</text>
+<rect x="486" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >77</text>
+<rect x="547" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >78</text>
+<rect x="608" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >79</text>
+<rect x="669" y="577" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="615.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >80</text>
+<rect x="120" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >81</text>
+<rect x="181" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >82</text>
+<rect x="242" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >83</text>
+<rect x="303" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >84</text>
+<rect x="364" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >85</text>
+<rect x="425" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >86</text>
+<rect x="486" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >87</text>
+<rect x="547" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >88</text>
+<rect x="608" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >89</text>
+<rect x="669" y="638" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="676.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >90</text>
+<rect x="120" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="150.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >91</text>
+<rect x="181" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="211.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >92</text>
+<rect x="242" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="272.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >93</text>
+<rect x="303" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="333.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >94</text>
+<rect x="364" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="394.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >95</text>
+<rect x="425" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="455.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >96</text>
+<rect x="486" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="516.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >97</text>
+<rect x="547" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="577.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >98</text>
+<rect x="608" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="638.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" >99</text>
+<rect x="669" y="699" width="61" height="61" rx="6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4"/>
+<text x="699.5" y="737.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >100</text>
+</g>
+<g data-variant="frames" style="display:none">
+<text x="425" y="126" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#222" >Color all 10 dots in a frame, then say the number. Count by tens to 100!</text>
+<rect x="89" y="146" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="373" cy="198" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="373" y="207" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >10</text>
+<rect x="444" y="146" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="175" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="221" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="728" cy="198" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="728" y="207" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >20</text>
+<rect x="89" y="270" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="373" cy="322" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="373" y="331" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >30</text>
+<rect x="444" y="270" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="299" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="345" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="728" cy="322" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="728" y="331" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >40</text>
+<rect x="89" y="394" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="373" cy="446" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="373" y="455" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >50</text>
+<rect x="444" y="394" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="423" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="469" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="728" cy="446" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="728" y="455" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >60</text>
+<rect x="89" y="518" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="373" cy="570" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="373" y="579" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >70</text>
+<rect x="444" y="518" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="547" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="593" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="728" cy="570" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="728" y="579" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >80</text>
+<rect x="89" y="642" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="118" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="164" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="210" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="256" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="302" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="373" cy="694" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="373" y="703" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >90</text>
+<rect x="444" y="642" width="242" height="104" rx="10" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="671" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="473" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="519" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="565" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="611" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="657" cy="717" r="17" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<circle cx="728" cy="694" r="30" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="728" y="703" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" >100</text>
+</g>
+<rect x="60" y="792" width="730" height="236" rx="18" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="84" y="834" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" data-field="date" data-tpl="My 100th day of school: {date}" data-empty="My 100th day of school: ____________________">My 100th day of school: ____________________</text>
+<text x="84" y="882" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >In 100 days I learned to:</text>
+<text x="84" y="918" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" data-field="learned" data-tpl="{learned}" data-empty="_____________________________________________">_____________________________________________</text>
+<text x="84" y="966" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >When I am 100 years old, I will:</text>
+<text x="84" y="1002" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" data-field="old" data-tpl="{old}" data-empty="_____________________________________________">_____________________________________________</text>
+<polygon points="700.0,826.0 709.0,847.6 732.3,849.5 714.6,864.7 720.0,887.5 700.0,875.3 680.0,887.5 685.4,864.7 667.7,849.5 691.0,847.6" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<polygon points="745.0,924.0 751.9,940.5 769.7,942.0 756.1,953.6 760.3,971.0 745.0,961.7 729.7,971.0 733.9,953.6 720.3,942.0 738.1,940.5" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<polygon points="665.0,953.0 670.8,967.0 685.9,968.2 674.4,978.1 677.9,992.8 665.0,984.9 652.1,992.8 655.6,978.1 644.1,968.2 659.2,967.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="805" y="1068" text-anchor="end" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#888" >printablesprout.com</text>
+</svg>

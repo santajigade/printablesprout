@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+<rect x="20" y="20" width="810" height="1060" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+
+<text x="425" y="88" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" class="f" fill="#fff" stroke="#222" stroke-width="3" paint-order="stroke" data-field="name" data-tpl="{name}'s Rainbow" data-empty="Color the Rainbow">Color the Rainbow</text>
+
+<g><path d="M50,250 A36.0,36.0 0 0 1 87.4,206.0 A49.6,49.6 0 0 1 155.4,194.0 A40.0,40.0 0 0 1 220,250 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><path d="M630,250 A36.0,36.0 0 0 1 667.4,206.0 A49.6,49.6 0 0 1 735.4,194.0 A40.0,40.0 0 0 1 800,250 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M80,266 C82.8,274.4 89.8,280 89.8,286.3 A9.799999999999999,9.799999999999999 0 0 1 70.2,286.3 C70.2,280 77.2,274.4 80,266 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M125,296 C127.8,304.4 134.8,310 134.8,316.3 A9.799999999999999,9.799999999999999 0 0 1 115.2,316.3 C115.2,310 122.2,304.4 125,296 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M170,266 C172.8,274.4 179.8,280 179.8,286.3 A9.799999999999999,9.799999999999999 0 0 1 160.2,286.3 C160.2,280 167.2,274.4 170,266 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M95,331 C97.8,339.4 104.8,345 104.8,351.3 A9.799999999999999,9.799999999999999 0 0 1 85.2,351.3 C85.2,345 92.2,339.4 95,331 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M150,346 C152.8,354.4 159.8,360 159.8,366.3 A9.799999999999999,9.799999999999999 0 0 1 140.2,366.3 C140.2,360 147.2,354.4 150,346 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M660,266 C662.8,274.4 669.8,280 669.8,286.3 A9.799999999999999,9.799999999999999 0 0 1 650.2,286.3 C650.2,280 657.2,274.4 660,266 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M705,296 C707.8,304.4 714.8,310 714.8,316.3 A9.799999999999999,9.799999999999999 0 0 1 695.2,316.3 C695.2,310 702.2,304.4 705,296 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M750,266 C752.8,274.4 759.8,280 759.8,286.3 A9.799999999999999,9.799999999999999 0 0 1 740.2,286.3 C740.2,280 747.2,274.4 750,266 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M680,336 C682.8,344.4 689.8,350 689.8,356.3 A9.799999999999999,9.799999999999999 0 0 1 670.2,356.3 C670.2,350 677.2,344.4 680,336 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M730,346 C732.8,354.4 739.8,360 739.8,366.3 A9.799999999999999,9.799999999999999 0 0 1 720.2,366.3 C720.2,360 727.2,354.4 730,346 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+</g>
+<g data-variant="guide">
+<text x="425" y="128" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#222" >Color each band to match its letter. Red is always on the outside!</text>
+<path d="M75,745 A350,350 0 0 1 775,745 L743,745 A318,318 0 0 0 107,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M107,745 A318,318 0 0 1 743,745 L711,745 A286,286 0 0 0 139,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M139,745 A286,286 0 0 1 711,745 L679,745 A254,254 0 0 0 171,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M171,745 A254,254 0 0 1 679,745 L647,745 A222,222 0 0 0 203,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M203,745 A222,222 0 0 1 647,745 L615,745 A190,190 0 0 0 235,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M235,745 A190,190 0 0 1 615,745 L583,745 A158,158 0 0 0 267,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M267,745 A158,158 0 0 1 583,745 L551,745 A126,126 0 0 0 299,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="425.0" y="418.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >R</text>
+<text x="176.8" y="529.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >R</text>
+<text x="673.2" y="529.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >R</text>
+<text x="425.0" y="450.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >O</text>
+<text x="200.6" y="550.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >O</text>
+<text x="649.4" y="550.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >O</text>
+<text x="425.0" y="482.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >Y</text>
+<text x="224.4" y="572.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >Y</text>
+<text x="625.6" y="572.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >Y</text>
+<text x="425.0" y="514.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >G</text>
+<text x="248.1" y="593.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >G</text>
+<text x="601.9" y="593.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >G</text>
+<text x="425.0" y="546.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >B</text>
+<text x="271.9" y="615.1" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >B</text>
+<text x="578.1" y="615.1" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >B</text>
+<text x="425.0" y="578.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >I</text>
+<text x="295.7" y="636.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >I</text>
+<text x="554.3" y="636.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >I</text>
+<text x="425.0" y="610.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >V</text>
+<text x="319.5" y="657.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >V</text>
+<text x="530.5" y="657.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" >V</text>
+<path d="M40,790 A54.0,54.0 0 0 1 106.0,724.0 A74.4,74.4 0 0 1 226.0,706.0 A60.0,60.0 0 0 1 340,790 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M510,790 A54.0,54.0 0 0 1 576.0,724.0 A74.4,74.4 0 0 1 696.0,706.0 A60.0,60.0 0 0 1 810,790 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+</g>
+<g data-variant="plain" style="display:none">
+<text x="425" y="128" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#222" >Color the rainbow in order: red, orange, yellow, green, blue, indigo, violet.</text>
+<path d="M75,745 A350,350 0 0 1 775,745 L743,745 A318,318 0 0 0 107,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M107,745 A318,318 0 0 1 743,745 L711,745 A286,286 0 0 0 139,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M139,745 A286,286 0 0 1 711,745 L679,745 A254,254 0 0 0 171,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M171,745 A254,254 0 0 1 679,745 L647,745 A222,222 0 0 0 203,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M203,745 A222,222 0 0 1 647,745 L615,745 A190,190 0 0 0 235,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M235,745 A190,190 0 0 1 615,745 L583,745 A158,158 0 0 0 267,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M267,745 A158,158 0 0 1 583,745 L551,745 A126,126 0 0 0 299,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M40,790 A54.0,54.0 0 0 1 106.0,724.0 A74.4,74.4 0 0 1 226.0,706.0 A60.0,60.0 0 0 1 340,790 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M510,790 A54.0,54.0 0 0 1 576.0,724.0 A74.4,74.4 0 0 1 696.0,706.0 A60.0,60.0 0 0 1 810,790 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+</g>
+<g data-variant="double" style="display:none">
+<text x="425" y="128" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#222" >A double rainbow! The outer bow flips, so red is on the inside.</text>
+<path d="M47,745 A378,378 0 0 1 803,745 L790,745 A365,365 0 0 0 60,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M60,745 A365,365 0 0 1 790,745 L777,745 A352,352 0 0 0 73,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M73,745 A352,352 0 0 1 777,745 L764,745 A339,339 0 0 0 86,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M86,745 A339,339 0 0 1 764,745 L751,745 A326,326 0 0 0 99,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M99,745 A326,326 0 0 1 751,745 L738,745 A313,313 0 0 0 112,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M112,745 A313,313 0 0 1 738,745 L725,745 A300,300 0 0 0 125,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M125,745 A300,300 0 0 1 725,745 L712,745 A287,287 0 0 0 138,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="425.0" y="377.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >V</text>
+<text x="148.9" y="500.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >V</text>
+<text x="701.1" y="500.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >V</text>
+<text x="425.0" y="390.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >I</text>
+<text x="158.6" y="509.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >I</text>
+<text x="691.4" y="509.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >I</text>
+<text x="425.0" y="403.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >B</text>
+<text x="168.2" y="518.1" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >B</text>
+<text x="681.8" y="518.1" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >B</text>
+<text x="425.0" y="416.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >G</text>
+<text x="177.9" y="526.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >G</text>
+<text x="672.1" y="526.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >G</text>
+<text x="425.0" y="429.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >Y</text>
+<text x="187.6" y="535.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >Y</text>
+<text x="662.4" y="535.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >Y</text>
+<text x="425.0" y="442.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >O</text>
+<text x="197.2" y="544.2" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >O</text>
+<text x="652.8" y="544.2" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >O</text>
+<text x="425.0" y="455.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >R</text>
+<text x="206.9" y="552.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >R</text>
+<text x="643.1" y="552.9" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#222" >R</text>
+<path d="M151,745 A274,274 0 0 1 699,745 L678,745 A253,253 0 0 0 172,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M172,745 A253,253 0 0 1 678,745 L657,745 A232,232 0 0 0 193,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M193,745 A232,232 0 0 1 657,745 L636,745 A211,211 0 0 0 214,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M214,745 A211,211 0 0 1 636,745 L615,745 A190,190 0 0 0 235,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M235,745 A190,190 0 0 1 615,745 L594,745 A169,169 0 0 0 256,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M256,745 A169,169 0 0 1 594,745 L573,745 A148,148 0 0 0 277,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M277,745 A148,148 0 0 1 573,745 L552,745 A127,127 0 0 0 298,745 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<text x="425.0" y="487.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >R</text>
+<text x="229.2" y="574.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >R</text>
+<text x="620.8" y="574.4" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >R</text>
+<text x="425.0" y="508.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >O</text>
+<text x="244.8" y="588.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >O</text>
+<text x="605.2" y="588.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >O</text>
+<text x="425.0" y="529.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >Y</text>
+<text x="260.4" y="602.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >Y</text>
+<text x="589.6" y="602.5" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >Y</text>
+<text x="425.0" y="550.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >G</text>
+<text x="276.0" y="616.6" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >G</text>
+<text x="574.0" y="616.6" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >G</text>
+<text x="425.0" y="571.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >B</text>
+<text x="291.6" y="630.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >B</text>
+<text x="558.4" y="630.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >B</text>
+<text x="425.0" y="592.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >I</text>
+<text x="307.2" y="644.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >I</text>
+<text x="542.8" y="644.7" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >I</text>
+<text x="425.0" y="613.3" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >V</text>
+<text x="322.8" y="658.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >V</text>
+<text x="527.2" y="658.8" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#222" >V</text>
+<path d="M32,800 A58.5,58.5 0 0 1 104.6,728.5 A80.6,80.6 0 0 1 236.6,709.0 A65.0,65.0 0 0 1 362,800 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M488,800 A58.5,58.5 0 0 1 560.6,728.5 A80.6,80.6 0 0 1 692.6,709.0 A65.0,65.0 0 0 1 818,800 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+</g>
+<g>
+<path d="M40,1040 L40,835 C160,800 300,805 430,850 C520,820 680,800 810,830 L810,1040 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M40,1040 L40,930 C200,880 380,900 520,960 C640,920 740,930 810,950 L810,1040 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<ellipse cx="425" cy="1000" rx="110" ry="24" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="110" y1="873" x2="110" y2="901.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="110.0" cy="845.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="123.6" cy="855.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="118.4" cy="871.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="101.6" cy="871.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="96.4" cy="855.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="110" cy="860" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="230" y1="853" x2="230" y2="881.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="230.0" cy="825.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="243.6" cy="835.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="238.4" cy="851.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="221.6" cy="851.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="216.4" cy="835.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="230" cy="840" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="650" y1="863" x2="650" y2="891.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="650.0" cy="835.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="663.6" cy="845.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="658.4" cy="861.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="641.6" cy="861.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="636.4" cy="845.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="650" cy="850" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="760" y1="893" x2="760" y2="921.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="760.0" cy="865.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="773.6" cy="875.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="768.4" cy="891.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="751.6" cy="891.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="746.4" cy="875.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="760" cy="880" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="330" y1="973" x2="330" y2="1001.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="330.0" cy="945.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="343.6" cy="955.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="338.4" cy="971.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="321.6" cy="971.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="316.4" cy="955.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="330" cy="960" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<line x1="700" y1="988" x2="700" y2="1016.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="700.0" cy="960.7" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="713.6" cy="970.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="708.4" cy="986.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="691.6" cy="986.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="686.4" cy="970.6" r="9.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/><circle cx="700" cy="975" r="7.8" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M180,1015 l6,-20 M190,1015 l0,-24 M200,1015 l-6,-20" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M560,1015 l6,-20 M570,1015 l0,-24 M580,1015 l-6,-20" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+<path d="M600,1015 l6,-20 M610,1015 l0,-24 M620,1015 l-6,-20" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3"/>
+</g>
+<text x="805" y="1068" text-anchor="end" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#888" >printablesprout.com</text>
+</svg>
