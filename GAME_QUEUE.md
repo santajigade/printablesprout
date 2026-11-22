@@ -20,9 +20,9 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 10 | skip (too close to car-race-math) | addition-balloons | Addition Balloons | math | 6-8 | pop the balloon with the right sum; levels to 10, 20, 100 | same mechanic and skill as the Add and subtract level of Road Race Math |
 | 11 | done 2026-11-21 | hindi-swar | Hindi Swar Match | hindi-marathi | 3-5, 6-8 | hear and see a Hindi vowel (swar), tap the matching letter; verify every letter and word from a reliable source | activities category |
 | 12 | done 2026-11-21 | odd-one-out | Odd One Out | brain | 3-5, 6-8 | 4 pictures, tap the one that does not belong, game says why | activities category |
-| 13 | todo | set-the-clock | Set the Clock | math, life | 6-8 | drag or tap the clock hands to show a given time (reverse of Telling Time) | morning-routine-chart |
-| 14 | todo | spelling-builder | Spelling Builder | english | 6-8 | tap scrambled letter tiles in order to spell the picture word | thanksgiving-word-search |
-| 15 | todo | more-or-less | More or Less | math | 3-5 | two groups, tap the one with more (or fewer) | turkey-color-by-number |
+| 13 | done 2026-11-22 | set-the-clock | Set the Clock | math, life | 6-8 | drag or tap the clock hands to show a given time (reverse of Telling Time) | morning-routine-chart |
+| 14 | done 2026-11-22 | spelling-builder | Spelling Builder | english | 6-8 | tap scrambled letter tiles in order to spell the picture word | thanksgiving-word-search |
+| 15 | done 2026-11-22 | more-or-less | More or Less | math | 3-5 | two groups, tap the one with more (or fewer) | turkey-color-by-number |
 | 16 | todo | recycling-sorter | Recycling Sorter | life | 6-8 | sort items into recycle, compost or trash bins; rules from EPA pages read in the run | activities category |
 | 17 | todo | maze-runner | Maze Runner | brain | 3-5, 6-8 | guide a little explorer through a maze with arrow buttons or keys; new maze each round | activities category |
 | 18 | todo | number-line-jump | Number Line Jump | math | 6-8 | a frog jumps along a number line; tap where it lands after +/- jumps | activities category |
@@ -37,7 +37,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 27 | todo | place-value-blocks | Place Value Blocks | math | 6-8 | build a number with hundreds, tens and ones blocks | activities category |
 | 28 | todo | letter-catch | Letter Catch | english | 3-5, 6-8 | next level canvas game: move a basket to catch the falling letter that is asked for | thanksgiving-word-search |
 | 29 | todo | even-odd-sort | Even or Odd | math | 6-8 | send numbered balls down the even or odd chute | activities category |
-| 30 | todo | mini-sudoku | Mini Sudoku 4x4 | brain | 6-8, 9-10 | 4x4 picture sudoku, then number sudoku | activities category |
+| 30 | done 2026-11-22 | mini-sudoku | Mini Sudoku 4x4 | brain | 6-8, 9-10 | 4x4 picture sudoku, then number sudoku | activities category |
 | 31 | todo | sight-words | Sight Word Pop | english | 3-5, 6-8 | hear a word, pop the bubble with it; word lists from a reliable reading source | activities category |
 | 32 | todo | skip-count-hop | Skip Count Hop | math | 6-8 | a bunny hops by 2s, 5s or 10s; tap the next stone | activities category |
 | 33 | todo | road-signs | Road Sign Safety | life | 6-8 | match common road and crossing signs to what they mean; facts from official road safety sources | activities category |
