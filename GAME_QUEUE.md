@@ -23,9 +23,9 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 13 | done 2026-11-22 | set-the-clock | Set the Clock | math, life | 6-8 | drag or tap the clock hands to show a given time (reverse of Telling Time) | morning-routine-chart |
 | 14 | done 2026-11-22 | spelling-builder | Spelling Builder | english | 6-8 | tap scrambled letter tiles in order to spell the picture word | thanksgiving-word-search |
 | 15 | done 2026-11-22 | more-or-less | More or Less | math | 3-5 | two groups, tap the one with more (or fewer) | turkey-color-by-number |
-| 16 | todo | recycling-sorter | Recycling Sorter | life | 6-8 | sort items into recycle, compost or trash bins; rules from EPA pages read in the run | activities category |
-| 17 | todo | maze-runner | Maze Runner | brain | 3-5, 6-8 | guide a little explorer through a maze with arrow buttons or keys; new maze each round | activities category |
-| 18 | todo | number-line-jump | Number Line Jump | math | 6-8 | a frog jumps along a number line; tap where it lands after +/- jumps | activities category |
+| 16 | done 2026-11-23 | recycling-sorter | Recycling Sorter | life | 6-8 | sort items into recycle, compost or trash bins; rules from EPA pages read in the run | activities category |
+| 17 | done 2026-11-23 | maze-runner | Maze Runner | brain | 3-5, 6-8 | guide a little explorer through a maze with arrow buttons or keys; new maze each round | activities category |
+| 18 | done 2026-11-23 | number-line-jump | Number Line Jump | math | 6-8 | a frog jumps along a number line; tap where it lands after +/- jumps | activities category |
 | 19 | todo | marathi-akshar | Marathi Akshar Tracing | hindi-marathi | 3-5, 6-8 | trace Marathi letters (reuse the ABC tracing approach with Devanagari); verify letter order from a reliable source | activities category |
 | 20 | todo | rhyme-time | Rhyme Time | english | 6-8 | tap the picture that rhymes with the word | activities category |
 | 21 | done 2026-11-20 | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
@@ -56,7 +56,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 46 | todo | logic-grid | Logic Grid Detective | brain | 9-10 | solve who-has-what puzzles from 3 to 5 clues on a 3x3, then 4x4 grid; mark yes and no cells | activities category |
 | 47 | todo | coordinate-treasure | Treasure Map Coordinates | math | 9-10 | read clues as (x, y) points and dig on a grid to find treasure; last level uses all four quadrants | activities category |
 | 48 | todo | balance-algebra | Balance Scale Puzzles | math | 9-10 | find the weight of the mystery box that keeps the scale level; two step and two box levels | activities category |
-| 49 | todo | disc-tower | Disc Tower Puzzle | brain | 6-8, 9-10 | move discs between three pegs, never a big disc on a small one; 3 to 6 discs with a move counter | activities category |
+| 49 | done 2026-11-23 | disc-tower | Disc Tower Puzzle | brain | 6-8, 9-10 | move discs between three pegs, never a big disc on a small one; 3 to 6 discs with a move counter | activities category |
 | 50 | todo | code-breaker | Code Breaker | english | 9-10 | decode a secret message with a letter and number key, then crack a shift code from a hint | activities category |
 | 51 | todo | decimal-dash | Decimal Dash | math | 9-10 | place tenths and hundredths on a zooming number line and compare decimals | activities category |
 | 52 | todo | angle-golf | Angle Mini Golf | math | 9-10 | set the angle in degrees and the power to putt the ball into the hole on a canvas course; learn acute, right and obtuse | activities category |
