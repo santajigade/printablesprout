@@ -39,7 +39,7 @@ The daily run takes topics from this table. Rules:
 | 28 | todo | st-patricks-day-coloring-page | Coloring Pages | st-patricks-day | st patricks day coloring page | Shamrocks and rainbow, original art |
 | 29 | done 2026-11-21 | rainbow-coloring-page | Coloring Pages |  | rainbow coloring page | Color order lesson using NOAA rainbow facts |
 | 30 | todo | spring-scavenger-hunt | Activities |  | spring scavenger hunt printable | Nature checklist with pictures |
-| 31 | todo | butterfly-coloring-page | Coloring Pages |  | butterfly coloring page | Symmetry activity, life cycle facts from an official source |
+| 31 | done 2026-11-22 | butterfly-coloring-page | Coloring Pages |  | butterfly coloring page | Symmetry activity, life cycle facts from an official source |
 | 32 | todo | easter-egg-coloring-page | Coloring Pages | easter | easter egg coloring page | Six patterned eggs as fillable shapes |
 | 33 | todo | bunny-coloring-page | Coloring Pages | easter | bunny coloring page | Original bunny with spring flowers |
 | 34 | todo | easter-bingo | Activities | easter | easter bingo printable | Four cards plus caller sheet |
@@ -75,18 +75,18 @@ The daily run takes topics from this table. Rules:
 | 64 | skip | christmas-dot-to-dot | Activities | christmas | christmas dot to dot printable | Numbered dots 1 to 30, connect online with the pen, then color |
 | 65 | done 2026-11-19 | winter-spot-the-difference | Activities | winter | spot the difference printable for kids | Two pictures, circle the differences with the pen, answer key version |
 | 66 | skip | snowman-dot-to-dot | Activities | winter | snowman dot to dot | Count to 20 and connect, then color the snowman |
-| 67 | todo | dinosaur-maze | Activities |  | dinosaur maze printable | Help the dinosaur find its egg, easy and hard versions |
-| 68 | todo | animal-dot-to-dot | Activities |  | animal dot to dot printable | Three animals from 1 to 25, color after connecting |
-| 69 | todo | animal-color-by-number | Activities |  | color by number for kids | Numbered shapes for tap to fill, simple 6 color key |
-| 70 | todo | dots-and-boxes-game | Activities |  | dots and boxes printable | Classic two player game, play online with the pen, rules by age |
+| 67 | skip | dinosaur-maze | Activities |  | dinosaur maze printable | Help the dinosaur find its egg, easy and hard versions |
+| 68 | skip | animal-dot-to-dot | Activities |  | animal dot to dot printable | Three animals from 1 to 25, color after connecting |
+| 69 | skip | animal-color-by-number | Activities |  | color by number for kids | Numbered shapes for tap to fill, simple 6 color key |
+| 70 | done 2026-11-22 | dots-and-boxes-game | Activities |  | dots and boxes printable | Classic two player game, play online with the pen, rules by age |
 | 71 | todo | tic-tac-toe-boards | Activities |  | tic tac toe printable | Nine boards per sheet, scoreboard with editable player names |
-| 72 | todo | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
+| 72 | skip | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
 | 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
 | 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
 | 75 | done 2026-11-20 | christmas-wish-list-for-kids | Holiday Printables | christmas | christmas wish list printable | Editable name, picture boxes for pre-writers, one gift for someone else line |
 | 76 | done 2026-11-21 | christmas-thank-you-notes-for-kids | Holiday Printables | christmas | kids thank you notes printable | Fill in the blank notes with editable name, drawing box |
 | 77 | skip | new-year-goals-for-kids | Holiday Printables | new-year | new year goals for kids printable | Editable goal boxes, picture prompts, check-in dates |
-| 78 | todo | new-years-eve-countdown-bags | Holiday Printables | new-year | new years eve countdown for kids | Hourly activity labels for an early kid countdown |
+| 78 | done 2026-11-22 | new-years-eve-countdown-bags | Holiday Printables | new-year | new years eve countdown for kids | Hourly activity labels for an early kid countdown |
 | 79 | todo | valentines-cards-for-kids | Holiday Printables | valentines-day | printable valentines for kids | Classroom cards with editable To and From, no candy needed |
 | 80 | todo | easter-egg-hunt-clues | Holiday Printables | easter | easter egg hunt clues printable | Rhyming clue cards for indoor and outdoor hunts |
 | 81 | todo | mothers-day-card-to-color | Holiday Printables | mothers-day | mothers day card printable | Fold-in-half card with editable name and message |
