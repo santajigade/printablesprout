@@ -3,8 +3,24 @@ import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import Ad from '../components/Ad.astro';
 import { allPrintables } from '../lib/printables';
+import { allStories } from '../lib/stories';
+import fs from 'node:fs';
 import { SITE, SOCIAL, CATEGORIES, OCCASIONS, upcomingOccasion } from '../lib/site';
 const items = await allPrintables();
+const stories = await allStories();
+// Browse by type: one picture per type. FEATURED picks the best looking sheet; otherwise the newest one is used.
+const FEATURED = { 'coloring-pages': 'reindeer-coloring-page', 'holiday-printables': 'thankful-turkey', 'chore-reward-charts': 'reward-sticker-chart',
+  'daily-routines': 'morning-routine-chart', 'activities-games': 'tic-tac-toe-boards' };
+const pic = (slug) => fs.existsSync(`public/thumbs/${slug}.png`) ? `/thumbs/${slug}.png` : `/images/${slug}.png`;
+const TYPES = [
+  ...CATEGORIES.map((c) => {
+    const inCat = items.filter((p) => p.data.category === c.name);
+    const best = inCat.find((p) => p.data.slug === FEATURED[c.slug]) ?? inCat[0];
+    return best && { href: `/category/${c.slug}/`, name: c.name, sub: c.sub, bg: c.bg, img: pic(best.data.slug), alt: best.data.imageAlt, sheet: true };
+  }),
+  { href: '/games/', name: 'Games', sub: 'Play online: math, ABC and more', bg: '#dff0e6', img: '/images/games/car-race-math.svg', alt: 'Car race math game', sheet: false },
+  stories[0] && { href: '/stories/', name: 'Stories', sub: 'Read aloud, quiz and print', bg: '#fde2cc', img: stories[0].data.image, alt: stories[0].data.imageAlt, sheet: false },
+].filter(Boolean);
 const fresh = items.slice(0, 8);
 const occ = upcomingOccasion();
 // Spotlight: the next occasion after the banner one that already has printables
@@ -38,9 +54,13 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
 
   <section class="wrap section">
     <div class="sec-head"><h2>Browse by type</h2></div>
-    <div class="tiles">
-      {CATEGORIES.map((c) => <a class="tile" href={`/category/${c.slug}/`} style={`background:${c.bg}`}><strong>{c.name}</strong><span>{c.sub}</span></a>)}
-      <a class="tile" href="/games/" style="background:#dff0e6"><strong>Games</strong><span>Play online: math, ABC and more</span></a>
+    <div class="type-tiles">
+      {TYPES.map((t) => (
+        <a class="type-tile" href={t.href} style={`--tbg:${t.bg}`}>
+          <span class={`type-pic${t.sheet ? ' is-sheet' : ''}`}><img src={t.img} alt={t.alt} width="600" height="400" loading="lazy" /></span>
+          <strong>{t.name}</strong><span class="type-sub">{t.sub}</span>
+        </a>
+      ))}
     </div>
   </section>
 

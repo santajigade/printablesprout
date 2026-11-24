@@ -72,7 +72,7 @@ def check(path):
         for v in re.findall(r'\{\s*key:\s*"(\w+)",\s*label:\s*"[^"]*"\s*\}', fm.split('variants:')[1] if 'variants:' in fm else ''):
             if f'data-variant="{v}"' not in svg: err(slug, f'variant {v} missing in the art')
         if re.search(r'<image|xlink:href|https?://', svg.replace('http://www.w3.org/2000/svg', '')): err(slug, 'art must not embed images or links')
-    for f in (f'public/images/{slug}.png', f'public/og/{slug}.png', f'public/pins/{slug}.png', f'public/pdf/{slug}-letter.pdf', f'public/pdf/{slug}-a4.pdf'):
+    for f in (f'public/images/{slug}.png', f'public/og/{slug}.png', f'public/pins/{slug}.png', f'public/thumbs/{slug}.png', f'public/pdf/{slug}-letter.pdf', f'public/pdf/{slug}-a4.pdf'):
         if not os.path.exists(os.path.join(ROOT, f)): err(slug, f'missing {f} (run python3 scripts/render.py {slug})')
 
 def check_story(path):

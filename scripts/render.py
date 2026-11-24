@@ -51,17 +51,30 @@ COLOR_JS = """() => {
 def page_html(svg, css):
     return f'<!doctype html><html><head><meta charset="utf-8"><style>html,body{{margin:0;background:#fff}}{css}</style></head><body>{svg}</body></html>'
 
+def thumb(pw_page, slug, sheet=None):
+    if sheet is None:
+        sheet = re.sub(r'<\?xml[^>]*>', '', open(os.path.join(ROOT, 'src/art', slug + '.svg')).read()).replace('<svg ', '<svg id="s" ', 1)
+    os.makedirs(os.path.join(ROOT, 'public/thumbs'), exist_ok=True)
+    pw_page.set_viewport_size({'width': 600, 'height': 776})
+    pw_page.set_content(page_html(sheet.replace('id="s"', 'id="og1"'), '#og1{width:600px;height:776px;display:block}'))
+    pw_page.evaluate(COLOR_JS)
+    pw_page.wait_for_timeout(80)
+    pw_page.screenshot(path=os.path.join(ROOT, 'public/thumbs', slug + '.png'))
+
 def render(pw_page, slug):
     svg = open(os.path.join(ROOT, 'src/art', slug + '.svg')).read()
     svg = re.sub(r'<\?xml[^>]*>', '', svg)
     sheet = svg.replace('<svg ', '<svg id="s" ', 1)
-    for d in ('images', 'og', 'pdf', 'pins'):
+    for d in ('images', 'og', 'pdf', 'pins', 'thumbs'):
         os.makedirs(os.path.join(ROOT, 'public', d), exist_ok=True)
 
     # Thumbnail
     pw_page.set_viewport_size({'width': 600, 'height': 776})
     pw_page.set_content(page_html(sheet, '#s{width:600px;height:776px;display:block}'))
     pw_page.screenshot(path=os.path.join(ROOT, 'public/images', slug + '.png'))
+
+    # Colored thumbnail (home page tiles and listings that want a finished look)
+    thumb(pw_page, slug, sheet)
 
     # Social image: a colored copy in front of the blank sheet, brand fonts
     t = html.escape(title_of(slug))
