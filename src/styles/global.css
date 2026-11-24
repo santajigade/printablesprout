@@ -38,7 +38,8 @@ body { padding-top: var(--hh); }
 .nav-drop a:hover { background: var(--accent-soft); }
 .icon-btn { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line2); border-radius: 22px; background: var(--white); color: var(--ink); cursor: pointer; flex: none; }
 .menu-btn { display: none; }
-@media (max-width: 900px) {
+@media (min-width: 1021px) and (max-width: 1180px) { .main-nav { gap: 14px; font-size: 14px; } .logo { font-size: 22px; } .logo-mark { width: 30px; height: 30px; } }
+@media (max-width: 1020px) {
   .menu-btn { display: inline-flex; }
   .main-nav { display: none; position: absolute; left: 0; right: 0; top: 100%; background: var(--white); flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 4px; padding: 12px 24px 18px; border-bottom: 1px solid var(--line); max-height: calc(100vh - var(--hh)); max-height: calc(100dvh - var(--hh)); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 10px 20px rgba(60,40,20,.10); }
   body.nav-open .main-nav { display: flex; }
@@ -212,3 +213,12 @@ body { padding-top: var(--hh); }
 .story-card-body h2, .story-card-body h3 { margin: 0 0 6px; font-size: 20px; }
 .story-card-body p { margin: 0 0 10px; font-size: 15px; color: var(--soft); }
 @media print { .hero-name, .share, .more-stories { display: none !important; } }
+/* read aloud */
+.read-aloud { display: flex; gap: 10px; align-items: center; margin: 0 0 22px; }
+.read-btn { display: inline-flex; align-items: center; gap: 10px; font: inherit; font-weight: 800; font-size: 18px; color: var(--accent-dark, #a4430f); background: #fff1e3; border: 2px solid #f3cfae; border-radius: 999px; padding: 12px 24px 12px 18px; cursor: pointer; transition: background .15s, transform .15s; }
+.read-btn:hover { background: #ffe6cf; transform: translateY(-1px); }
+.read-btn.on { background: #ffe1c7; border-color: #e9a874; }
+.stop-btn { font: inherit; font-weight: 700; font-size: 16px; color: var(--soft); background: none; border: 0; padding: 12px; cursor: pointer; text-decoration: underline; }
+.story-body .reading { background: #fff1c4; border-radius: 8px; box-shadow: 0 0 0 6px #fff1c4; transition: background .2s; }
+.story-title.reading { background: #fff1c4; border-radius: 8px; }
+@media print { .read-aloud { display: none !important; } }

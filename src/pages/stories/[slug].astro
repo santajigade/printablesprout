@@ -41,6 +41,13 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
       <label for="hero">Make your child the hero: type a name and the story changes</label>
       <div><input id="hero" type="text" maxlength="14" placeholder={`e.g. ${d.hero}`} autocomplete="off" /><button type="button" id="hero-reset">Reset</button></div>
     </form>
+    <div class="read-aloud" hidden>
+      <button type="button" id="read-btn" class="read-btn" aria-live="polite">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        <span>Read Story</span>
+      </button>
+      <button type="button" id="stop-btn" class="stop-btn" hidden>Stop</button>
+    </div>
     <div class="story-body prose" data-hero={d.hero}><Content /></div>
     <section class="story-extra">
       <h2>Talk about the story</h2>
@@ -70,6 +77,42 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     }
     input.addEventListener('input', function () { apply(input.value); });
     document.getElementById('hero-reset').addEventListener('click', function () { input.value = ''; apply(''); });
+  })();
+  (function () {
+    var synth = window.speechSynthesis, wrap = document.querySelector('.read-aloud');
+    if (!synth || !window.SpeechSynthesisUtterance || !wrap) return;
+    wrap.hidden = false;
+    var btn = document.getElementById('read-btn'), label = btn.querySelector('span'), stop = document.getElementById('stop-btn');
+    var state = 'idle', i = 0, parts = [];
+    function collect() {
+      // Read the title and the story; skip the closing activity section (the last ## heading onward)
+      var els = Array.prototype.slice.call(document.querySelectorAll('.story-body > p, .story-body > h2'));
+      var heads = els.filter(function (e) { return e.tagName === 'H2'; });
+      var cut = heads.length > 1 ? els.indexOf(heads[heads.length - 1]) : els.length;
+      return [document.querySelector('.story-title')].concat(els.slice(0, cut));
+    }
+    function voice() {
+      var v = synth.getVoices().filter(function (x) { return /^en(-|_)US/i.test(x.lang); });
+      return v.find(function (x) { return /natural|samantha|google us|aria|jenny/i.test(x.name); }) || v[0] || null;
+    }
+    function mark(el) { document.querySelectorAll('.reading').forEach(function (e) { e.classList.remove('reading'); }); if (el) { el.classList.add('reading'); el.scrollIntoView({ block: 'center', behavior: 'smooth' }); } }
+    function set(st) { state = st; label.textContent = st === 'playing' ? 'Pause' : st === 'paused' ? 'Resume' : 'Read Story'; btn.classList.toggle('on', st !== 'idle'); stop.hidden = st === 'idle'; }
+    function next() {
+      if (state === 'idle') return;
+      if (i >= parts.length) { mark(null); set('idle'); return; }
+      var el = parts[i++], text = (el.innerText || '').replace(/:.*$/, el.classList.contains('story-title') ? '' : '$&').trim();
+      if (!text) return next();
+      var u = new SpeechSynthesisUtterance(text); u.rate = 0.9; u.pitch = 1.05; var v = voice(); if (v) u.voice = v; u.lang = 'en-US';
+      u.onend = function () { if (state === 'playing') next(); };
+      mark(el); synth.speak(u);
+    }
+    btn.addEventListener('click', function () {
+      if (state === 'idle') { synth.cancel(); parts = collect(); i = 0; set('playing'); next(); }
+      else if (state === 'playing') { synth.pause(); set('paused'); }
+      else { synth.resume(); set('playing'); }
+    });
+    stop.addEventListener('click', function () { set('idle'); synth.cancel(); mark(null); });
+    window.addEventListener('pagehide', function () { synth.cancel(); });
   })();
   </script>
 </Base>

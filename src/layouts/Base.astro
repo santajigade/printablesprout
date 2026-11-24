@@ -93,7 +93,7 @@ const SOCIAL_ICONS: Record<string, string> = {"pinterest": '<circle cx="12" cy="
       function setOpen(open) { b.classList.toggle('nav-open', open); btn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
       size(); shade();
       window.addEventListener('scroll', shade, { passive: true });
-      window.addEventListener('resize', function () { size(); if (window.innerWidth > 900) setOpen(false); });
+      window.addEventListener('resize', function () { size(); if (window.innerWidth > 1020) setOpen(false); });
       if (document.fonts) document.fonts.ready.then(size);
       btn.addEventListener('click', function () { setOpen(!b.classList.contains('nav-open')); });
       h.querySelector('.main-nav').addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
