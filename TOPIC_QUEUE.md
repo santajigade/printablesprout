@@ -79,7 +79,7 @@ The daily run takes topics from this table. Rules:
 | 68 | skip | animal-dot-to-dot | Activities |  | animal dot to dot printable | Three animals from 1 to 25, color after connecting |
 | 69 | skip | animal-color-by-number | Activities |  | color by number for kids | Numbered shapes for tap to fill, simple 6 color key |
 | 70 | done 2026-11-22 | dots-and-boxes-game | Activities |  | dots and boxes printable | Classic two player game, play online with the pen, rules by age |
-| 71 | done 2026-11-23 | tic-tac-toe-boards | Activities |  | tic tac toe printable | Nine boards per sheet, scoreboard with editable player names |
+| 71 | done 2026-11-23 | tic-tac-toe-boards | Activities |  | tic tac toe printable | Redesigned 2026-11-24: Penguins vs Snowmen and Bees vs Ladybugs board with cut-out team pieces, slide mode |
 | 72 | skip | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
 | 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
 | 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |

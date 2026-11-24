@@ -1,76 +1,79 @@
 ---
-title: "Tic Tac Toe Printable: Free Game Boards With a Scoreboard"
+title: "Tic Tac Toe Printable: Penguins vs Snowmen With Cut-Out Pieces"
 slug: "tic-tac-toe-boards"
-description: "Free tic tac toe printable with nine game boards and a scoreboard with player names, plus a four in a row version on 4 by 4 boards. Play online or print it."
+description: "Free tic tac toe board game for kids: color and cut out a penguin or snowman team, plus a bees vs ladybugs version and a slide mode. Print free or play online."
 date: 2026-11-23T19:44:00-05:00
+updated: 2026-11-24T01:30:00-05:00
 category: "Activities"
-tags: ["tic tac toe", "two player game", "pencil and paper games", "travel games"]
-keywords: "tic tac toe printable, tic tac toe board printable, noughts and crosses printable"
+tags: ["tic tac toe", "two player game", "board game for kids", "winter activity", "cut and play"]
+keywords: "tic tac toe printable, tic tac toe board game for kids, printable board game with pieces"
 ages: "4 to 10"
-time: "2 to 20 minutes"
+time: "10 minutes to make, 2 to 5 minutes a game"
 fields:
   - { key: "name", label: "Family or child's name", placeholder: "e.g. Mia", max: 12 }
-  - { key: "p1", label: "Player X name", placeholder: "e.g. Mia", max: 10 }
-  - { key: "p2", label: "Player O name", placeholder: "e.g. Grandpa", max: 10 }
-tool: "draw"
+  - { key: "p1", label: "Team 1 player name", placeholder: "e.g. Mia", max: 10 }
+  - { key: "p2", label: "Team 2 player name", placeholder: "e.g. Grandpa", max: 10 }
 variants:
-  - { key: "nine", label: "Nine classic boards" }
-  - { key: "four", label: "Four in a row, 4 by 4" }
+  - { key: "snow", label: "Penguins vs Snowmen" }
+  - { key: "bugs", label: "Bees vs Ladybugs" }
 image: "/images/tic-tac-toe-boards.png"
-imageAlt: "Tic tac toe printable with nine empty three by three game boards labeled Game 1 to Game 9 and a scoreboard with circles for Player X, Player O and draws"
+imageAlt: "Penguins vs Snowmen tic tac toe printable with a big three by three game board, five round penguin pieces and five round snowman pieces to color and cut out"
 sources:
   - name: "Scientific American, The Enduring Appeal of Tic-Tac-Toe (adapted from Martin Gardner, Mathematical Games, March 1957)"
     url: "https://www.scientificamerican.com/video/the-enduring-appeal-of-tic-tac-toe/"
   - name: "Plus Magazine (plus.maths.org), Tic-tac-toe, the other way around!"
     url: "https://plus.maths.org/content/tic-tac-toe"
 faq:
+  - q: "Why are there five pieces for each team?"
+    a: "On a 3 by 3 board the player who goes first can place at most five pieces before the board is full, so five per team is always enough. Slide mode uses only three of them."
   - q: "Can anyone always win tic tac toe?"
-    a: "No. Martin Gardner wrote in Scientific American that when both sides play well, the game must end in a draw. You can only win when the other player makes a mistake."
-  - q: "Who should go first?"
-    a: "Any fair way works. A simple house rule is that whoever lost the last game goes first in the next one, and after a draw the players swap."
-  - q: "How do I play on a tablet?"
-    a: "The sheet opens with the drawing pen. Each player picks a color and draws X or O in a square. Every square is also a fillable shape, so younger kids can tap to fill a square in their color instead of writing a letter."
+    a: "No. Martin Gardner wrote in Scientific American that when both players play well, the classic game must end in a draw. That is why slide mode is on the sheet: pieces keep moving, so the game goes on until someone gets three in a row or you call it."
+  - q: "How do we play on a tablet without cutting anything?"
+    a: "Every square on the big board is a fillable shape. Each player picks a color, and on your turn you tap a square to fill it. Three squares of your color in a row wins. Tap the undo button to play again."
 ---
-Tic tac toe needs a pencil, two players and a grid, and this sheet gives you nine grids at once. Players take turns marking an empty square, one with X and one with O. The first to get three marks in a row across, down or on a diagonal wins. Under the boards is a scoreboard: type both player names and they print on the sheet, then color one circle for each win and one in the bottom row for each draw.
+This is tic tac toe turned into a real little board game. Kids color their own team of pieces, cut them out and play on a big board, so there is no pencil and nothing to erase. Pick the **Penguins vs Snowmen** version for winter, or switch to **Bees vs Ladybugs** for a garden game that works any time of year. Type the players' names before printing and they appear above each team.
 
-## Two versions for different ages
+## What is on the sheet
 
-| Version | Boards | Rule | Good for |
-|---|---|---|---|
-| Nine classic boards | Nine 3 by 3 grids, Game 1 to Game 9 | Three in a row wins | Ages 4 and up, a quick best of nine match |
-| Four in a row, 4 by 4 | Four bigger 4 by 4 grids | Four in a row wins | Ages 7 and up, longer games with more to plan |
-
-Nine boards fit a long wait at a restaurant or a car ride, and an odd number of games means a match can always have a winner, unless the draws pile up. The 4 by 4 boards are a house challenge for kids who have figured out the classic game and want something less predictable.
-
-## Teaching the game in four steps
-
-Young players learn faster with one idea at a time. Move to the next step only when the last one feels easy.
-
-1. **Find a line.** Before playing, ask your child to trace all eight ways to make three in a row on an empty board: three across, three down and two diagonals.
-2. **Take the win.** On each turn, first check: can I make three in a row right now?
-3. **Block the win.** If you cannot win, check whether the other player has two in a row with an empty square. Put your mark there.
-4. **Pick a strong start.** In his 1957 Scientific American column, Martin Gardner called a corner the strongest opening and noted that a center opening can be answered by taking a corner.
-
-Gardner also wrote that a sharp child can become unbeatable within about an hour. That is a nice goal to say out loud: play until nobody can beat you, then switch to the reverse game below.
-
-## Why so many games end in a draw
-
-<a href="https://www.scientificamerican.com/video/the-enduring-appeal-of-tic-tac-toe/" target="_blank" rel="noopener">Martin Gardner's classic Scientific American column</a> explains that if both players make no mistakes, tic tac toe always ends in a draw. He also counted 15,120 different ways the first five moves can go, which surprises kids who think the game is tiny. Forms of the game were played in ancient China, Greece and Rome, so your child is joining a very long line of players.
-
-Once draws start piling up on the scoreboard, that is a sign both players have learned the basics. It is a good moment to ask an older child why the game keeps ending even, and let them explain blocking in their own words.
-
-## Turn it around: three in a row loses
-
-For kids who are bored of draws, use the same boards with a reverse rule: **whoever makes three in a row loses.** <a href="https://plus.maths.org/content/tic-tac-toe" target="_blank" rel="noopener">Plus Magazine</a> shows that this version is also a draw with perfect play, and describes a simple trick for the first player. Start in the center. After that, every time the other player marks a square, mark the square directly opposite it through the center. Play this way and the first player never loses.
-
-Let your child discover the mirror trick on their own first. Give them three boards to experiment, then show it.
-
-| Age | Version to try |
+| Part | What kids do with it |
 |---|---|
-| 4 to 5 | Classic boards, tap to fill a color instead of writing X and O |
-| 6 to 7 | Classic boards with the four teaching steps |
-| 8 to 10 | Reverse rule on the classic boards, then the 4 by 4 boards |
+| Big 3 by 3 board | Nine roomy squares, each big enough to hold one round piece |
+| 5 penguins (or 5 bees) | Color, cut out and play as Team 1 |
+| 5 snowmen (or 5 ladybugs) | Color, cut out and play as Team 2 |
+| Rule box | A reminder of slide mode for older kids |
 
-## More paper games for two
+Every piece has a body, a face and small parts like a beak, hat, scarf, wings or spots to color, so the coloring is half the fun.
 
-When your kids want a game with more strategy, the [dots and boxes printable](/dots-and-boxes-game/) is the natural next step. For a quiet puzzle on your own, try [winter spot the difference](/winter-spot-the-difference/), and the [mitten matching game](/mitten-matching-game/) suits a younger sibling who wants to join in.
+## Making the game in ten minutes
+
+1. **Print one sheet.** Heavier paper or card stock makes pieces that are easier to pick up, but plain printer paper works.
+2. **Color the teams.** Each child colors one team. Encourage two clearly different looks, such as blue penguins against red-scarf snowmen, so it is easy to see who is winning.
+3. **Cut on the dashed circles.** Younger kids can cut a square around each circle instead.
+4. **Color the board too** if you like. A light color keeps the pieces easy to see.
+
+Keep the pieces in an envelope or a small zip bag and the game is ready for car rides, waiting rooms and winter break afternoons. If you need a spare piece, a coin or a button works.
+
+## Three ways to play, from preschool to big kids
+
+| Mode | Rules | Ages |
+|---|---|---|
+| Classic | Take turns placing one piece. Three of your team in a row, across, down or diagonal, wins. | 4 and up |
+| Slide mode | Each player uses only 3 pieces. Once all 6 are on the board, a turn means sliding one of your own pieces to any empty square. First to make three in a row wins. | 7 and up |
+| Upside down | Classic rules, but whoever makes three in a row **loses**. | 8 and up |
+
+Slide mode is made for the classic problem with tic tac toe: games between careful players keep ending in a tie. With only three pieces each and a board that keeps changing, there is no full board to stop the game. Gardner's column also describes an old version played with six counters that move around the same 3 by 3 board, so the idea of moving pieces is a very old one.
+
+For the upside down mode, <a href="https://plus.maths.org/content/tic-tac-toe" target="_blank" rel="noopener">Plus Magazine explains a neat trick</a>: the first player takes the center, then always answers by placing a piece in the square directly opposite the other player's last move. Played that way, the first player never loses. Let an older child hunt for the trick before you share it.
+
+## Teaching a young player in four steps
+
+1. **Find the lines.** Point to all eight ways to make three in a row: three across, three down and two diagonals.
+2. **Look for a win.** Before each move, ask: can I make three in a row right now?
+3. **Block.** If not, check whether the other team has two in a row with an empty square, and put a piece there.
+4. **Start strong.** <a href="https://www.scientificamerican.com/video/the-enduring-appeal-of-tic-tac-toe/" target="_blank" rel="noopener">Martin Gardner's Scientific American column</a> calls a corner the strongest opening move and says a center opening can be met by taking a corner.
+
+Gardner also counted 15,120 different ways the first five moves can go, and noted that forms of the game were played in ancient China, Greece and Rome. Ask your child to guess the number before you tell them.
+
+## More games to play together
+
+When your kids are ready for a game with deeper strategy, print the [dots and boxes game boards](/dots-and-boxes-game/). The [mitten matching game](/mitten-matching-game/) is another cut and play winter game for little ones, and the [winter break boredom busters list](/winter-break-boredom-buster-list/) has a whole box of ideas for playing together.
