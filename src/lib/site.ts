@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'PrintableSprout',
-  tagline: 'Free printables for busy parents and teachers',
+  tagline: 'Color, play, read and learn: free fun for kids',
   url: 'https://printablesprout.com',
   email: 'contact@printablesprout.com',
   // Paste the AdSense publisher id (ca-pub-XXXX) to turn on ads site wide

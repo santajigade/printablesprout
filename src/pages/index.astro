@@ -35,11 +35,11 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     publishingPrinciples: `${SITE.url}/editorial-policy/`, sameAs: SOCIAL.map((s) => s.url) },
 ] };
 ---
-<Base title={SITE.name} description="Free printables for parents and teachers: coloring pages, chore charts, routines and holiday activities. Color online or print free on Letter and A4." jsonld={jsonld}>
+<Base title={`${SITE.name}: Free Coloring Pages, Kids Games and Stories`} description="Free coloring pages, printables, learning games and illustrated stories for kids aged 3 to 10. Color online, play, read aloud or print free on Letter and A4." jsonld={jsonld}>
   <section class="wrap hero">
     {occ && <a class="season" href={`/holiday/${occ.slug}/`}>{occ.label}</a>}
-    <h1>Free printables for busy parents and teachers</h1>
-    <p>Color online or print free. Add your child's name to any page. Original art that prints right on Letter and A4.</p>
+    <h1>Color, play, read and learn: free fun for kids</h1>
+    <p>Color online or print free, play learning games, and read stories with your child as the hero. Original art, no sign up.</p>
     <form class="searchbox" action="/search/" method="get" role="search">
       <label for="q" class="sr">Search printables</label>
       <input id="q" name="q" type="search" placeholder="Try turkey, chore chart, dinosaur" />
