@@ -26,10 +26,10 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 16 | done 2026-11-23 | recycling-sorter | Recycling Sorter | life | 6-8 | sort items into recycle, compost or trash bins; rules from EPA pages read in the run | activities category |
 | 17 | done 2026-11-23 | maze-runner | Maze Runner | brain | 3-5, 6-8 | guide a little explorer through a maze with arrow buttons or keys; new maze each round | activities category |
 | 18 | done 2026-11-23 | number-line-jump | Number Line Jump | math | 6-8 | a frog jumps along a number line; tap where it lands after +/- jumps | activities category |
-| 19 | todo | marathi-akshar | Marathi Akshar Tracing | hindi-marathi | 3-5, 6-8 | trace Marathi letters (reuse the ABC tracing approach with Devanagari); verify letter order from a reliable source | activities category |
-| 20 | todo | rhyme-time | Rhyme Time | english | 6-8 | tap the picture that rhymes with the word | activities category |
+| 19 | done 2026-11-24 | marathi-akshar | Marathi Akshar Tracing | hindi-marathi | 3-5, 6-8 | trace Marathi letters (reuse the ABC tracing approach with Devanagari); verify letter order from a reliable source | activities category |
+| 20 | done 2026-11-24 | rhyme-time | Rhyme Time | english | 6-8 | tap the picture that rhymes with the word | activities category |
 | 21 | done 2026-11-20 | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
-| 22 | todo | simon-colors | Color Echo | brain | 3-5, 6-8 | watch and listen to a color sequence, repeat it; one more step each round | activities category |
+| 22 | done 2026-11-24 | simon-colors | Color Echo | brain | 3-5, 6-8 | watch and listen to a color sequence, repeat it; one more step each round | activities category |
 | 23 | todo | days-of-week | Days of the Week Train | life | 3-5, 6-8 | put day carriages in order, then answer "what comes after" | weekly-chore-chart |
 | 24 | done 2026-11-21 | fraction-pizza | Fraction Pizza | math | 9-10 | tap slices to show a fraction, then compare fractions | activities category |
 | 25 | todo | opposites-match | Opposites Match | english | 3-5, 6-8 | match picture opposites: big and small, hot and cold | activities category |
@@ -52,7 +52,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 42 | todo | weather-dress-up | Dress for the Weather | life | 3-5 | pick clothes that suit sunny, rainy or snowy days | activities category |
 | 43 | todo | word-ladder | Word Ladder | english | 9-10 | change one letter at a time to climb from one word to another | activities category |
 | 44 | todo | tangram-shapes | Shape Puzzle | brain | 6-8, 9-10 | slide simple shapes into an outline | activities category |
-| 45 | todo | area-builder | Area and Perimeter Builder | math | 9-10 | paint rectangles on a grid to hit a target area and perimeter; later levels ask for two shapes with the same area but different perimeters | activities category |
+| 45 | done 2026-11-24 | area-builder | Area and Perimeter Builder | math | 9-10 | paint rectangles on a grid to hit a target area and perimeter; later levels ask for two shapes with the same area but different perimeters | activities category |
 | 46 | todo | logic-grid | Logic Grid Detective | brain | 9-10 | solve who-has-what puzzles from 3 to 5 clues on a 3x3, then 4x4 grid; mark yes and no cells | activities category |
 | 47 | todo | coordinate-treasure | Treasure Map Coordinates | math | 9-10 | read clues as (x, y) points and dig on a grid to find treasure; last level uses all four quadrants | activities category |
 | 48 | todo | balance-algebra | Balance Scale Puzzles | math | 9-10 | find the weight of the mystery box that keeps the scale level; two step and two box levels | activities category |
