@@ -14,9 +14,9 @@ Render needs Chrome or Chromium (`/usr/bin/google-chrome` is used when present; 
 ## 2. Check the season
 Open `src/lib/site.ts`. If any `OCCASIONS.next` date is in the past, set it to the next year's date (verify the date from an official source such as an opm.gov or uscourts.gov holiday schedule, or the occasion's official site) and update its `label`.
 
-## 3. Pick today's topics (3, never more)
+## 3. Pick today's topics (4, never more)
 1. `python3 scripts/dupes.py` to see what is published.
-2. From `TOPIC_QUEUE.md`, take `todo` rows: occasions 3 to 45 days away first, then evergreen rows from the top. At least 2 of the 3 must be Coloring Pages or Activities.
+2. From `TOPIC_QUEUE.md`, take `todo` rows: occasions 3 to 45 days away first, then evergreen rows from the top. At least 3 of the 4 must be Coloring Pages or Activities.
 3. A fresh timely topic not in the queue is allowed only if it adds real value (for example a newly announced event date) and passes the duplicate check.
 4. For each topic: `python3 scripts/dupes.py "<topic>"`. LIKELY DUPLICATE means mark it `skip` and take the next.
 5. Write down the one line value add for each topic before starting. If you cannot name one, skip the topic.

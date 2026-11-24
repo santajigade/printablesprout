@@ -21,8 +21,8 @@ The daily learning games run (4 games a day, at least 1 a big game for ages 9 to
 
 ## Writing rules (follow every time)
 
-1. **Volume: 3 printables per day, never more** (one run daily at 6 AM IST; decided 2026-11-16 to avoid scaled content risk). Publishing fewer is better than publishing weak ones. Skip a slot rather than fill it.
-   **Focus: coloring pages and games.** At least 2 of the 3 daily printables are Coloring Pages or Activities (mazes, dot to dot, color by number, word search, bingo, spot the difference, two player games). Charts, routines and For Parents pages are at most 1 a day.
+1. **Volume: 4 printables per day, never more** (one run daily at 6 AM IST; was 3 from 2026-11-16, raised to 4 on 2026-11-24 at the owner's request; the cap exists to avoid scaled content risk). Publishing fewer is better than publishing weak ones. Skip a slot rather than fill it.
+   **Focus: coloring pages and games.** At least 3 of the 4 daily printables are Coloring Pages or Activities (mazes, dot to dot, color by number, word search, bingo, spot the difference, two player games). Charts, routines and For Parents pages are at most 1 a day.
 2. **One line value add before you start.** Write down what a parent gets here that other free printables do not give them. Every page needs at least one section the sources do not offer in that form: a step by step plan, an age table, a worked example, a checklist or a game built on the sheet.
 3. **Facts only from sources read in this run.** Every fact, number, date and price must come from a source you actually read in this run, with at least 2 reliable sources for any page that states facts (official sites first: .gov, AAP healthychildren.org, CDC, NOAA, NASA, NPS, EPA, major museums and zoos; then major outlets). If it cannot be verified, leave it out. No invented quotes, statistics, testimonials or personal experiences ("my kids loved this" is never allowed).
 4. **Length.** Printable pages: 500 to 900 words of page text including the FAQ (useful, not padded). Guide style pages (for example a chores by age guide): 900 to 1,500 words. Timely pages: 700 to 1,000 words.
