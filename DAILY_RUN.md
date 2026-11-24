@@ -20,6 +20,7 @@ Open `src/lib/site.ts`. If any `OCCASIONS.next` date is in the past, set it to t
 3. A fresh timely topic not in the queue is allowed only if it adds real value (for example a newly announced event date) and passes the duplicate check.
 4. For each topic: `python3 scripts/dupes.py "<topic>"`. LIKELY DUPLICATE means mark it `skip` and take the next.
 5. Write down the one line value add for each topic before starting. If you cannot name one, skip the topic.
+6. **Color, play, level up.** For every Coloring Page and Activity, also write down in one line each: what kids color, what they do or play with the sheet, and the harder mode or second version (see the rule in `CLAUDE.md`). Redesign plain queue rows into something creative; skip a topic that still would not keep a child engaged.
 
 ## 4. Research
 For each topic, search the web and read at least 2 reliable sources for any fact the page will state (official sites first). Note the URLs for the frontmatter `sources`. Use competitor printable sites only to see what already exists, never as a source and never to copy.

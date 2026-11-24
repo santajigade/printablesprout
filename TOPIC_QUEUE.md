@@ -3,6 +3,7 @@
 The daily run takes topics from this table. Rules:
 
 - **Focus: coloring pages and games.** Of the 4 printables each day, at least 3 should be Coloring Pages or Activities (mazes, dot to dot, color by number, word search, bingo, spot the difference). Charts, routines and For Parents pages are at most 1 a day.
+- **Engaging first:** every Coloring Page and Activity must give kids something fun to color, something to do or play with the sheet, and a harder mode or second version (rule in `CLAUDE.md`). Treat each row's value add as a starting idea and make it more creative when you build it. New rows must describe the play idea, not just the sheet.
 - Pick `todo` rows from the top, but **season first**: a row with an occasion whose date (see `OCCASIONS` in `src/lib/site.ts`) is 3 to 45 days away beats an evergreen row. Skip rows whose occasion has already passed this year and move them to the bottom for next year.
 - Run `python3 scripts/dupes.py "<topic>"` before writing. If it says LIKELY DUPLICATE, mark the row `skip` and take the next.
 - After publishing, change `todo` to `done YYYY-MM-DD`. When fewer than 30 `todo` rows remain, research and append 30 new ones (real search demand, no protected characters).
