@@ -97,6 +97,7 @@ def check_story(path):
         if not 2 <= len(data.get('lesson') or []) <= 4: err(slug, 'What We Learn needs 2 to 4 lesson points')
     except ImportError:
         warn(slug, 'PyYAML missing, quiz not checked')
+    if '<section class="story-activity">' not in body: err(slug, 'wrap the closing activity in <section class="story-activity"> ... </section>')
     figs = re.findall(r'<img src="(/stories/[^"]+)"', body)
     if not 2 <= len(figs) <= 5: err(slug, f'needs 2 to 5 illustrations in the text, found {len(figs)}')
     for f in figs:

@@ -254,3 +254,39 @@ body { padding-top: var(--hh); }
 .hero-kind { display: flex; gap: 8px; margin-top: 10px; }
 .hero-kind button { font: inherit; font-weight: 800; font-size: 15px; border: 2px solid #efe2d4; background: #fffaf3; border-radius: 999px; padding: 6px 18px; cursor: pointer; }
 .hero-kind button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* story section order: story, What We Learn, Question Time, words, activity, print, ad, more stories */
+.story { display: flex; flex-direction: column; }
+.story > * { min-width: 0; }
+.story .story-body { display: contents; }
+.story .story-lesson { order: 2; }
+.story .quiz { order: 3; }
+.story .story-extra { order: 4; }
+.story .story-activity { order: 5; margin-top: 8px; }
+.story .print-story { order: 6; }
+.story .ad, .story > ins, .story > .ad-wrap { order: 7; }
+.story .more-stories { order: 8; }
+.story-activity { font-size: 18px; line-height: 1.7; }
+.print-story { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 8px 0 28px; }
+.print-story p { margin: 0; color: var(--soft); font-size: 15px; flex: 1; min-width: 220px; }
+@media print {
+  .story, .story * { visibility: visible !important; }
+  .story { position: absolute; left: 0; top: 0; width: 100%; max-width: none; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+  html, body { height: auto !important; }
+  .story .crumbs, .story .pr-meta, .story .hero-name, .story .read-aloud, .story .print-story, .story .more-stories, .story .ad,
+  .story .quiz-intro, .story .quiz-feedback, .story .quiz-score { display: none !important; }
+  body:has(.story) .site-header, body:has(.story) .site-footer { display: none !important; }
+  body:has(.story) .story { position: static; margin: 0 !important; padding: 0 !important; }
+  body:has(.story) main { padding: 0 !important; margin: 0 !important; }
+  .story-activity ol { margin-bottom: 0; }
+  .story-activity { margin-bottom: 0; }
+  .story-title { font-size: 26pt; }
+  .story-body { font-size: 14pt; line-height: 1.55; }
+  .story-body figure { break-inside: avoid; margin: 12pt 0; }
+  .story-body figure img { box-shadow: none; max-height: 9cm; width: auto; max-width: 100%; margin: 0 auto; }
+  .story-lesson, .quiz, .story-extra { border: 1px solid #ccc; background: #fff !important; margin: 10pt 0; }
+  .story-lesson, .story-extra { break-inside: avoid; }
+  .quiz-q { break-inside: avoid; }
+  .quiz-opt { background: #fff !important; border: 1px solid #bbb !important; min-height: 0; padding: 6pt 8pt; }
+  .quiz-opt .quiz-letter { background: #fff !important; border: 1px solid #999; color: #000 !important; }
+}

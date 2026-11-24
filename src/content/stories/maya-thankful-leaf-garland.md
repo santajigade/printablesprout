@@ -100,6 +100,8 @@ Maya looked up at <span data-p="poss">her</span> leaves. "Next year," <span data
 
 Everyone laughed. And that was Maya's favorite thank you of all.
 
+<section class="story-activity">
+
 ## Make a Thankful Garland Together
 
 You can turn this story into a 15 minute family activity before the big meal:
@@ -110,4 +112,4 @@ You can turn this story into a 15 minute family activity before the big meal:
 4. Tape the leaves to a long piece of string and hang it over the table.
 5. During dinner, take turns reading a leaf out loud and guessing who wrote it.
 
-For a paper version, print our free [Thankful Turkey printable](/thankful-turkey/) and give every feather a thank you, or keep the kids busy at the table with the [Thanksgiving kids' table placemat](/thanksgiving-kids-table-placemat/).
+</section>
