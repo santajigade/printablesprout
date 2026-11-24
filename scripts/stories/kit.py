@@ -4,12 +4,12 @@ Use it from a small per-story script:
     import sys; sys.path.insert(0, 'scripts/stories'); from kit import *
     s = Scene(sky='#cfe9f7')
     s.add(ground('#9ccf6e', 560)); s.add(tree(260, 560, 1.2)); s.add(kid(620, 600, shirt='#e8742c'))
-    s.save('maya-thankful-garland', 1)        # -> public/stories/<slug>/1.svg
+    s.save('maya-thankful-leaf-garland', 'girl-collecting-autumn-leaves')   # -> public/stories/<slug>/girl-collecting-autumn-leaves.svg
 
 Characters are simple and friendly: round heads, dot eyes, rosy cheeks. Never draw famous characters,
 brands or real people. Keep the same colors for a character in every picture of one story.
 """
-import math, os
+import math, os, re
 
 STYLE = {'mode': '3d'}   # '3d' = soft shaded toy look (default), 'flat' = plain flat colors
 _DEFS = {}
@@ -53,9 +53,11 @@ class Scene:
         t = f'<title>{title}</title>' if title else ''
         defs = '<defs><filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter><filter id="blush" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>' + ''.join(_DEFS.values()) + '</defs>'
         return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" role="img">{t}{defs}' + ''.join(self.parts) + '</svg>'
-    def save(self, slug, n, title=''):
+    def save(self, slug, name, title=''):
+        """name: a short descriptive keyword file name, e.g. 'girl-collecting-autumn-leaves' (no numbers like 1.svg)."""
+        name = re.sub(r'[^a-z0-9-]+', '-', str(name).lower()).strip('-')
         d = os.path.join(ROOT, 'public/stories', slug); os.makedirs(d, exist_ok=True)
-        p = os.path.join(d, f'{n}.svg'); open(p, 'w').write(self.svg(title)); return p
+        p = os.path.join(d, f'{name}.svg'); open(p, 'w').write(self.svg(title)); return p
 
 def g(inner, x=0, y=0, s=1, r=0):
     return f'<g transform="translate({x},{y}) rotate({r}) scale({s})">{inner}</g>'

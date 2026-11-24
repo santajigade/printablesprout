@@ -17,7 +17,8 @@ def render(pg, slug):
     full = re.search(r'^title:\s*"(.*)"', md, re.M).group(1); level = re.search(r'^level:\s*"(.*)"', md, re.M).group(1)
     ages = re.search(r'^ages:\s*"(.*)"', md, re.M).group(1)
     t, _, sub = full.partition(':'); t, sub = html.escape(t.strip()), html.escape(sub.strip())
-    img = 'data:image/svg+xml;base64,' + base64.b64encode(open(os.path.join(ROOT, 'public/stories', slug, '1.svg'), 'rb').read()).decode()
+    first = re.search(r'^image:\s*"(.*)"', md, re.M).group(1)
+    img = 'data:image/svg+xml;base64,' + base64.b64encode(open(os.path.join(ROOT, 'public' + first), 'rb').read()).decode()
     b = lambda n: BADGE.replace('<svg ', f'<svg width="{n}" height="{n}" style="margin-right:10px" ', 1)
     css = f'<style>{FONTS} body{{margin:0}} .t{{font-family:Fredoka,Arial}} .c{{background:#fff;color:#c2541b;border-radius:999px;padding:10px 22px;font-size:26px}}</style>'
     og = f'''{css}<div style="position:relative;width:1200px;height:630px;overflow:hidden;background:#fff3e6;font-family:Nunito,Arial;color:#2b2420">

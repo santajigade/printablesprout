@@ -9,7 +9,7 @@ hero: "Maya"
 occasion: "thanksgiving"
 tags: ["thanksgiving story", "gratitude", "autumn leaves", "family"]
 keywords: "thanksgiving story for kids, short thanksgiving story, gratitude story for kids"
-image: "/stories/maya-thankful-leaf-garland/1.svg"
+image: "/stories/maya-thankful-leaf-garland/girl-collecting-autumn-leaves-thanksgiving.svg"
 imageAlt: "Maya collecting autumn leaves in a basket under a big orange tree"
 questions:
   - "Why did Maya want to make something for the table?"
@@ -28,7 +28,7 @@ The wind was cold and the trees were bright. Red, orange and yellow leaves dance
 
 Maya thought and thought. Then she grabbed a basket and ran outside.
 
-<figure><img src="/stories/maya-thankful-leaf-garland/1.svg" alt="Maya collecting autumn leaves in a basket under a big orange tree" width="1200" height="800" loading="lazy" /></figure>
+<figure><img src="/stories/maya-thankful-leaf-garland/girl-collecting-autumn-leaves-thanksgiving.svg" alt="Maya collecting autumn leaves in a basket under a big orange tree" width="1200" height="800" loading="lazy" /></figure>
 
 ## A Basket Full of Leaves
 
@@ -48,7 +48,7 @@ On the yellow leaf she wrote: *I am thankful for Sam, even when he is noisy.*
 
 Sam laughed so hard he almost fell off his chair.
 
-<figure><img src="/stories/maya-thankful-leaf-garland/2.svg" alt="Maya and her little brother Sam writing thank yous on leaves at the kitchen table" width="1200" height="800" loading="lazy" /></figure>
+<figure><img src="/stories/maya-thankful-leaf-garland/kids-writing-thank-you-leaves-at-table.svg" alt="Maya and her little brother Sam writing thank yous on leaves at the kitchen table" width="1200" height="800" loading="lazy" /></figure>
 
 Maya kept going. She wrote thank yous for warm socks, for her teacher, for the dog next door and for pancakes on Saturday. Then she ran out of ideas.
 
@@ -70,7 +70,7 @@ She hugged everyone twice. Then she saw the garland. She walked slowly under it,
 
 When she reached the red leaf, Grandma smiled the biggest smile. "My stories?" she said. "Well then, I had better tell one tonight."
 
-<figure><img src="/stories/maya-thankful-leaf-garland/3.svg" alt="Grandma smiling at the thankful leaf garland over the Thanksgiving table with Maya and Sam" width="1200" height="800" loading="lazy" /></figure>
+<figure><img src="/stories/maya-thankful-leaf-garland/grandma-thankful-leaf-garland-thanksgiving-table.svg" alt="Grandma smiling at the thankful leaf garland over the Thanksgiving table with Maya and Sam" width="1200" height="800" loading="lazy" /></figure>
 
 ## A Story After Dinner
 

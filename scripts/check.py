@@ -89,6 +89,8 @@ def check_story(path):
         err(slug, 'needs at least 3 questions')
     figs = re.findall(r'<img src="(/stories/[^"]+)"', body)
     if not 2 <= len(figs) <= 5: err(slug, f'needs 2 to 5 illustrations in the text, found {len(figs)}')
+    for f in figs:
+        if re.search(r'/\d+\.svg$', f): err(slug, f'{f}: use a descriptive keyword file name, not a number')
     for f in figs + [get('image') or '']:
         if f and not os.path.exists(os.path.join(ROOT, 'public' + f)): err(slug, f'missing image {f}')
     for f in (f'public/og/stories-{slug}.png', f'public/pins/stories-{slug}.png'):
