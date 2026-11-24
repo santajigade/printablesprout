@@ -62,3 +62,23 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 52 | todo | angle-golf | Angle Mini Golf | math | 9-10 | set the angle in degrees and the power to putt the ball into the hole on a canvas course; learn acute, right and obtuse | activities category |
 | 53 | todo | elapsed-time | Train Timetable | life | 9-10 | read a simple timetable and work out how long trips take and when to leave | activities category |
 | 54 | todo | sum-squares | Sum Squares | brain | 9-10 | fill a small cross-sum grid so every row and column adds to its target | activities category |
+| 55 | todo | bubble-pop-count | Bubble Pop Count | math | 3-5 | pop exactly the number of bubbles asked for, then say how many are left | turkey-color-by-number |
+| 56 | todo | animal-homes | Animal Homes | life | 3-5 | drag each animal to its home (nest, hive, pond, den); facts from zoo or wildlife agency pages | activities category |
+| 57 | todo | big-small-sort | Big, Middle, Small | brain | 3-5 | line up three to five pictures from smallest to biggest | activities category |
+| 58 | todo | hindi-vyanjan | Hindi Vyanjan Match | hindi-marathi | 3-5, 6-8 | see a picture word, tap its first Hindi consonant; verify every word and letter from 2 sources | activities category |
+| 59 | todo | sentence-builder | Sentence Builder | english | 6-8 | tap word tiles in order to make a sentence that matches the picture | thanksgiving-word-search |
+| 60 | todo | shadow-match | Shadow Match | brain | 3-5, 6-8 | match each picture to its shadow outline; later levels rotate the shadow | activities category |
+| 61 | todo | healthy-plate | Build a Plate | life | 6-8 | fill a plate with foods from each group; facts from MyPlate (USDA) pages read in the run | activities category |
+| 62 | todo | missing-number | Missing Number Grid | math | 6-8 | find the missing numbers on a hundred chart patch | activities category |
+| 63 | todo | punctuation-fix | Punctuation Fixer | english | 6-8, 9-10 | tap where the period, question mark or capital letter belongs | activities category |
+| 64 | todo | marathi-shabd | Marathi Picture Words | hindi-marathi | 6-8 | match simple Marathi words to pictures; verify words in 2 dictionaries | activities category |
+| 65 | todo | lights-out | Lights Out Grid | brain | 9-10 | tap a light to flip it and its neighbors; turn every light off on 3x3, 4x4 and 5x5 boards with a move counter | activities category |
+| 66 | todo | pipe-connect | Water Pipes | brain | 9-10 | rotate pipe tiles so water flows from the tank to the garden; bigger boards and dead ends each level | activities category |
+| 67 | todo | factor-hunt | Factor Hunt | math | 9-10 | claim numbers on a 1 to 50 board by naming factors; two step scoring rounds against a friendly computer | activities category |
+| 68 | todo | budget-shop | Pocket Money Planner | life | 9-10 | plan a shopping list under a budget over three trips, with change and savings goals | reward-sticker-chart |
+| 69 | todo | synonym-climb | Synonym Mountain | english | 9-10 | climb by picking words with the same meaning, then the opposite, then the best word for a sentence; words checked in a major dictionary | activities category |
+| 70 | todo | sliding-tiles | Sliding Picture Puzzle | brain | 9-10 | slide tiles to rebuild an original picture on 3x3, then 4x4, with a move counter and hint | activities category |
+| 71 | todo | feelings-faces | Feelings Faces | life | 3-5 | name the feeling on a simple drawn face and pick a calm-down idea; check wording with AAP pages | activities category |
+| 72 | todo | number-bonds | Number Bonds | math | 3-5, 6-8 | split a number into two parts with counters, all the ways to make 5, then 10 | activities category |
+| 73 | todo | hindi-matra | Hindi Matra Builder | hindi-marathi | 6-8, 9-10 | add the right vowel sign (matra) to a consonant to spell a picture word; verify every word twice | activities category |
+| 74 | todo | ordering-fractions | Fraction Line Up | math | 9-10 | drag fraction cards into order from smallest to biggest, then place them on a number line | activities category |
