@@ -85,8 +85,18 @@ def check_story(path):
     if re.search('[\u2013\u2014]', text): err(slug, 'em or en dash found')
     if re.search(r'^# ', body, re.M): err(slug, 'H1 in the body')
     if re.search(r'^##+\s*(Sources|References)\b', body, re.M | re.I): err(slug, 'Sources section on the page')
-    if fm.count('\n  - "') + fm.count("\n  - '") < 3 and len(re.findall(r'^questions:', fm, re.M)) and len(re.findall(r'^  - ', fm.split('questions:')[1].split('\nwords:')[0], re.M)) < 3:
-        err(slug, 'needs at least 3 questions')
+    try:
+        import yaml
+        data = yaml.safe_load(fm) or {}
+        quiz = data.get('quiz') or []
+        if not 4 <= len(quiz) <= 5: err(slug, f'Question Time needs 4 or 5 quiz questions, found {len(quiz)}')
+        for i, item in enumerate(quiz):
+            if len(item.get('options') or []) != 4: err(slug, f'quiz question {i+1} needs exactly 4 options')
+            if item.get('answer') not in (0, 1, 2, 3): err(slug, f'quiz question {i+1} needs answer 0 to 3')
+        if quiz and len({item.get('answer') for item in quiz}) == 1: warn(slug, 'all quiz answers are in the same position; mix them up')
+        if not 2 <= len(data.get('lesson') or []) <= 4: err(slug, 'What We Learn needs 2 to 4 lesson points')
+    except ImportError:
+        warn(slug, 'PyYAML missing, quiz not checked')
     figs = re.findall(r'<img src="(/stories/[^"]+)"', body)
     if not 2 <= len(figs) <= 5: err(slug, f'needs 2 to 5 illustrations in the text, found {len(figs)}')
     for f in figs:

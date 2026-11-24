@@ -6,15 +6,33 @@ date: 2026-11-24T01:30:00-05:00
 level: "Early reader"
 ages: "4 to 8"
 hero: "Maya"
+heroIs: "girl"
 occasion: "thanksgiving"
 tags: ["thanksgiving story", "gratitude", "autumn leaves", "family"]
 keywords: "thanksgiving story for kids, short thanksgiving story, gratitude story for kids"
 image: "/stories/maya-thankful-leaf-garland/girl-collecting-autumn-leaves-thanksgiving.svg"
 imageAlt: "Maya collecting autumn leaves in a basket under a big orange tree"
+lesson:
+  - "Being thankful is easier when we notice small things, like warm socks, pancakes or even mud puddles."
+  - "A kind thank you can make someone feel special, just like Grandma felt when she read her leaf."
+  - "Family traditions can start small: one leaf, one thank you, one story."
+quiz:
+  - q: "What did Maya collect in the basket?"
+    options: ["Apples", "Autumn leaves", "Pine cones", "Flowers"]
+    answer: 1
+  - q: "What did Maya make for the Thanksgiving table?"
+    options: ["A paper turkey", "A pumpkin pie", "A thankful leaf garland", "A big card"]
+    answer: 2
+  - q: "What was Sam thankful for?"
+    options: ["Mud puddles", "His teacher", "Pancakes", "Warm socks"]
+    answer: 0
+  - q: "Which leaf made Grandma smile the biggest smile?"
+    options: ["The yellow leaf about Sam", "The curly orange leaf", "The leaf about pancakes", "The red leaf about her stories"]
+    answer: 3
+  - q: "What did Grandma do after dinner?"
+    options: ["She baked cookies", "She told a story", "She went for a walk", "She made a new garland"]
+    answer: 1
 questions:
-  - "Why did Maya want to make something for the table?"
-  - "What did Sam say he was thankful for, and why did everyone laugh?"
-  - "Which leaf made Grandma smile the biggest smile, and what did she do after dinner?"
   - "If you made a thankful leaf, what would you write on it?"
 words:
   - { word: "garland", meaning: "a long string of leaves, flowers or paper that you hang up to decorate" }
@@ -26,33 +44,33 @@ The wind was cold and the trees were bright. Red, orange and yellow leaves dance
 
 "Grandma is coming for Thanksgiving," said Mom. "Can you make something for the table?"
 
-Maya thought and thought. Then she grabbed a basket and ran outside.
+Maya thought and thought. Then <span data-p="subj">she</span> grabbed a basket and ran outside.
 
 <figure><img src="/stories/maya-thankful-leaf-garland/girl-collecting-autumn-leaves-thanksgiving.svg" alt="Maya collecting autumn leaves in a basket under a big orange tree" width="1200" height="800" loading="lazy" /></figure>
 
 ## A Basket Full of Leaves
 
-Maya picked a red leaf as big as her hand. She picked a yellow leaf shaped like a star. She picked a tiny orange leaf that curled up like a little boat. Soon her basket was full.
+Maya picked a red leaf as big as <span data-p="poss">her</span> hand. <span data-p="subj">She</span> picked a yellow leaf shaped like a star. <span data-p="subj">She</span> picked a tiny orange leaf that curled up like a little boat. Soon <span data-p="poss">her</span> basket was full.
 
-"What are you making?" asked her little brother, Sam.
+"What are you making?" asked <span data-p="poss">her</span> little brother, Sam.
 
 "A garland," said Maya. "But not just any garland. A thankful garland."
 
 ## One Leaf, One Thank You
 
-At the kitchen table, Maya laid her leaves in a long line. Mom gave her a marker and a piece of string.
+At the kitchen table, Maya laid her leaves in a long line. Mom gave <span data-p="obj">her</span> a marker and a piece of string.
 
 On the red leaf, Maya wrote: *I am thankful for Grandma's stories.*
 
-On the yellow leaf she wrote: *I am thankful for Sam, even when he is noisy.*
+On the yellow leaf <span data-p="subj">she</span> wrote: *I am thankful for Sam, even when he is noisy.*
 
 Sam laughed so hard he almost fell off his chair.
 
 <figure><img src="/stories/maya-thankful-leaf-garland/kids-writing-thank-you-leaves-at-table.svg" alt="Maya and her little brother Sam writing thank yous on leaves at the kitchen table" width="1200" height="800" loading="lazy" /></figure>
 
-Maya kept going. She wrote thank yous for warm socks, for her teacher, for the dog next door and for pancakes on Saturday. Then she ran out of ideas.
+Maya kept going. <span data-p="subj">She</span> wrote thank yous for warm socks, for her teacher, for the dog next door and for pancakes on Saturday. Then <span data-p="subj">she</span> ran out of ideas.
 
-"What about you?" she asked Sam. "What are you thankful for?"
+"What about you?" <span data-p="subj">she</span> asked Sam. "What are you thankful for?"
 
 Sam thought for a long time. "Mud," he said.
 
@@ -76,7 +94,7 @@ When she reached the red leaf, Grandma smiled the biggest smile. "My stories?" s
 
 After dinner, everyone sat close together. Grandma told them about the year she was a little girl and made a garland of paper stars for her own grandma.
 
-Maya looked up at her leaves. "Next year," she said, "we can add a new leaf every Thanksgiving."
+Maya looked up at <span data-p="poss">her</span> leaves. "Next year," <span data-p="subj">she</span> said, "we can add a new leaf every Thanksgiving."
 
 "And one more for mud," said Sam.
 

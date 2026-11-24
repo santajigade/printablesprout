@@ -46,13 +46,16 @@ const stories = defineCollection({
     updated: z.coerce.date().optional(),
     level: z.enum(['Read aloud', 'Early reader', 'Confident reader']),
     ages: z.string(),
-    hero: z.string(),                 // the hero's name in the text; readers can swap in their child's name
+    hero: z.string(),
+    heroIs: z.enum(['girl', 'boy']).default('girl'),   // hero pronouns in the text are marked <span data-p="subj|obj|poss">                 // the hero's name in the text; readers can swap in their child's name
     occasion: z.enum(OCCASION_SLUGS).optional(),
     tags: z.array(z.string()).default([]),
     keywords: z.string().optional(),
     image: z.string(),                // first illustration, used on cards
     imageAlt: z.string(),
-    questions: z.array(z.string()).min(3),
+    lesson: z.array(z.string()).min(2).max(4),            // "What We Learn From This Story" points
+    quiz: z.array(z.object({ q: z.string(), options: z.array(z.string()).length(4), answer: z.number().int().min(0).max(3) })).min(4).max(5),
+    questions: z.array(z.string()).default([]),           // optional open talk prompts
     words: z.array(z.object({ word: z.string(), meaning: z.string() })).default([]),
     author: z.string().default('Santaji Gadepatil'),
     sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
