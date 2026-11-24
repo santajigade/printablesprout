@@ -56,6 +56,7 @@ export const NAV = [
   { label: 'Charts and Routines', href: '/category/chore-reward-charts/', children: ['chore-reward-charts', 'daily-routines'] },
   { label: 'Activities', href: '/category/activities-games/' },
   { label: 'Games', href: '/games/' },
+  { label: 'Stories', href: '/stories/' },
   { label: 'Holidays', href: '/category/holiday-printables/', occasions: true },
   { label: 'For Parents', href: '/category/for-parents/' },
 ];

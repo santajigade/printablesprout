@@ -15,6 +15,7 @@ The daily learning games run (4 games a day, at least 1 a big game for ages 9 to
 - `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)
 - `src/lib/games.ts`, `src/pages/games/`, `public/js/games/` (`kit.js` = shared sounds, confetti and game frame), `public/images/games/`, `src/styles/games.css` : the learning games at /games/ (child directed: no analytics, ads or external links)
 - `scripts/check_games.py` and `scripts/playtest_games.py` : game checks and the browser play test
+- `src/content/stories/<slug>.md`, `public/stories/<slug>/<n>.svg`, `src/pages/stories/` : illustrated kids' stories at /stories/<slug>/ (blog style). Draw illustrations with `scripts/stories/kit.py`; share images with `python3 scripts/stories/render_story.py <slug>`
 - `scripts/check.py` : quality checks, must pass before every push
 - `scripts/dupes.py` : duplicate check, run before every new topic
 - `scripts/social/` : daily social videos, thumbnails and jingle (see `SOCIAL_RUN.md`); output goes to `social-out/` (git ignored, never deployed)
@@ -39,6 +40,15 @@ The daily learning games run (4 games a day, at least 1 a big game for ages 9 to
 10. **YMYL note.** Pages that touch health, sleep, behavior, development, safety or money end with one line: "General information, not professional advice." (add a short pointer to the pediatrician where relevant).
 11. **Never copy or closely paraphrase competitors.** Use them only for topic ideas.
 12. **Duplicate check before each run.** `python3 scripts/dupes.py` lists everything published; `python3 scripts/dupes.py "<topic>"` flags similar pages. Never cover the same topic twice unless there is a real update (then update the old page instead).
+
+## Story rules (src/content/stories)
+
+- Original stories only, never retellings of famous books, films or characters. Kind, safe themes; no scary, violent or mean content.
+- Length by `level`: Read aloud (ages 3 to 5) 300 to 500 words, Early reader (4 to 8) 400 to 700, Confident reader (8 to 10) 600 to 1,000. Short sentences, dialogue, 3 or 4 specific `##` headings.
+- One `hero` name used in the text (the page lets parents swap in their child's name). Keep side characters' names different from the hero's.
+- 2 to 5 illustrations inside the text as `<figure><img src="/stories/<slug>/<n>.svg" alt="..." width="1200" height="800" loading="lazy" /></figure>`, flat colored SVG scenes made with `scripts/stories/kit.py`. Same colors for a character in every picture.
+- End with a short real-world section (an activity, a talk prompt or a craft) with 1 or 2 internal links to related printables. At least 3 `questions` and 2 or 3 `words` in frontmatter.
+- Any real fact in a story follows the facts rule above. No em or en dashes.
 
 ## Art rules (src/art/<slug>.svg)
 

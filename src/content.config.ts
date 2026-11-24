@@ -35,4 +35,28 @@ const pages = defineCollection({
   schema: z.object({ title: z.string(), slug: z.string(), description: z.string() }),
 });
 
-export const collections = { printables, pages };
+// Illustrated stories for kids (blog style). Images live in public/stories/<slug>/<n>.svg
+const stories = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/stories' }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    level: z.enum(['Read aloud', 'Early reader', 'Confident reader']),
+    ages: z.string(),
+    hero: z.string(),                 // the hero's name in the text; readers can swap in their child's name
+    occasion: z.enum(OCCASION_SLUGS).optional(),
+    tags: z.array(z.string()).default([]),
+    keywords: z.string().optional(),
+    image: z.string(),                // first illustration, used on cards
+    imageAlt: z.string(),
+    questions: z.array(z.string()).min(3),
+    words: z.array(z.object({ word: z.string(), meaning: z.string() })).default([]),
+    author: z.string().default('Santaji Gadepatil'),
+    sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
+  }),
+});
+
+export const collections = { printables, pages, stories };

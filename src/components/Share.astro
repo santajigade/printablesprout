@@ -1,8 +1,8 @@
 ---
 import { SITE } from '../lib/site';
-const { slug, title } = Astro.props;
+const { slug, title, image } = Astro.props;
 const url = `${SITE.url}/${slug}/`;
-const img = `${SITE.url}/images/${slug}.png`;
+const img = image ? `${SITE.url}${image}` : `${SITE.url}/images/${slug}.png`;
 const e = encodeURIComponent;
 const links = [
   { k: 'pinterest', label: 'Save to Pinterest', href: `https://www.pinterest.com/pin/create/button/?url=${e(url)}&media=${e(img)}&description=${e(title)}` },

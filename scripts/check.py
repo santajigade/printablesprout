@@ -75,14 +75,47 @@ def check(path):
     for f in (f'public/images/{slug}.png', f'public/og/{slug}.png', f'public/pins/{slug}.png', f'public/pdf/{slug}-letter.pdf', f'public/pdf/{slug}-a4.pdf'):
         if not os.path.exists(os.path.join(ROOT, f)): err(slug, f'missing {f} (run python3 scripts/render.py {slug})')
 
+def check_story(path):
+    """Stories: src/content/stories/<slug>.md with 2 to 5 illustrations in public/stories/<slug>/."""
+    slug = os.path.basename(path)[:-3]; text = open(path).read(); fm, body = frontmatter(text)
+    get = lambda k: (re.search(rf'^{k}:\s*"?(.*?)"?\s*$', fm, re.M) or [None, None])[1]
+    for k in ('title', 'slug', 'description', 'date', 'level', 'ages', 'hero', 'image', 'imageAlt'):
+        if not get(k): err(slug, f'missing frontmatter field {k}')
+    if get('slug') != slug: err(slug, 'slug does not match the file name')
+    if re.search('[\u2013\u2014]', text): err(slug, 'em or en dash found')
+    if re.search(r'^# ', body, re.M): err(slug, 'H1 in the body')
+    if re.search(r'^##+\s*(Sources|References)\b', body, re.M | re.I): err(slug, 'Sources section on the page')
+    if fm.count('\n  - "') + fm.count("\n  - '") < 3 and len(re.findall(r'^questions:', fm, re.M)) and len(re.findall(r'^  - ', fm.split('questions:')[1].split('\nwords:')[0], re.M)) < 3:
+        err(slug, 'needs at least 3 questions')
+    figs = re.findall(r'<img src="(/stories/[^"]+)"', body)
+    if not 2 <= len(figs) <= 5: err(slug, f'needs 2 to 5 illustrations in the text, found {len(figs)}')
+    for f in figs + [get('image') or '']:
+        if f and not os.path.exists(os.path.join(ROOT, 'public' + f)): err(slug, f'missing image {f}')
+    for f in (f'public/og/stories-{slug}.png', f'public/pins/stories-{slug}.png'):
+        if not os.path.exists(os.path.join(ROOT, f)): err(slug, f'missing {f} (run python3 scripts/stories/render_story.py {slug})')
+    hero = get('hero') or ''
+    if hero and body.count(hero) < 3: err(slug, f'hero name "{hero}" should appear in the story text at least 3 times')
+    words = len(re.sub(r'<[^>]+>', ' ', body).split())
+    if words < 300: err(slug, f'only {words} words of story text (minimum 300)')
+    if words > 1400: warn(slug, f'{words} words is long for a kids story')
+    for f in figs:
+        svg = open(os.path.join(ROOT, 'public' + f)).read() if os.path.exists(os.path.join(ROOT, 'public' + f)) else ''
+        if re.search(r'<script|<image|href="http', svg): err(slug, f'{f} has scripts, embedded images or links')
+        if re.search('[\u2013\u2014]', svg): err(slug, f'{f} has an em or en dash')
+    for u in re.findall(r'\]\((/[^)]+)\)', body):
+        if not os.path.exists(os.path.join(ROOT, 'src/content/printables', u.strip('/') + '.md')) and not u.startswith('/stories/') and not u.startswith('/games/'):
+            err(slug, f'internal link to missing page {u}')
+
 def main():
     slugs = sys.argv[1:]
     paths = [os.path.join(ROOT, 'src/content/printables', s + '.md') for s in slugs] if slugs else sorted(glob.glob(os.path.join(ROOT, 'src/content/printables/*.md')))
     for p in paths:
         if not os.path.exists(p): errors.append(f'ERROR {p}: file not found'); continue
         check(p)
+    stories = [] if slugs else sorted(glob.glob(os.path.join(ROOT, 'src/content/stories/*.md')))
+    for p in stories: check_story(p)
     print('\n'.join(warns + errors) or 'All checks passed.')
-    print(f'{len(paths)} printables checked, {len(errors)} errors, {len(warns)} warnings')
+    print(f'{len(paths)} printables and {len(stories)} stories checked, {len(errors)} errors, {len(warns)} warnings')
     sys.exit(1 if errors else 0)
 
 if __name__ == '__main__':
