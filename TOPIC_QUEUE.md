@@ -61,7 +61,7 @@ The daily run takes topics from this table. Rules:
 | 50 | todo | farm-animals-coloring-page | Coloring Pages |  | farm animals coloring page | Animal sounds matching game |
 | 51 | todo | jungle-animals-coloring-page | Coloring Pages |  | jungle animals coloring page | Habitat facts from an official zoo source |
 | 52 | todo | robot-coloring-page | Coloring Pages |  | robot coloring page | Design your own robot parts for STEM talk |
-| 53 | todo | space-coloring-page | Coloring Pages |  | space coloring page | Planets in order with NASA facts |
+| 53 | done 2026-11-23 | space-coloring-page | Coloring Pages |  | space coloring page | Planets in order with NASA facts |
 | 54 | todo | truck-coloring-page | Coloring Pages |  | truck coloring page | Construction vehicles, what each one does |
 | 55 | todo | alphabet-tracing-practice | Activities |  | alphabet tracing printable | Upper and lower case with picture for each letter |
 | 56 | todo | number-tracing-1-to-10 | Activities |  | number tracing printable | Count and color objects for each number |
@@ -79,7 +79,7 @@ The daily run takes topics from this table. Rules:
 | 68 | skip | animal-dot-to-dot | Activities |  | animal dot to dot printable | Three animals from 1 to 25, color after connecting |
 | 69 | skip | animal-color-by-number | Activities |  | color by number for kids | Numbered shapes for tap to fill, simple 6 color key |
 | 70 | done 2026-11-22 | dots-and-boxes-game | Activities |  | dots and boxes printable | Classic two player game, play online with the pen, rules by age |
-| 71 | todo | tic-tac-toe-boards | Activities |  | tic tac toe printable | Nine boards per sheet, scoreboard with editable player names |
+| 71 | done 2026-11-23 | tic-tac-toe-boards | Activities |  | tic tac toe printable | Nine boards per sheet, scoreboard with editable player names |
 | 72 | skip | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
 | 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
 | 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
@@ -106,7 +106,7 @@ The daily run takes topics from this table. Rules:
 | 95 | todo | summer-reading-challenge | Chore and Reward Charts |  | summer reading challenge printable | Color a square per day read, prize line |
 | 96 | todo | school-morning-checklist | Daily Routines | back-to-school | school morning checklist printable | Tick boxes with pictures, editable times |
 | 97 | todo | feelings-chart-for-kids | Daily Routines |  | feelings chart for kids | Faces to color, what helps when I feel this way |
-| 98 | todo | winter-break-boredom-buster-list | For Parents | winter | winter break activities for kids | Checklist of screen-free ideas by age, editable |
+| 98 | done 2026-11-23 | winter-break-boredom-buster-list | For Parents | winter | winter break activities for kids | Checklist of screen-free ideas by age, editable |
 | 99 | todo | family-meal-planner | For Parents |  | weekly meal planner printable | Editable week grid with grocery list strip |
 | 100 | todo | family-cleaning-schedule | For Parents |  | family cleaning schedule printable | Who does what grid with kid friendly icons |
 | 101 | todo | babysitter-information-sheet | For Parents |  | babysitter information sheet printable | Editable emergency and routine details |
