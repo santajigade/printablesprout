@@ -46,7 +46,10 @@ const stories = defineCollection({
     updated: z.coerce.date().optional(),
     level: z.enum(['Read aloud', 'Early reader', 'Confident reader']),
     ages: z.string(),
-    hero: z.string(),
+    type: z.enum(['original', 'classic']).default('original'),   // classic = retelling of a public domain tale
+    retoldFrom: z.string().optional(),                // classic only, e.g. "Aesop's Fables"
+    theme: z.enum(['Good Habits', 'Family and Respect', 'Kindness and Friends', 'Good Communication', 'Learning and Science', 'Classic Tales', 'Jungle Tales', 'Holiday Stories']),
+    hero: z.string().optional(),                      // original stories: name readers can swap for their child's
     heroIs: z.enum(['girl', 'boy']).default('girl'),   // hero pronouns in the text are marked <span data-p="subj|obj|poss">                 // the hero's name in the text; readers can swap in their child's name
     occasion: z.enum(OCCASION_SLUGS).optional(),
     tags: z.array(z.string()).default([]),

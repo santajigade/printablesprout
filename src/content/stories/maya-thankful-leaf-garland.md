@@ -4,6 +4,7 @@ slug: "maya-thankful-leaf-garland"
 description: "A short illustrated Thanksgiving story for kids: Maya turns autumn leaves into a thankful garland for Grandma. With reading questions and new words."
 date: 2026-11-24T01:30:00-05:00
 level: "Early reader"
+theme: "Holiday Stories"
 ages: "4 to 8"
 hero: "Maya"
 heroIs: "girl"

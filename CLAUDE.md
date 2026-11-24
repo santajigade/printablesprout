@@ -3,6 +3,7 @@
 Static Astro site of free printables for US parents and teachers. Every push to `main` builds and deploys to Hostinger by FTP (`.github/workflows/deploy.yml`, secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` under Settings > Secrets and variables > Actions). Live about 2 minutes after push. This project is separate from every other site: never copy files, secrets or settings from other repos.
 
 The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.md`.
+The daily story run (3 stories a day) follows `STORY_RUN.md`, with topics from `STORY_QUEUE.md`.
 The daily learning games run (4 games a day, at least 1 a big game for ages 9 to 10, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
 
 ## Repo layout
@@ -43,9 +44,10 @@ The daily learning games run (4 games a day, at least 1 a big game for ages 9 to
 
 ## Story rules (src/content/stories)
 
-- Original stories only, never retellings of famous books, films or characters. Kind, safe themes; no scary, violent or mean content.
+- Daily: 3 stories (STORY_RUN.md, topics from STORY_QUEUE.md). Themes: Good Habits, Family and Respect, Kindness and Friends, Good Communication, Learning and Science, Classic Tales, Jungle Tales, Holiday Stories.
+- `type: "original"` stories are our own. `type: "classic"` stories retell public domain tales only (published before 1929 or traditional folk tales: Aesop, Panchatantra, Jataka, Grimm, Andersen, Kipling's Jungle Book and Just So Stories, Akbar Birbal, Tenali Rama) in our own words with `retoldFrom` set; never use anything from film versions (songs, character designs, added characters). Kind, safe themes; no scary, violent or mean content; soften harsh endings for small children.
 - Length by `level`: Read aloud (ages 3 to 5) 300 to 500 words, Early reader (4 to 8) 400 to 700, Confident reader (8 to 10) 600 to 1,000. Short sentences, dialogue, 3 or 4 specific `##` headings.
-- One `hero` name used in the text and `heroIs: "girl"` or `"boy"` (the page lets parents swap in their child's name and pick Girl or Boy). Wrap every pronoun that refers to the hero: `<span data-p="subj">she</span>`, `<span data-p="obj">her</span>`, `<span data-p="poss">her</span>` (he/him/his for a boy). Keep side characters' names different from the hero's, and keep hero pronouns out of `quiz`, `lesson` and headings.
+- Original stories: one `hero` name used in the text and `heroIs: "girl"` or `"boy"` (the page lets parents swap in their child's name and pick Girl or Boy). Wrap every pronoun that refers to the hero: `<span data-p="subj">she</span>`, `<span data-p="obj">her</span>`, `<span data-p="poss">her</span>` (he/him/his for a boy). Keep side characters' names different from the hero's, and keep hero pronouns out of `quiz`, `lesson` and headings.
 - 2 to 5 illustrations inside the text as `<figure><img src="/stories/<slug>/<keyword-file-name>.svg" alt="..." width="1200" height="800" loading="lazy" /></figure>`, 3D style SVG scenes made with `scripts/stories/kit.py`. Name each file with descriptive keywords for what it shows (for example `girl-collecting-autumn-leaves-thanksgiving.svg`), never `1.svg`. Same colors for a character in every picture.
 - End the markdown with a short real-world section (an activity or a craft) wrapped in `<section class="story-activity">` (blank line) `## Heading` ... (blank line) `</section>`. The page shows it last, after What We Learn and Question Time, followed by the Print Story button; it is not read aloud.
 - Frontmatter also needs `lesson` (2 to 4 short points for "What We Learn From This Story"), `quiz` (Question Time: 4 or 5 questions, each with exactly 4 `options` and the `answer` index 0 to 3; mix up where the right answer sits; only facts from the story), 2 or 3 `words`, and optional `questions` (open talk prompts).

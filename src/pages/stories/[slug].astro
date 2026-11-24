@@ -36,12 +36,13 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
       <p class="byline">By <a href={`/author/${AUTHOR.slug}/`}>{d.author}</a> · Updated <time datetime={(d.updated ?? d.date).toISOString()}>{fmtDate(d.updated ?? d.date)}</time></p>
       <Share slug={`stories/${d.slug}`} title={d.title} image={`/pins/stories-${d.slug}.png`} />
     </div>
-    <div class="story-facts"><span class="pill">{d.level}</span><span class="pill">Ages {d.ages}</span><span class="pill">{mins} min read</span></div>
-    <form class="hero-name" onsubmit="return false">
+    <div class="story-facts"><span class="pill">{d.theme}</span><span class="pill">{d.level}</span><span class="pill">Ages {d.ages}</span><span class="pill">{mins} min read</span></div>
+    {d.retoldFrom && <p class="retold">A retelling in our own words of a traditional tale from {d.retoldFrom}.</p>}
+    {d.hero && <form class="hero-name" onsubmit="return false">
       <label for="hero">Make your child the hero: type a name and the story changes</label>
       <div><input id="hero" type="text" maxlength="14" placeholder={`e.g. ${d.hero}`} autocomplete="off" /><button type="button" id="hero-reset">Reset</button></div>
       <div class="hero-kind" role="group" aria-label="Hero is a"><button type="button" data-kind="girl" aria-pressed={d.heroIs === 'girl' ? 'true' : 'false'}>Girl</button><button type="button" data-kind="boy" aria-pressed={d.heroIs === 'boy' ? 'true' : 'false'}>Boy</button></div>
-    </form>
+    </form>}
     <div class="read-aloud" hidden>
       <button type="button" id="read-btn" class="read-btn" aria-live="polite">
         <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
@@ -100,6 +101,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
   (function () {
     var body = document.querySelector('.story-body'); if (!body) return;
     var hero = body.getAttribute('data-hero'), input = document.getElementById('hero'), title = document.querySelector('.story-title');
+    if (!hero || !input) return;
     var nodes = [], walk = function (el) { el.childNodes.forEach(function (n) { if (n.nodeType === 3 && n.nodeValue.indexOf(hero) > -1) nodes.push({ n: n, v: n.nodeValue }); else if (n.nodeType === 1) walk(n); }); };
     walk(body); walk(title); document.querySelectorAll('.story-lesson, .quiz').forEach(walk);
     var re = new RegExp('\\b' + hero + '\\b', 'g');

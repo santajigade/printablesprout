@@ -290,3 +290,9 @@ body { padding-top: var(--hh); }
   .quiz-opt { background: #fff !important; border: 1px solid #bbb !important; min-height: 0; padding: 6pt 8pt; }
   .quiz-opt .quiz-letter { background: #fff !important; border: 1px solid #999; color: #000 !important; }
 }
+
+.retold { font-size: 15px; color: var(--soft); font-style: italic; margin: -4px 0 18px; }
+.story-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+.story-filter button { font: inherit; font-weight: 800; font-size: 15px; border: 2px solid #efe2d4; background: #fff; border-radius: 999px; padding: 8px 16px; cursor: pointer; }
+.story-filter button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.story-card[hidden] { display: none; }

@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { SITE } from '../../lib/site';
 import { allStories, readMins } from '../../lib/stories';
 const list = await allStories();
+const THEMES = [...new Set(list.map((s) => s.data.theme))];
 const jsonld = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'CollectionPage', name: 'Short Stories for Kids', url: `${SITE.url}/stories/`,
     description: 'Free illustrated short stories for kids aged 3 to 10, with reading questions and new words.',
@@ -18,17 +19,30 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <span>Stories</span></nav>
     <h1>Short Stories for Kids</h1>
     <p class="intro">Original illustrated stories to read together. Put your child's name in as the hero, then talk about the story with the questions at the end.</p>
+    {THEMES.length > 1 && <div class="story-filter" role="group" aria-label="Filter stories by theme">
+      <button type="button" data-theme="" aria-pressed="true">All stories</button>
+      {THEMES.map((t) => <button type="button" data-theme={t} aria-pressed="false">{t}</button>)}
+    </div>}
     <div class="story-grid">
       {list.map((s) => (
-        <a class="story-card" href={`/stories/${s.data.slug}/`}>
+        <a class="story-card" href={`/stories/${s.data.slug}/`} data-theme={s.data.theme}>
           <img src={s.data.image} alt={s.data.imageAlt} width="1200" height="800" loading="lazy" />
           <div class="story-card-body">
             <h2>{s.data.title.split(':')[0]}</h2>
             <p>{s.data.description}</p>
-            <div class="pills"><span class="pill">{s.data.level}</span><span class="pill">Ages {s.data.ages}</span><span class="pill">{readMins(s.body ?? '')} min read</span></div>
+            <div class="pills"><span class="pill">{s.data.theme}</span><span class="pill">{s.data.level}</span><span class="pill">Ages {s.data.ages}</span><span class="pill">{readMins(s.body ?? '')} min read</span></div>
           </div>
         </a>
       ))}
     </div>
   </section>
+  <script is:inline>
+  document.querySelectorAll('.story-filter button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var t = b.dataset.theme;
+      document.querySelectorAll('.story-filter button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      document.querySelectorAll('.story-card[data-theme]').forEach(function (c) { c.hidden = !!t && c.dataset.theme !== t; });
+    });
+  });
+  </script>
 </Base>

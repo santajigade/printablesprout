@@ -79,8 +79,11 @@ def check_story(path):
     """Stories: src/content/stories/<slug>.md with 2 to 5 illustrations in public/stories/<slug>/."""
     slug = os.path.basename(path)[:-3]; text = open(path).read(); fm, body = frontmatter(text)
     get = lambda k: (re.search(rf'^{k}:\s*"?(.*?)"?\s*$', fm, re.M) or [None, None])[1]
-    for k in ('title', 'slug', 'description', 'date', 'level', 'ages', 'hero', 'image', 'imageAlt'):
+    for k in ('title', 'slug', 'description', 'date', 'level', 'ages', 'theme', 'image', 'imageAlt'):
         if not get(k): err(slug, f'missing frontmatter field {k}')
+    classic = get('type') == 'classic'
+    if classic and not get('retoldFrom'): err(slug, 'classic stories need retoldFrom (the public domain source)')
+    if not classic and not get('hero'): err(slug, 'original stories need a hero name')
     if get('slug') != slug: err(slug, 'slug does not match the file name')
     if re.search('[\u2013\u2014]', text): err(slug, 'em or en dash found')
     if re.search(r'^# ', body, re.M): err(slug, 'H1 in the body')
