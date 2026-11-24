@@ -35,6 +35,16 @@ Do not change existing games, `kit.js` behavior, the page template, the /games/ 
 ## 4. Research (only when the game states facts)
 Games with real world facts (coins, road signs, recycling rules, Hindi or Marathi letters and words, calendar facts) need at least 2 reliable sources read in this run (official sites first: .gov, .gov.in, ncert.nic.in, epa.gov, nhtsa.gov, rbi.org.in, usmint.gov, major dictionaries and education bodies). Every letter, word, spelling and rule in the game must match those sources. If you cannot verify it, leave it out. Hindi and Marathi: use correct Devanagari Unicode, check every word twice, and show an English helper line for parents.
 
+## Quality bar: beautiful, creative and fun (Santaji, 2026-11-24)
+Santaji asked that every new game be **beautiful, creative, engaging and fun to play, with real educational content**. A plain quiz (a question and a row of buttons) is not enough. Before building, write down for each game: its little world or story, its hero, and the one moment that makes a child smile. Every game must have:
+- **A world, not a worksheet.** A themed scene drawn in inline SVG or canvas for this game (a pond, a bakery, a space station, a garden), with a background, a friendly original character or mascot who reacts (cheers, wobbles, sleeps when idle) and a simple goal story ("help Pip the frog cross the pond by solving each stone"). Emoji can be extras, never the whole art.
+- **Play that feels good to touch.** At least one physical action beyond tapping a button where it fits: drag and drop, swipe, aim, slide, rotate, pour, stack. Objects move with smooth animation (CSS transitions or requestAnimationFrame), bounce, squash and settle.
+- **Juicy feedback.** Every right answer gets a visible reaction in the scene (the character jumps, a flower grows, a coin flies into the jar) plus a GK sound; wrong answers get a gentle, funny reaction and a hint, never a buzzer.
+- **A reason to keep going.** Visible progress inside the world (a path that fills in, a picture that gets built piece by piece, a collection of stickers or stars), a surprise or new element on each level, and a win screen that shows what the child built.
+- **Learning in the action itself.** The skill must be the way you win (you aim the rocket by solving the sum), not a quiz stuck in front of a game. Each level teaches a clear next step, and page text explains the skill to parents.
+- **Polish.** A consistent color palette per game, rounded friendly shapes, readable large text, no clutter, and it must look great at 390 px and 1366 px. Respect `prefers-reduced-motion` for big motion.
+Compare each game against the best games already live (Road Race Math, Fraction Pizza, Disc Tower Puzzle). If a game looks plainer than those, improve it before publishing, or skip it. Two delightful games beat four plain ones.
+
 ## 5. Build each game
 1. **Script** `public/js/games/<slug>.js`, plain JavaScript in one IIFE, no libraries, under 40 KB:
    - Start with `var root = document.getElementById('gk'); if (!root || !window.GK) return;` and build with `GK.frame({ root, rounds, levels, onLevel })`.
@@ -42,7 +52,7 @@ Games with real world facts (coins, road signs, recycling rules, Hindi or Marath
    - Big tap targets (buttons at least 44 px, main answers 60 px or more), real `<button>` elements so it works with keyboard, gentle wrong answer feedback (never harsh, never lose progress), a short spoken style message with `f.say` after every action, sounds only through `GK.sfx`.
    - Works with touch, mouse and keyboard at 390 px and 1366 px wide. Canvas games must scale to the container width and use pointer events.
    - **Test hook (required):** set `GK.solve = function () { ... }` that makes one correct move (or finishes the current round). The play test calls it again and again until the win screen appears, on every level.
-   - Art: emoji or simple inline SVG drawn for this game. No images from the web.
+   - Art: a themed scene and original character in inline SVG or canvas drawn for this game (see the quality bar above). Emoji only as small extras. No images from the web.
 2. **Styles**: append a block to `src/styles/games.css` starting with the comment `/* <Game name> */`. Use class names starting with `gk-<short-name>-` so they never clash.
 3. **Thumbnail** `public/images/games/<slug>.svg`: 400 x 300 viewBox, bright flat style like the existing thumbnails, plain SVG only (no scripts, images, links or web fonts), about 1 KB to 2 KB, no text other than numbers or letters the game uses.
 4. **Data and page text**: append an object to the END of the `GAMES` array in `src/lib/games.ts` with every field the other games have:
@@ -61,7 +71,7 @@ python3 scripts/playtest_games.py <slug1> <slug2>
 ```
 Every one must pass with zero errors. `playtest_games.py` plays each new game to the win screen on every level at desktop and on the first level at 390 px mobile, fails on any JavaScript error, cookie or sideways scrolling, and saves screenshots in `/tmp/playtest/`.
 
-Then OPEN and LOOK at `/tmp/playtest/<slug>-1366-play.png`, `<slug>-390-play.png` and `<slug>-1366-end.png` for each game. Fix anything that overlaps, is cut off, is too small to tap or looks broken, rebuild and run the play test again. If a game still fails after real effort, delete all its files and its `games.ts` entry, mark the row `skip (<reason>)`, and publish the others.
+Then OPEN and LOOK at `/tmp/playtest/<slug>-1366-play.png`, `<slug>-390-play.png` and `<slug>-1366-end.png` for each game. Fix anything that overlaps, is cut off, is too small to tap, looks broken or looks plain (judge it against the quality bar: would a child want to keep playing?), rebuild and run the play test again. If a game still fails after real effort, delete all its files and its `games.ts` entry, mark the row `skip (<reason>)`, and publish the others.
 
 ## 7. Publish
 1. Mark the published rows in `GAME_QUEUE.md` as `done YYYY-MM-DD`.
