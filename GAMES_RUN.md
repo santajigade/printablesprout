@@ -28,7 +28,7 @@ Read these before writing anything:
 Do not change existing games, `kit.js` behavior, the page template, the /games/ index page or the site layout. You may ADD a new helper or sound to `kit.js` only if two or more games need it; if you do, run the play test on every game (step 7).
 
 ## 3. Pick today's 3 games
-1. From `GAME_QUEUE.md`, take the first 4 `todo` rows, covering at least 3 different subjects. If none of them is for ages 9 to 10, replace the last one with the first `todo` row whose ages include 9-10.
+1. From `GAME_QUEUE.md`, take the first 3 `todo` rows, covering at least 2 different subjects. If none of them is for ages 9 to 10, replace the last one with the first `todo` row whose ages include 9-10.
 2. Read the live games list in `src/lib/games.ts`. If a row would be the same kind of play as a live game (same mechanic and same skill), mark it `skip (too close to <slug>)` and take the next row.
 3. Write a one line value add for each game: what a child practices here that the other games on the site do not give them. If you cannot name one, skip it.
 
