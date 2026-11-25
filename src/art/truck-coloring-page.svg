@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+<rect x="20" y="20" width="810" height="1060" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+<text x="425" y="95" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" class="f" fill="#fff" stroke="#222" stroke-width="3" paint-order="stroke" data-field="name" data-tpl="{name}'s Construction Site" data-empty="Construction Truck Coloring">Construction Truck Coloring</text>
+<rect x="50.0" y="170.0" width="750.0" height="700.0" rx="22" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="115.0" cy="235.0" r="34.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M159.0,235.0 L173.0,235.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M146.1,266.1 L156.0,276.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M115.0,279.0 L115.0,293.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83.9,266.1 L74.0,276.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M71.0,235.0 L57.0,235.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83.9,203.9 L74.0,194.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M115.0,191.0 L115.0,177.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M146.1,203.9 L156.0,194.0" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M270,250 Q268,226 294,230 Q300,200 330,206 Q356,194 370,224 Q394,228 390,250 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580,270 Q578,246 604,250 Q610,220 640,226 Q666,214 680,244 Q704,248 700,270 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50,630 Q250,606 430,628 Q620,650 800,622 L800,848 Q800,870 778,870 L72,870 Q50,870 50,848 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="612.0" y="312.0" width="150.0" height="320.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="628.0" y="328.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="672.0" y="328.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="716.0" y="328.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="628.0" y="374.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="672.0" y="374.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="716.0" y="374.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="628.0" y="420.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="672.0" y="420.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="716.0" y="420.0" width="32.0" height="32.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M612,312 L612,290 M762,312 L762,290 M604,290 L770,290" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M420,640 Q432,582 470,574 Q512,576 524,636 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="84.0" y="596.0" width="210.0" height="52.0" rx="26" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="112.0" cy="622.0" r="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="160.0" cy="622.0" r="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="208.0" cy="622.0" r="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="256.0" cy="622.0" r="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="100.0" y="520.0" width="182.0" height="78.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="196.0" y="444.0" width="86.0" height="80.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="210.0" y="456.0" width="56.0" height="44.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="112.0" y="538.0" width="64.0" height="40.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M122,548 L166,548 M122,558 L166,558 M122,568 L166,568" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M268,540 L284,516 L394,424 L410,446 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M392,446 L410,436 L452,560 L434,568 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400.0" cy="436.0" r="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M432,552 L486,552 Q494,598 452,604 L428,592 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M440,600 L436,612 M456,602 L454,614 M472,598 L474,610" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M606,592 L612,520 L784,520 L776,600 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M622,520 Q662,470 700,486 Q742,468 770,520 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="528.0" y="598.0" width="256.0" height="22.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="534.0" y="518.0" width="74.0" height="84.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="546.0" y="530.0" width="46.0" height="34.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="524.0" y="576.0" width="14.0" height="22.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="578.0" cy="640.0" r="26.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="578.0" cy="640.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="700.0" cy="640.0" r="26.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="700.0" cy="640.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="752.0" cy="640.0" r="26.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="752.0" cy="640.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M440,728 L452,646 L520,646 L532,728 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="456.0" y="660.0" width="58.0" height="42.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="366.0" y="684.0" width="14.0" height="44.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="318.0" y="722.0" width="222.0" height="70.0" rx="12" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M336,742 L410,742 M336,756 L410,756 M336,770 L410,770" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M318,760 L270,776 M318,786 L270,800" fill="none" stroke="#222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M232,716 Q262,712 270,722 L274,836 Q252,846 228,838 Q240,778 232,716 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="786.0" width="250.0" height="58.0" rx="29" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330.0" cy="815.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="378.0" cy="815.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="426.0" cy="815.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="474.0" cy="815.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="520.0" cy="815.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83.0,712 L91.0,678.0 L97.0,678.0 L105.0,712 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86.0,700.0 L102.0,700.0 L100.0,692.0 L88.0,692.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="77.0" y="712.0" width="34.0" height="7.0" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M186.1,846 L193.3,815.4 L198.7,815.4 L205.9,846 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M188.8,835.2 L203.2,835.2 L201.4,828.0 L190.6,828.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180.7" y="846.0" width="30.6" height="6.3" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M593.0,772 L601.0,738.0 L607.0,738.0 L615.0,772 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M596.0,760.0 L612.0,760.0 L610.0,752.0 L598.0,752.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="587.0" y="772.0" width="34.0" height="7.0" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M749.55,724 L757.15,691.7 L762.85,691.7 L770.45,724 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M752.4,712.6 L767.6,712.6 L765.7,705.0 L754.3,705.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="743.9" y="724.0" width="32.3" height="6.6" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M680.65,852 L687.45,823.1 L692.55,823.1 L699.35,852 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M683.2,841.8 L696.8,841.8 L695.1,835.0 L684.9,835.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="675.5" y="852.0" width="28.9" height="6.0" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M123.8,776 Q123.8,754.4 140,754.4 Q156.2,754.4 156.2,776 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="118.4" y="774.0" width="43.2" height="7.2" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140,754.4 L140,772" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M555.8,516 Q555.8,494.4 572,494.4 Q588.2,494.4 588.2,516 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="550.4" y="514.0" width="43.2" height="7.2" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M572,494.4 L572,512" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M753.8,806 Q753.8,784.4 770,784.4 Q786.2,784.4 786.2,806 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="748.4" y="804.0" width="43.2" height="7.2" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M770,784.4 L770,802" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="170.0" width="750.0" height="700.0" rx="22" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="885.0" width="750.0" height="168.0" rx="18" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<g data-variant="jobs">
+<text x="425.0" y="140.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#222" pointer-events="none">Color the machines, then match each one to its job.</text>
+<text x="425.0" y="918.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Match the job: color each sign the same color as its machine.</text>
+<rect x="72.0" y="938.0" width="220.0" height="64.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="182.0" y="970.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#222" pointer-events="none">DIG</text>
+<text x="182.0" y="994.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#222" pointer-events="none">with a bucket</text>
+<rect x="314.0" y="938.0" width="220.0" height="64.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="424.0" y="970.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#222" pointer-events="none">PUSH</text>
+<text x="424.0" y="994.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#222" pointer-events="none">with a blade</text>
+<rect x="556.0" y="938.0" width="220.0" height="64.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="666.0" y="970.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#222" pointer-events="none">CARRY</text>
+<text x="666.0" y="994.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#222" pointer-events="none">in a big bed</text>
+<text x="425.0" y="1035.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#222" pointer-events="none">Safety tip: big machines have blind spots. Wave from far away!</text>
+</g>
+<g data-variant="hunt" style="display:none">
+<text x="425.0" y="140.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" fill="#222" pointer-events="none">Site inspector level: color, then find everything on the list.</text>
+<text x="425.0" y="918.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#222" pointer-events="none">Site inspector: find every cone and hard hat. Color a box for each.</text>
+<path d="M83.75,976 L89.75,950.5 L94.25,950.5 L100.25,976 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M86.0,967.0 L98.0,967.0 L96.5,961.0 L87.5,961.0 Z" class="f" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="79.2" y="976.0" width="25.5" height="5.2" rx="2" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="122.0" y="970.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Cones</text>
+<rect x="260.0" y="944.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="312.0" y="944.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="364.0" y="944.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="416.0" y="944.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="468.0" y="944.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M78.5,1020 Q78.5,1002.0 92,1002.0 Q105.5,1002.0 105.5,1020 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="74.0" y="1018.0" width="36.0" height="6.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M92,1002.0 L92,1016" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="122.0" y="1018.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Hard hats</text>
+<rect x="260.0" y="992.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="312.0" y="992.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="364.0" y="992.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="560.0" y="1008.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#222" pointer-events="none">Bonus: which machine</text>
+<text x="560.0" y="1030.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#222" pointer-events="none">pushes with a blade?</text>
+</g>
+<text x="805" y="1068" text-anchor="end" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="13" fill="#888">printablesprout.com</text>
+</svg>

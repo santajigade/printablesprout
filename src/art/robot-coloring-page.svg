@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+<rect x="20" y="20" width="810" height="1060" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+<text x="425" y="95" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" class="f" fill="#fff" stroke="#222" stroke-width="3" paint-order="stroke" data-field="name" data-tpl="{name}'s Robot Missions" data-empty="Robot Missions">Robot Missions</text>
+<text x="425" y="140" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#222" data-field="bot" data-tpl="My robot is named {bot}" data-empty="My robot is named ______________">My robot is named ______________</text>
+<g data-variant="helper">
+<rect x="50.0" y="170.0" width="750.0" height="620.0" rx="22" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50,780 L800,780 L800,848 Q800,870 778,870 L72,870 Q50,870 50,848 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="64.0" y="330.0" width="116.0" height="14.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="76.0" y="290.0" width="60.0" height="40.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="96.0" y="280.0" width="20.0" height="12.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="698.0" y="330.0" width="92.0" height="14.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M716,330 L726,300 L760,300 L770,330 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="733.0" cy="282.0" rx="9.0" ry="18.0" transform="rotate(-25 733 282)" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="752.0" cy="282.0" rx="9.0" ry="18.0" transform="rotate(25 752 282)" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M425,218 L425,252" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425.0" cy="205.0" r="15.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="288.0" y="292.0" width="28.0" height="62.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="534.0" y="292.0" width="28.0" height="62.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="315.0" y="250.0" width="220.0" height="150.0" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="342.0" y="272.0" width="166.0" height="106.0" rx="18" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="392.0" cy="314.0" r="21.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="458.0" cy="314.0" r="21.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="396.0" cy="316.0" r="7" fill="#222" pointer-events="none"/>
+<circle cx="462.0" cy="316.0" r="7" fill="#222" pointer-events="none"/>
+<circle cx="362.0" cy="352.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="488.0" cy="352.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M398,346 Q425,368 452,346" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="392.0" y="400.0" width="66.0" height="26.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M392,413 L458,413" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="212.0" y="454.0" width="80.0" height="34.0" rx="16" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="558.0" y="454.0" width="80.0" height="34.0" rx="16" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="205.0" cy="471.0" r="23.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="645.0" cy="471.0" r="23.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="189.0" y="492.0" width="32.0" height="78.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="629.0" y="492.0" width="32.0" height="78.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M190,566 Q172,590 184,614 L198,606 Q192,592 204,578 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M220,566 Q238,590 226,614 L212,606 Q218,592 206,578 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M630,566 Q612,590 624,614 L638,606 Q632,592 644,578 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M660,566 Q678,590 666,614 L652,606 Q658,592 646,578 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="298.0" y="424.0" width="254.0" height="232.0" rx="30" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300.0" cy="471.0" r="20.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="550.0" cy="471.0" r="20.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="334.0" y="448.0" width="182.0" height="112.0" rx="14" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M425,512 C400,494 392,474 408,466 C418,461 425,470 425,476 C425,470 432,461 442,466 C458,474 450,494 425,512 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M352,498 A22,22 0 0 1 396,498 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M374,498 L386,484" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="456.0" y="468.0" width="46.0" height="34.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M464,478 L494,478 M464,486 L494,486 M464,494 L494,494" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="372.0" cy="536.0" r="13.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="425.0" cy="536.0" r="13.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="478.0" cy="536.0" r="13.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="336.0" y="578.0" width="178.0" height="56.0" rx="12" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="350.0" y="590.0" width="32.0" height="32.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="390.0" y="590.0" width="32.0" height="32.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="430.0" y="590.0" width="32.0" height="32.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="470.0" y="590.0" width="32.0" height="32.0" rx="5" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="362.0" y="656.0" width="126.0" height="22.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="370.0" y="678.0" width="38.0" height="66.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="442.0" y="678.0" width="38.0" height="66.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="318.0" y="740.0" width="104.0" height="54.0" rx="27" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="342.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="370.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="398.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="428.0" y="740.0" width="104.0" height="54.0" rx="27" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="452.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="480.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="508.0" cy="767.0" r="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M127.0,236.0 L133.6,240.3 L132.3,244.4 L124.5,244.3 L122.6,246.6 L124.2,254.3 L120.4,256.3 L114.9,250.7 L112.0,251.0 L107.7,257.6 L103.6,256.3 L103.7,248.5 L101.4,246.6 L93.7,248.2 L91.7,244.4 L97.3,238.9 L97.0,236.0 L90.4,231.7 L91.7,227.6 L99.5,227.7 L101.4,225.4 L99.8,217.7 L103.6,215.7 L109.1,221.3 L112.0,221.0 L116.3,214.4 L120.4,215.7 L120.3,223.5 L122.6,225.4 L130.3,223.8 L132.3,227.6 L126.7,233.1 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="112.0" cy="236.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M753.0,430.0 L759.6,434.3 L758.3,438.4 L750.5,438.3 L748.6,440.6 L750.2,448.3 L746.4,450.3 L740.9,444.7 L738.0,445.0 L733.7,451.6 L729.6,450.3 L729.7,442.5 L727.4,440.6 L719.7,442.2 L717.7,438.4 L723.3,432.9 L723.0,430.0 L716.4,425.7 L717.7,421.6 L725.5,421.7 L727.4,419.4 L725.8,411.7 L729.6,409.7 L735.1,415.3 L738.0,415.0 L742.3,408.4 L746.4,409.7 L746.3,417.5 L748.6,419.4 L756.3,417.8 L758.3,421.6 L752.7,427.1 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="738.0" cy="430.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M133.0,640.0 L139.6,644.3 L138.3,648.4 L130.5,648.3 L128.6,650.6 L130.2,658.3 L126.4,660.3 L120.9,654.7 L118.0,655.0 L113.7,661.6 L109.6,660.3 L109.7,652.5 L107.4,650.6 L99.7,652.2 L97.7,648.4 L103.3,642.9 L103.0,640.0 L96.4,635.7 L97.7,631.6 L105.5,631.7 L107.4,629.4 L105.8,621.7 L109.6,619.7 L115.1,625.3 L118.0,625.0 L122.3,618.4 L126.4,619.7 L126.3,627.5 L128.6,629.4 L136.3,627.8 L138.3,631.6 L132.7,637.1 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="118.0" cy="640.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M737.0,832.0 L743.6,836.3 L742.3,840.4 L734.5,840.3 L732.6,842.6 L734.2,850.3 L730.4,852.3 L724.9,846.7 L722.0,847.0 L717.7,853.6 L713.6,852.3 L713.7,844.5 L711.4,842.6 L703.7,844.2 L701.7,840.4 L707.3,834.9 L707.0,832.0 L700.4,827.7 L701.7,823.6 L709.5,823.7 L711.4,821.4 L709.8,813.7 L713.6,811.7 L719.1,817.3 L722.0,817.0 L726.3,810.4 L730.4,811.7 L730.3,819.5 L732.6,821.4 L740.3,819.8 L742.3,823.6 L736.7,829.1 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="722.0" cy="832.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M758.0,205.0 L751.5,216.3 L738.5,216.3 L732.0,205.0 L738.5,193.7 L751.5,193.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="745.0" cy="205.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M117.0,432.0 L110.5,443.3 L97.5,443.3 L91.0,432.0 L97.5,420.7 L110.5,420.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="104.0" cy="432.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M761.0,650.0 L754.5,661.3 L741.5,661.3 L735.0,650.0 L741.5,638.7 L754.5,638.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="748.0" cy="650.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M265.0,836.0 L258.5,847.3 L245.5,847.3 L239.0,836.0 L245.5,824.7 L258.5,824.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="252.0" cy="836.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M605.0,832.0 L598.5,843.3 L585.5,843.3 L579.0,832.0 L585.5,820.7 L598.5,820.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="592.0" cy="832.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M163.0,836.0 L156.5,847.3 L143.5,847.3 L137.0,836.0 L143.5,824.7 L156.5,824.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150.0" cy="836.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="170.0" width="750.0" height="700.0" rx="22" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="885.0" width="750.0" height="168.0" rx="18" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="425.0" y="918.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#222" pointer-events="none">Repair mission: 4 gears and 6 bolts fell off the robot!</text>
+<text x="425.0" y="944.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#222" pointer-events="none">Find each one, then color a box for it here.</text>
+<path d="M105.0,982.0 L111.6,986.3 L110.3,990.4 L102.5,990.3 L100.6,992.6 L102.2,1000.3 L98.4,1002.3 L92.9,996.7 L90.0,997.0 L85.7,1003.6 L81.6,1002.3 L81.7,994.5 L79.4,992.6 L71.7,994.2 L69.7,990.4 L75.3,984.9 L75.0,982.0 L68.4,977.7 L69.7,973.6 L77.5,973.7 L79.4,971.4 L77.8,963.7 L81.6,961.7 L87.1,967.3 L90.0,967.0 L94.3,960.4 L98.4,961.7 L98.3,969.5 L100.6,971.4 L108.3,969.8 L110.3,973.6 L104.7,979.1 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="90.0" cy="982.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118.0" y="990.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Gears</text>
+<rect x="220.0" y="964.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="272.0" y="964.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="324.0" y="964.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="376.0" y="964.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M103.0,1028.0 L96.5,1039.3 L83.5,1039.3 L77.0,1028.0 L83.5,1016.7 L96.5,1016.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="90.0" cy="1028.0" r="5.0" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118.0" y="1036.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Bolts</text>
+<rect x="220.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="272.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="324.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="376.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="428.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="480.0" y="1010.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g data-variant="rover" style="display:none">
+<rect x="50.0" y="170.0" width="750.0" height="700.0" rx="22" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="690.0" cy="262.0" r="50.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="672.0" cy="245.0" r="12.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="708.0" cy="282.0" r="9.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="700.0" cy="236.0" r="6.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120.0,216.0 L123.7,224.9 L133.3,225.7 L126.0,231.9 L128.2,241.3 L120.0,236.3 L111.8,241.3 L114.0,231.9 L106.7,225.7 L116.3,224.9 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300.0,235.0 L302.6,241.4 L309.5,241.9 L304.3,246.4 L305.9,253.1 L300.0,249.5 L294.1,253.1 L295.7,246.4 L290.5,241.9 L297.4,241.4 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M420.0,203.0 L423.2,210.6 L431.4,211.3 L425.1,216.7 L427.1,224.7 L420.0,220.4 L412.9,224.7 L414.9,216.7 L408.6,211.3 L416.8,210.6 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M560.0,290.0 L562.6,296.4 L569.5,296.9 L564.3,301.4 L565.9,308.1 L560.0,304.5 L554.1,308.1 L555.7,301.4 L550.5,296.9 L557.4,296.4 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330.0,381.0 L332.4,386.7 L338.6,387.2 L333.9,391.3 L335.3,397.3 L330.0,394.1 L324.7,397.3 L326.1,391.3 L321.4,387.2 L327.6,386.7 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50,520 Q150,450 260,500 Q360,545 470,480 Q600,420 800,500 L800,600 L50,600 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50,585 Q220,555 420,590 Q620,625 800,575 L800,848 Q800,870 778,870 L72,870 Q50,870 50,848 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="330.0" cy="800.0" rx="46.0" ry="14.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="660.0" cy="700.0" rx="34.0" ry="11.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M170,318 L250,318 M210,318 L210,332" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="170.0" cy="312.0" rx="34.0" ry="7.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="250.0" cy="312.0" rx="34.0" ry="7.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="186.0" y="330.0" width="48.0" height="34.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="210.0" cy="347.0" r="8.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M192,364 L182,384 M228,364 L238,384 M174,384 L190,384 M230,384 L246,384" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="436.0" y="396.0" width="18.0" height="140.0" rx="4" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="400.0" y="352.0" width="90.0" height="48.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="428.0" cy="376.0" r="12.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="462.0" cy="376.0" r="12.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="428.0" cy="376.0" r="4" fill="#222" pointer-events="none"/>
+<circle cx="462.0" cy="376.0" r="4" fill="#222" pointer-events="none"/>
+<path d="M330,524 L330,480" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M296,470 Q330,505 364,470 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300,640 L345,600 L400,640 M400,640 L455,600 L510,640" fill="none" stroke="#222" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="270.0" y="536.0" width="260.0" height="70.0" rx="12" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="256.0" y="518.0" width="288.0" height="24.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="300.0" y="552.0" width="70.0" height="38.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="390.0" y="552.0" width="120.0" height="38.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M272,560 L210,520 L200,534 L262,576 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="204.0" cy="526.0" r="13.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M196,532 L168,602 L184,608 L212,538 Z" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="154.0" y="600.0" width="44.0" height="26.0" rx="6" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170.0" y="626.0" width="12.0" height="16.0" rx="3" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300.0" cy="660.0" r="30.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300.0" cy="660.0" r="10.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400.0" cy="660.0" r="30.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400.0" cy="660.0" r="10.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="510.0" cy="660.0" r="30.0" class="f" fill="#fff" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="510.0" cy="660.0" r="10.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90,660 Q86,642 102,636 Q116,628 128,642 Q136,656 126,662 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M700,650 Q696,632 712,626 Q726,618 738,632 Q746,646 736,652 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M620,770 Q616,752 632,746 Q646,738 658,752 Q666,766 656,772 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M210,810 Q206,792 222,786 Q236,778 248,792 Q256,806 246,812 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M400,770 Q396,752 412,746 Q426,738 438,752 Q446,766 436,772 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90,830 Q86,812 102,806 Q116,798 128,812 Q136,826 126,832 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M540,850 Q536,832 552,826 Q566,818 578,832 Q586,846 576,852 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M730,830 Q726,812 742,806 Q756,798 768,812 Q776,826 766,832 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="170.0" width="750.0" height="700.0" rx="22" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="50.0" y="885.0" width="750.0" height="168.0" rx="18" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="425.0" y="918.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#222" pointer-events="none">Rock mission: the rover needs 8 rock samples.</text>
+<path d="M64,968 Q61,954 74,949 Q85,943 94,954 Q100,965 92,970 Z" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108.0" y="968.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none">Rocks</text>
+<rect x="210.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="262.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="314.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="366.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="418.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="470.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="522.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="574.0" y="942.0" width="38.0" height="38.0" rx="8" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70.0" y="1032.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#222" pointer-events="none">Bonus: how many wheels does a real Mars rover have?</text>
+<circle cx="640.0" cy="1025.0" r="22.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="640.0" y="1033.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" pointer-events="none">4</text>
+<circle cx="696.0" cy="1025.0" r="22.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="696.0" y="1033.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" pointer-events="none">6</text>
+<circle cx="752.0" cy="1025.0" r="22.0" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="752.0" y="1033.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#222" pointer-events="none">8</text>
+</g>
+<text x="805" y="1068" text-anchor="end" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="13" fill="#888">printablesprout.com</text>
+</svg>

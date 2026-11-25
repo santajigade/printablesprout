@@ -49,7 +49,7 @@ The daily run takes topics from this table. Rules:
 | 37 | todo | garden-planting-chart-for-kids | Activities |  | kids garden chart printable | Seed to sprout tracker with drawing boxes |
 | 38 | todo | flower-coloring-page | Coloring Pages |  | flower coloring page | Flower parts labels for early science |
 | 39 | todo | end-of-school-year-memory-page | Activities |  | end of school year memory book | One page memory sheet with editable grade |
-| 40 | todo | ocean-animals-coloring-page | Coloring Pages |  | ocean coloring page | Fish, turtle and whale with NOAA ocean facts |
+| 40 | done 2026-11-24 | ocean-animals-coloring-page | Coloring Pages |  | ocean coloring page | Fish, turtle and whale with NOAA ocean facts |
 | 41 | todo | camping-coloring-page | Coloring Pages |  | camping coloring page | Tent and campfire scene with safety tips link |
 | 42 | todo | fourth-of-july-coloring-page | Coloring Pages |  | fourth of july coloring page | Fireworks and flag shapes, safety note |
 | 43 | todo | road-trip-bingo | Activities |  | road trip bingo printable | Four cards with car window sights |
@@ -61,9 +61,9 @@ The daily run takes topics from this table. Rules:
 | 49 | todo | halloween-bingo | Activities | halloween | halloween bingo printable | Four cards plus caller sheet |
 | 50 | todo | farm-animals-coloring-page | Coloring Pages |  | farm animals coloring page | Animal sounds matching game |
 | 51 | todo | jungle-animals-coloring-page | Coloring Pages |  | jungle animals coloring page | Habitat facts from an official zoo source |
-| 52 | todo | robot-coloring-page | Coloring Pages |  | robot coloring page | Design your own robot parts for STEM talk |
+| 52 | done 2026-11-24 | robot-coloring-page | Coloring Pages |  | robot coloring page | Design your own robot parts for STEM talk |
 | 53 | done 2026-11-23 | space-coloring-page | Coloring Pages |  | space coloring page | Planets in order with NASA facts |
-| 54 | todo | truck-coloring-page | Coloring Pages |  | truck coloring page | Construction vehicles, what each one does |
+| 54 | done 2026-11-24 | truck-coloring-page | Coloring Pages |  | truck coloring page | Construction vehicles, what each one does |
 | 55 | todo | alphabet-tracing-practice | Activities |  | alphabet tracing printable | Upper and lower case with picture for each letter |
 | 56 | todo | number-tracing-1-to-10 | Activities |  | number tracing printable | Count and color objects for each number |
 | 57 | todo | shapes-coloring-page | Coloring Pages |  | shapes coloring page | Shape names and sides to count |
@@ -71,7 +71,7 @@ The daily run takes topics from this table. Rules:
 | 59 | done 2026-11-17 | turkey-color-by-number | Activities | thanksgiving | turkey color by number | Numbered shapes that work with tap to fill online, color key on the sheet |
 | 60 | done 2026-11-17 | thanksgiving-word-search | Activities | thanksgiving | thanksgiving word search printable | Big letters, circle words online with the pen, answer key version |
 | 61 | skip | christmas-maze | Activities | christmas | christmas maze printable | Easy and hard versions on one page, solve online with the pen |
-| 62 | skip | christmas-color-by-number | Activities | christmas | christmas color by number | Numbered shapes for tap to fill, color key on the sheet |
+| 62 | done 2026-11-24 | christmas-color-by-number | Activities | christmas | christmas color by number | Numbered shapes for tap to fill, color key on the sheet |
 | 63 | skip | christmas-word-search | Activities | christmas | christmas word search printable | Easy and hard grids as versions, answer key version |
 | 64 | skip | christmas-dot-to-dot | Activities | christmas | christmas dot to dot printable | Numbered dots 1 to 30, connect online with the pen, then color |
 | 65 | done 2026-11-19 | winter-spot-the-difference | Activities | winter | spot the difference printable for kids | Two pictures, circle the differences with the pen, answer key version |
