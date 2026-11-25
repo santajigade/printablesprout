@@ -46,6 +46,12 @@ Santaji asked that every new game be **beautiful, creative, engaging and fun to 
 Compare each game against the best games already live (Road Race Math, Fraction Pizza, Disc Tower Puzzle). If a game looks plainer than those, improve it before publishing, or skip it. Two delightful games beat four plain ones.
 
 ## 5. Build each game
+0. **Choose the slug first (Santaji, 2026-11-25, applies from 2026-11-26).** The slug in `GAME_QUEUE.md` is only a working name. Pick the final slug with these rules, and never change it after publishing:
+   - Use the main phrase parents actually search, in their word order, and end with `game`: `days-of-the-week-game`, `opposites-game`, `division-with-remainders-game`, `hindi-numbers-game`.
+   - 2 to 5 words. No `kids` unless it is part of the search phrase. No filler such as `free`, `online` or `fun`, and no character names (`opposites-game`, not `seesaw-opposites`).
+   - Lowercase English words with hyphens only, and not already used by any game or printable.
+   - Use the same slug for the script, thumbnail, `games.ts` entry and the queue row (update the queue row's slug when you mark it done).
+   - Games published before 2026-11-26 keep their slugs.
 1. **Script** `public/js/games/<slug>.js`, plain JavaScript in one IIFE, no libraries, under 40 KB:
    - Start with `var root = document.getElementById('gk'); if (!root || !window.GK) return;` and build with `GK.frame({ root, rounds, levels, onLevel })`.
    - 2 to 4 levels from easy to hard, 8 to 12 rounds per level (or a natural end like clearing a board), a win screen with `GK.finish(f, { title, text, sheet: root.dataset.sheet, onReplay })`.
