@@ -30,10 +30,10 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 20 | done 2026-11-24 | rhyme-time | Rhyme Time | english | 6-8 | tap the picture that rhymes with the word | activities category |
 | 21 | done 2026-11-20 | car-race-math | Road Race Math | math | 6-8, 9-10 | next level HTML5 canvas racer: steer between lanes to drive through the right answer gate; speeds up each level | activities category |
 | 22 | done 2026-11-24 | simon-colors | Color Echo | brain | 3-5, 6-8 | watch and listen to a color sequence, repeat it; one more step each round | activities category |
-| 23 | todo | days-of-week | Days of the Week Train | life | 3-5, 6-8 | put day carriages in order, then answer "what comes after" | weekly-chore-chart |
+| 23 | done 2026-11-25 | days-of-week | Days of the Week Train | life | 3-5, 6-8 | put day carriages in order, then answer "what comes after" | weekly-chore-chart |
 | 24 | done 2026-11-21 | fraction-pizza | Fraction Pizza | math | 9-10 | tap slices to show a fraction, then compare fractions | activities category |
-| 25 | todo | opposites-match | Opposites Match | english | 3-5, 6-8 | match picture opposites: big and small, hot and cold | activities category |
-| 26 | todo | hindi-ginti | Hindi Ginti 1 to 20 | hindi-marathi | 3-5, 6-8 | count objects, tap the Hindi number word; verify spellings | activities category |
+| 25 | done 2026-11-25 | opposites-match | Opposites Match | english | 3-5, 6-8 | match picture opposites: big and small, hot and cold | activities category |
+| 26 | done 2026-11-25 | hindi-ginti | Hindi Ginti 1 to 20 | hindi-marathi | 3-5, 6-8 | count objects, tap the Hindi number word; verify spellings | activities category |
 | 27 | todo | place-value-blocks | Place Value Blocks | math | 6-8 | build a number with hundreds, tens and ones blocks | activities category |
 | 28 | todo | letter-catch | Letter Catch | english | 3-5, 6-8 | next level canvas game: move a basket to catch the falling letter that is asked for | thanksgiving-word-search |
 | 29 | todo | even-odd-sort | Even or Odd | math | 6-8 | send numbered balls down the even or odd chute | activities category |
@@ -46,7 +46,7 @@ Subjects: math, english, hindi-marathi, life, brain. Ages: 3-5, 6-8, 9-10.
 | 36 | todo | compare-numbers | Greater or Less | math | 6-8 | choose >, < or = between two numbers | activities category |
 | 37 | todo | compound-words | Word Glue | english | 6-8, 9-10 | join two picture words into a compound word | activities category |
 | 38 | todo | marathi-ankalipi | Marathi Numbers | hindi-marathi | 3-5, 6-8 | match Devanagari digits to counts; verify digits from a reliable source | activities category |
-| 39 | todo | division-share | Fair Share | math | 9-10 | share sweets equally among friends, find leftovers | activities category |
+| 39 | done 2026-11-25 | division-share | Fair Share | math | 9-10 | share sweets equally among friends, find leftovers | activities category |
 | 40 | todo | measure-it | Longer or Shorter | math | 3-5, 6-8 | compare and order lengths and heights | activities category |
 | 41 | todo | multiplication-arrays | Array Builder | math | 9-10 | build rows and columns to show a multiplication fact | activities category |
 | 42 | todo | weather-dress-up | Dress for the Weather | life | 3-5 | pick clothes that suit sunny, rainy or snowy days | activities category |
