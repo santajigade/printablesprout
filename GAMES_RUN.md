@@ -48,6 +48,7 @@ Compare each game against the best games already live (Road Race Math, Fraction 
 ## 5. Build each game
 0. **Choose the slug first (Santaji, 2026-11-25, applies from 2026-11-26).** The slug in `GAME_QUEUE.md` is only a working name. Pick the final slug with these rules, and never change it after publishing:
    - Use the main phrase parents actually search, in their word order, and end with `game`: `days-of-the-week-game`, `opposites-game`, `division-with-remainders-game`, `hindi-numbers-game`.
+   - The audience is global, not one country. Pick the plain English phrase people search worldwide, not a regional term: `hindi-numbers-game`, not `hindi-ginti-game`; `money-counting-game`, not `rupee-game`. Regional words (ginti, akshar) can go in the title, keywords and page text instead.
    - 2 to 5 words. No `kids` unless it is part of the search phrase. No filler such as `free`, `online` or `fun`, and no character names (`opposites-game`, not `seesaw-opposites`).
    - Lowercase English words with hyphens only, and not already used by any game or printable.
    - Use the same slug for the script, thumbnail, `games.ts` entry and the queue row (update the queue row's slug when you mark it done).
