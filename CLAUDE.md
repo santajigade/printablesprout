@@ -4,7 +4,7 @@ Static Astro site of free printables for US parents and teachers. Every push to 
 
 The daily publishing steps are in `DAILY_RUN.md`. Topics come from `TOPIC_QUEUE.md`.
 The daily story run (3 stories a day) follows `STORY_RUN.md`, with topics from `STORY_QUEUE.md`.
-The daily learning games run (4 games a day, at least 1 a big game for ages 9 to 10, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
+The daily learning games run (3 games a day since 2026-11-25, at least 1 a big game for ages 9 to 10, 8 AM IST) follows `GAMES_RUN.md`, with ideas from `GAME_QUEUE.md`.
 
 ## Repo layout
 - `src/content/printables/<slug>.md` : one printable page (frontmatter + page text)
