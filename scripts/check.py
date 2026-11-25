@@ -109,6 +109,8 @@ def check_story(path):
         if f and not os.path.exists(os.path.join(ROOT, 'public' + f)): err(slug, f'missing image {f}')
     for f in (f'public/og/stories-{slug}.png', f'public/pins/stories-{slug}.png'):
         if not os.path.exists(os.path.join(ROOT, f)): err(slug, f'missing {f} (run python3 scripts/stories/render_story.py {slug})')
+    if not os.path.exists(os.path.join(ROOT, f'public/stories/{slug}/{slug}-read-aloud.mp3')):
+        warn(slug, f'no Read Story recording yet (python3 scripts/stories/narrate.py {slug})')
     hero = get('hero') or ''
     if hero and body.count(hero) < 3: err(slug, f'hero name "{hero}" should appear in the story text at least 3 times')
     words = len(re.sub(r'<[^>]+>', ' ', body).split())

@@ -16,7 +16,7 @@ The daily learning games run (4 games a day, at least 1 a big game for ages 9 to
 - `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)
 - `src/lib/games.ts`, `src/pages/games/`, `public/js/games/` (`kit.js` = shared sounds, confetti and game frame), `public/images/games/`, `src/styles/games.css` : the learning games at /games/ (child directed: no analytics, ads or external links)
 - `scripts/check_games.py` and `scripts/playtest_games.py` : game checks and the browser play test
-- `src/content/stories/<slug>.md`, `public/stories/<slug>/<keyword-name>.svg`, `src/pages/stories/` : illustrated kids' stories at /stories/<slug>/ (blog style). Draw illustrations with `scripts/stories/kit.py`; share images with `python3 scripts/stories/render_story.py <slug>`
+- `src/content/stories/<slug>.md`, `public/stories/<slug>/<keyword-name>.svg`, `src/pages/stories/` : illustrated kids' stories at /stories/<slug>/ (blog style). Draw illustrations with `scripts/stories/kit.py`; share images with `python3 scripts/stories/render_story.py <slug>`; Read Story narration (cute child-like voice) with `python3 scripts/stories/narrate.py <slug>`
 - `scripts/check.py` : quality checks, must pass before every push
 - `scripts/dupes.py` : duplicate check, run before every new topic
 - `scripts/social/` : daily social videos, thumbnails and jingle (see `SOCIAL_RUN.md`); output goes to `social-out/` (git ignored, never deployed)

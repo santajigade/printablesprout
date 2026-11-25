@@ -3,7 +3,7 @@
 Read `CLAUDE.md` first: the **Story rules** and the style, facts and "no dashes" rules apply to every story.
 
 ## 1. Set up
-Attach `santajigade/printablesprout` with push access and clone it (`git clone --depth 30`), then `npm ci`. Python needs `playwright`, `pyyaml` (`pip install ... --break-system-packages` if missing).
+Attach `santajigade/printablesprout` with push access and clone it (`git clone --depth 30`), then `npm ci`. Python needs `playwright`, `pyyaml`, `kokoro-onnx` and `soundfile` (`pip install ... --break-system-packages` if missing).
 
 ## 2. Pick 3 topics
 From `STORY_QUEUE.md` take 3 `todo` rows: holiday rows first when the holiday is 3 to 30 days away, then from the top. Never two of the same theme on one day, and at least 1 `original`. For each, run `python3 scripts/dupes.py "<title>"` and look in `src/content/stories/`; skip anything already covered.
@@ -44,7 +44,9 @@ Body: story text with 3 or 4 specific `##` headings and 2 to 4 pictures, then th
 Write `scripts/stories/<slug>.py` using `scripts/stories/kit.py` (3D style is the default), like `scripts/stories/maya-thankful-leaf-garland.py`. Animal heroes: build friendly original animals from simple shapes (body, head, ears, eyes with highlights) with `F()` shading; `scripts/stories/animals.py` already has a sitting wolf/fox/cat/panther (`sitter`), `bear`, side view `walker`, `hare`, `tortoise`, plus `boulder`, `bush`, `flag`, `moon` and `stars`. Save each scene with a descriptive keyword file name. Run it, open the SVGs as PNG (Playwright screenshot) and look at every picture; fix overlaps or cut-off parts. Then:
 ```
 python3 scripts/stories/render_story.py <slug>
+python3 scripts/stories/narrate.py <slug>
 ```
+`narrate.py` records the Read Story narration in the cute child-like voice (Kokoro voice `af_heart`, pitched up); the model downloads once from GitHub. It takes several minutes per story, so start it in the background as soon as the story text is final. If the text changes later, run it again: the page only uses the recording when its paragraph count matches the story.
 
 ## 6. Check, build, publish
 ```

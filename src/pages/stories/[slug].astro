@@ -5,6 +5,7 @@ import Share from '../../components/Share.astro';
 import Ad from '../../components/Ad.astro';
 import { SITE, AUTHOR, occBySlug, fmtDate } from '../../lib/site';
 import { allStories, readMins } from '../../lib/stories';
+import fs from 'node:fs';
 export async function getStaticPaths() {
   const list = await allStories();
   return list.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry, list } }));
@@ -14,6 +15,10 @@ const { Content } = await render(entry);
 const d = entry.data;
 const url = `${SITE.url}/stories/${d.slug}/`;
 const mins = readMins(entry.body ?? '');
+// Recorded narration made by scripts/stories/narrate.py (optional; the browser voice is the fallback)
+const recDir = `public/stories/${d.slug}`;
+const rec = fs.existsSync(`${recDir}/${d.slug}-read-aloud.mp3`) && fs.existsSync(`${recDir}/read-aloud.json`)
+  ? { src: `/stories/${d.slug}/${d.slug}-read-aloud.mp3`, times: JSON.stringify(JSON.parse(fs.readFileSync(`${recDir}/read-aloud.json`, 'utf8')).blocks) } : null;
 const occ = d.occasion ? occBySlug(d.occasion) : undefined;
 const more = list.filter((s) => s.data.slug !== d.slug).slice(0, 3);
 const jsonld = { '@context': 'https://schema.org', '@graph': [
@@ -43,7 +48,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
       <div><input id="hero" type="text" maxlength="14" placeholder={`e.g. ${d.hero}`} autocomplete="off" /><button type="button" id="hero-reset">Reset</button></div>
       <div class="hero-kind" role="group" aria-label="Hero is a"><button type="button" data-kind="girl" aria-pressed={d.heroIs === 'girl' ? 'true' : 'false'}>Girl</button><button type="button" data-kind="boy" aria-pressed={d.heroIs === 'boy' ? 'true' : 'false'}>Boy</button></div>
     </form>}
-    <div class="read-aloud" hidden>
+    <div class="read-aloud" hidden data-audio={rec?.src} data-times={rec?.times}>
       <button type="button" id="read-btn" class="read-btn" aria-live="polite">
         <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
         <span>Read Story</span>
@@ -121,38 +126,61 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [
     document.getElementById('hero-reset').addEventListener('click', function () { input.value = ''; apply(''); kind(body.dataset.heroIs || 'girl'); });
   })();
   (function () {
-    var synth = window.speechSynthesis, wrap = document.querySelector('.read-aloud');
-    if (!synth || !window.SpeechSynthesisUtterance || !wrap) return;
+    // Read Story: plays the recorded child-like narration (one clip per story, with block timings) and highlights
+    // each paragraph. If a parent typed their own child's name, the browser voice reads instead so the name is right.
+    var wrap = document.querySelector('.read-aloud'); if (!wrap) return;
+    var synth = window.speechSynthesis, rec = wrap.dataset.audio, times = rec ? JSON.parse(wrap.dataset.times || '[]') : [];
+    if (!rec && !synth) return;
     wrap.hidden = false;
     var btn = document.getElementById('read-btn'), label = btn.querySelector('span'), stop = document.getElementById('stop-btn');
-    var state = 'idle', i = 0, parts = [];
+    var hero = (document.querySelector('.story-body') || {}).dataset ? document.querySelector('.story-body').dataset.hero : '';
+    var input = document.getElementById('hero');
+    var state = 'idle', mode = 'audio', i = 0, parts = [], audio = null, raf = 0;
     function collect() {
-      // Read the title and the story itself; the activity sits in <section class="story-activity"> and is skipped
-      var els = Array.prototype.slice.call(document.querySelectorAll('.story-body > p, .story-body > h2'));
-      return [document.querySelector('.story-title')].concat(els);
-    }
-    function voice() {
-      var v = synth.getVoices().filter(function (x) { return /^en(-|_)US/i.test(x.lang); });
-      return v.find(function (x) { return /natural|samantha|google us|aria|jenny/i.test(x.name); }) || v[0] || null;
+      // The title and the story itself; the activity sits in <section class="story-activity"> and is skipped
+      return [document.querySelector('.story-title')].concat(Array.prototype.slice.call(document.querySelectorAll('.story-body > p, .story-body > h2')));
     }
     function mark(el) { document.querySelectorAll('.reading').forEach(function (e) { e.classList.remove('reading'); }); if (el) { el.classList.add('reading'); el.scrollIntoView({ block: 'center', behavior: 'smooth' }); } }
     function set(st) { state = st; label.textContent = st === 'playing' ? 'Pause' : st === 'paused' ? 'Resume' : 'Read Story'; btn.classList.toggle('on', st !== 'idle'); stop.hidden = st === 'idle'; }
+    function customName() { return input && input.value.trim() && input.value.trim().toLowerCase() !== (hero || '').toLowerCase(); }
+    // recorded voice
+    function follow() {
+      if (!audio || state === 'idle') return;
+      var t = audio.currentTime, k = -1;
+      for (var j = 0; j < times.length; j++) if (t >= times[j].start - 0.1 && t <= times[j].end + 0.5) { k = j; break; }
+      if (k > -1 && parts[k] && !parts[k].classList.contains('reading')) mark(parts[k]);
+      raf = requestAnimationFrame(follow);
+    }
+    function playAudio() {
+      if (!audio) { audio = new Audio(rec); audio.preload = 'auto'; audio.addEventListener('ended', function () { cancelAnimationFrame(raf); mark(null); set('idle'); }); }
+      audio.currentTime = 0; audio.play(); follow();
+    }
+    // browser voice, pitched up to sound younger
+    function voice() {
+      var v = synth.getVoices().filter(function (x) { return /^en(-|_)US/i.test(x.lang); });
+      return v.find(function (x) { return /child|kid|junior|ivy|samantha|aria|jenny|google us/i.test(x.name); }) || v[0] || null;
+    }
     function next() {
       if (state === 'idle') return;
       if (i >= parts.length) { mark(null); set('idle'); return; }
       var el = parts[i++], text = (el.innerText || '').replace(/:.*$/, el.classList.contains('story-title') ? '' : '$&').trim();
       if (!text) return next();
-      var u = new SpeechSynthesisUtterance(text); u.rate = 0.9; u.pitch = 1.05; var v = voice(); if (v) u.voice = v; u.lang = 'en-US';
+      var u = new SpeechSynthesisUtterance(text); u.rate = 0.92; u.pitch = 1.7; var v = voice(); if (v) u.voice = v; u.lang = 'en-US';
       u.onend = function () { if (state === 'playing') next(); };
       mark(el); synth.speak(u);
     }
     btn.addEventListener('click', function () {
-      if (state === 'idle') { synth.cancel(); parts = collect(); i = 0; set('playing'); next(); }
-      else if (state === 'playing') { synth.pause(); set('paused'); }
-      else { synth.resume(); set('playing'); }
+      if (state === 'idle') {
+        parts = collect(); i = 0;
+        mode = rec && times.length === parts.length && !(customName() && synth) ? 'audio' : 'speech';
+        if (mode === 'speech' && !synth) mode = 'audio';
+        set('playing');
+        if (mode === 'audio') playAudio(); else { synth.cancel(); next(); }
+      } else if (state === 'playing') { if (mode === 'audio') { audio.pause(); cancelAnimationFrame(raf); } else synth.pause(); set('paused'); }
+      else { set('playing'); if (mode === 'audio') { audio.play(); follow(); } else synth.resume(); }
     });
-    stop.addEventListener('click', function () { set('idle'); synth.cancel(); mark(null); });
-    window.addEventListener('pagehide', function () { synth.cancel(); });
+    stop.addEventListener('click', function () { set('idle'); if (audio) { audio.pause(); cancelAnimationFrame(raf); } if (synth) synth.cancel(); mark(null); });
+    window.addEventListener('pagehide', function () { if (audio) audio.pause(); if (synth) synth.cancel(); });
   })();
   (function () { var b = document.getElementById('print-btn'); if (b) b.addEventListener('click', function () { window.print(); }); })();
   (function () {
