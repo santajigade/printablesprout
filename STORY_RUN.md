@@ -46,7 +46,7 @@ Write `scripts/stories/<slug>.py` using `scripts/stories/kit.py` (3D style is th
 python3 scripts/stories/render_story.py <slug>
 python3 scripts/stories/narrate.py <slug>
 ```
-`narrate.py` records the Read Story narration in the cute child-like voice (Kokoro voice `af_heart`, pitched up); the model downloads once from GitHub. It takes several minutes per story, so start it in the background as soon as the story text is final. If the text changes later, run it again: the page only uses the recording when its paragraph count matches the story.
+`narrate.py` records the Read Story narration in the cute child-like voice (Kokoro Indian voice `hf_alpha`, pitched up; owner's choice); the model downloads once from GitHub. It takes several minutes per story, so start it in the background as soon as the story text is final. If the text changes later, run it again: the page only uses the recording when its paragraph count matches the story.
 
 ## 6. Check, build, publish
 ```

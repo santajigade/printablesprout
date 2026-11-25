@@ -9,7 +9,7 @@ import os, re, sys, json, glob, subprocess, tempfile, urllib.request
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 CACHE = os.path.expanduser('~/.cache/kokoro')
 BASE = 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/'
-VOICE, PITCH, SPEED, GAP = 'af_heart', 1.28, 0.92, 0.55
+VOICE, PITCH, SPEED, GAP = 'hf_alpha', 1.25, 0.92, 0.55   # owner chose sample D (Indian, child-like) on 2026-11-25
 
 def model():
     os.makedirs(CACHE, exist_ok=True)
