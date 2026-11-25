@@ -1,0 +1,60 @@
+import sys; sys.path.insert(0, 'scripts/stories'); from kit import *; from animals import *
+SLUG = 'mowgli-joins-the-wolf-pack'
+FATHER = dict(color='#8f8f99', chest='#e6e2dc', snout=True)
+MOTHER = dict(color='#a59a8e', belly='#efe6da')
+CUB = dict(color='#b9b0a6', chest='#f3ece2', snout=True)
+AKELA = dict(color='#c4c4cc', chest='#f2f2f2', snout=True)
+WOLF = dict(color='#7d7d88', chest='#d9d6d0', snout=True)
+BAGHEERA = dict(color='#2b2b33', chest='#3b3b46', ears='small', eye='#e8c547')
+MOWGLI = dict(skin='#a86b45', hair='#2a1a12', shirt='#d7263d', pants='#a86b45', shoes='#8a5535', pony=False)
+NIGHT = '#2c3e66'
+STARS = [(80, 60), (220, 140), (330, 50), (480, 110), (610, 40), (700, 160), (820, 70), (1150, 230), (560, 200), (150, 250), (1100, 40)]
+def palm(x, base, s=1, c='#2f5d3a'):
+    fronds = ''.join(f'<ellipse cx="{dx}" cy="{dy}" rx="90" ry="22" fill="{F(c)}" transform="rotate({r} {dx} {dy})"/>' for dx, dy, r in ((-70, -330, 20), (70, -330, -20), (-60, -370, -25), (60, -370, 25), (0, -390, 90)))
+    return g(f'<path d="M-14 0 Q -20 -180 -6 -340 L 8 -340 Q 0 -180 14 0 Z" fill="{F("#6b4a2f", "cyl")}"/>' + fronds, x, base, s)
+def jungle_floor(y, c='#3f6b3a'):
+    return ground(c, y)
+# 1. Father Wolf finds the baby at the edge of the jungle
+s = Scene(sky=NIGHT)
+s.add(stars(STARS), moon(1000, 130, 56))
+s.add(palm(140, 560, .9, '#284f33'), palm(330, 540, .7, '#2a5636'))
+s.add('<path d="M-40 640 Q 60 330 330 330 Q 470 340 520 640 Z" fill="%s"/>' % F('#6e6458'))
+s.add('<path d="M120 640 Q 150 470 260 470 Q 360 480 380 640 Z" fill="#2a2420"/>')
+s.add(jungle_floor(600, '#3f6b3a'))
+s.add('<rect x="1030" y="250" width="44" height="420" rx="18" fill="%s"/>' % F('#6b4a2f', 'cyl'))
+s.add('<circle cx="1050" cy="220" r="120" fill="%s"/><circle cx="960" cy="270" r="80" fill="%s"/><circle cx="1140" cy="280" r="80" fill="%s"/>' % (F('#2f6a3c'), F('#357a44'), F('#2f6a3c')))
+s.add('<path d="M1036 470 Q 960 500 892 548" stroke="#6b4a2f" stroke-width="16" fill="none" stroke-linecap="round"/>')
+for x, y, r in ((960, 486, -30), (920, 520, 20), (995, 470, 40)):
+    s.add(f'<ellipse cx="{x}" cy="{y}" rx="26" ry="12" fill="{F("#4c9a55")}" transform="rotate({r} {x} {y})"/>')
+s.add(bush(700, 640, .8, '#2f6a3c'))
+s.add(walker(560, 700, 1.05, **dict(color=FATHER['color'], belly=FATHER['chest'])))
+s.add(kid(855, 700, .6, arm_up=True, **MOWGLI))
+s.save(SLUG, 'father-wolf-finds-baby-mowgli-by-moonlight', 'A grey wolf in the moonlit jungle finding a laughing little boy holding on to a low branch')
+# 2. Mother Wolf with the cubs and Mowgli in the cave
+s = Scene(bg='#3d312a')
+s.add('<path d="M820 640 Q 840 230 1010 220 Q 1180 230 1200 640 Z" fill="%s"/>' % F(NIGHT, 'sky'))
+s.add(stars([(900, 320), (980, 280), (1080, 300), (1130, 380), (940, 420)]), moon(1060, 360, 36))
+s.add('<path d="M0 0 H 1200 V 140 Q 900 60 600 120 Q 300 170 0 110 Z" fill="%s"/>' % F('#2b221d', 'vert'))
+s.add('<rect y="600" width="1200" height="200" fill="%s"/>' % F('#6a5646', 'vert'))
+s.add('<ellipse cx="520" cy="700" rx="420" ry="70" fill="#7d6754" opacity=".7"/>')
+s.add(walker(500, 700, 1.25, low=1, **MOTHER))
+s.add(sitter(250, 720, .42, **CUB), sitter(330, 740, .38, closed=True, **CUB))
+s.add(kid(470, 735, .55, **MOWGLI))
+s.add(sitter(780, 735, .42, **CUB), sitter(880, 720, .38, flip=True, **CUB))
+s.save(SLUG, 'mother-wolf-cuddling-mowgli-and-wolf-cubs-in-cave', 'Mother Wolf lying in the cave with her four wolf cubs and little Mowgli snuggled beside her')
+# 3. The Council Rock
+s = Scene(sky=NIGHT)
+s.add(stars(STARS), moon(980, 120, 70))
+s.add('<path d="M0 520 Q 300 440 600 500 T 1200 470 V 800 H 0 Z" fill="%s"/>' % F('#2e4a3a', 'vert'))
+s.add(jungle_floor(600, '#556b4a'))
+s.add(boulder(520, 470, 420, 190, '#8a8178'), boulder(330, 520, 220, 120, '#7a7168'), boulder(760, 520, 240, 110, '#7a7168'))
+s.add(sitter(560, 300, .78, **AKELA))
+for x, b, sc, fl in ((90, 610, .5, False), (210, 590, .48, False), (920, 590, .48, True), (330, 625, .5, False)):
+    s.add(sitter(x, b, sc, flip=fl, **WOLF))
+s.add(bear(1010, 690, .62))
+s.add(sitter(820, 700, .58, flip=True, **BAGHEERA))
+s.add(sitter(160, 750, .55, **WOLF), sitter(330, 770, .5, **FATHER), sitter(1150, 760, .5, flip=True, **WOLF))
+s.add(kid(560, 740, .5, arm_up=True, **MOWGLI))
+s.add(''.join(f'<circle cx="{x}" cy="{y}" r="7" fill="{F(c)}"/>' for x, y, c in ((500, 742, '#e6e2dc'), (520, 752, '#c9d6e3'), (610, 748, '#e6e2dc'), (630, 740, '#c9d6e3'))))
+s.save(SLUG, 'baloo-and-bagheera-speak-for-mowgli-at-council-rock', 'Akela the wolf on the Council Rock under a full moon as Baloo the bear and Bagheera the panther speak up for Mowgli in the circle of wolves')
+print('ok')

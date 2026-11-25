@@ -41,7 +41,7 @@ sources: [only when the story states real facts]
 Body: story text with 3 or 4 specific `##` headings and 2 to 4 pictures, then the closing activity wrapped in `<section class="story-activity">` (blank line, `## Heading`, steps, blank line, `</section>`). Originals mark every hero pronoun with `<span data-p="subj|obj|poss">`.
 
 ## 5. Draw the pictures
-Write `scripts/stories/<slug>.py` using `scripts/stories/kit.py` (3D style is the default), like `scripts/stories/maya-thankful-leaf-garland.py`. Animal heroes: build friendly original animals from simple shapes (body, head, ears, eyes with highlights) with `F()` shading. Save each scene with a descriptive keyword file name. Run it, open the SVGs as PNG (Playwright screenshot) and look at every picture; fix overlaps or cut-off parts. Then:
+Write `scripts/stories/<slug>.py` using `scripts/stories/kit.py` (3D style is the default), like `scripts/stories/maya-thankful-leaf-garland.py`. Animal heroes: build friendly original animals from simple shapes (body, head, ears, eyes with highlights) with `F()` shading; `scripts/stories/animals.py` already has a sitting wolf/fox/cat/panther (`sitter`), `bear`, side view `walker`, `hare`, `tortoise`, plus `boulder`, `bush`, `flag`, `moon` and `stars`. Save each scene with a descriptive keyword file name. Run it, open the SVGs as PNG (Playwright screenshot) and look at every picture; fix overlaps or cut-off parts. Then:
 ```
 python3 scripts/stories/render_story.py <slug>
 ```

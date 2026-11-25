@@ -9,7 +9,7 @@ The daily story run takes 3 rows a day. Rules:
 | # | Status | Slug | Theme | Type | Level | Idea and value add |
 |---|---|---|---|---|---|---|
 | 0 | done 2026-11-24 | maya-thankful-leaf-garland | Holiday Stories | original | Early reader | Thankful garland, Thanksgiving |
-| 1 | todo | the-tortoise-and-the-hare | Classic Tales | classic: Aesop's Fables | Early reader | Slow and steady wins; talk about not giving up |
+| 1 | done 2026-11-25 | the-tortoise-and-the-hare | Classic Tales | classic: Aesop's Fables | Early reader | Slow and steady wins; talk about not giving up |
 | 2 | todo | the-lion-and-the-mouse | Classic Tales | classic: Aesop's Fables | Read aloud | Small friends can help in big ways |
 | 3 | todo | the-ant-and-the-grasshopper | Classic Tales | classic: Aesop's Fables | Early reader | Planning ahead and hard work |
 | 4 | todo | the-boy-who-cried-wolf | Classic Tales | classic: Aesop's Fables | Early reader | Why telling the truth matters |
@@ -27,7 +27,7 @@ The daily story run takes 3 rows a day. Rules:
 | 16 | todo | the-emperors-new-clothes | Classic Tales | classic: Hans Christian Andersen | Confident reader | Speaking up honestly |
 | 17 | todo | birbal-and-the-crows | Classic Tales | classic: Akbar and Birbal folk tales | Confident reader | Clever answers and good humor |
 | 18 | todo | tenali-rama-and-the-thieves | Classic Tales | classic: Tenali Rama folk tales | Confident reader | Smart thinking to stay safe |
-| 19 | todo | mowgli-joins-the-wolf-pack | Jungle Tales | classic: Rudyard Kipling, The Jungle Book (1894) | Confident reader | Belonging and family, told gently; our own character designs only |
+| 19 | done 2026-11-25 | mowgli-joins-the-wolf-pack | Jungle Tales | classic: Rudyard Kipling, The Jungle Book (1894) | Confident reader | Belonging and family, told gently; our own character designs only |
 | 20 | todo | mowgli-learns-the-jungle-law | Jungle Tales | classic: Rudyard Kipling, The Jungle Book (1894) | Confident reader | Listening to teachers and following good rules |
 | 21 | todo | toomai-of-the-elephants | Jungle Tales | classic: Rudyard Kipling, The Jungle Book (1894) | Confident reader | Courage and caring for animals |
 | 22 | todo | how-the-elephant-got-its-trunk | Jungle Tales | classic: Rudyard Kipling, Just So Stories (1902) | Early reader | Curiosity and asking questions |
@@ -64,7 +64,7 @@ The daily story run takes 3 rows a day. Rules:
 | 53 | todo | the-busy-bees | Learning and Science | original | Early reader | How bees help flowers, USDA facts |
 | 54 | todo | counting-stars-at-the-campout | Learning and Science | original | Read aloud | Counting to 10 and night sky facts |
 | 55 | todo | the-snowflake-who-was-different | Holiday Stories | original | Read aloud | Every snowflake is unique, NOAA facts |
-| 56 | todo | the-christmas-cookie-mix-up | Holiday Stories | original | Early reader | Sharing and giving at Christmas |
+| 56 | done 2026-11-25 | the-christmas-cookie-mix-up | Holiday Stories | original | Early reader | Sharing and giving at Christmas |
 | 57 | todo | the-reindeer-who-was-late | Holiday Stories | original | Early reader | Patience and teamwork (our own reindeer, no famous ones) |
 | 58 | todo | the-new-years-promise | Holiday Stories | original | Early reader | Setting a small goal for the new year |
 | 59 | todo | the-valentines-surprise | Holiday Stories | original | Read aloud | Showing kindness to classmates |

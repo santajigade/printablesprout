@@ -20,7 +20,7 @@ def render(pg, slug):
     first = re.search(r'^image:\s*"(.*)"', md, re.M).group(1)
     img = 'data:image/svg+xml;base64,' + base64.b64encode(open(os.path.join(ROOT, 'public' + first), 'rb').read()).decode()
     b = lambda n: BADGE.replace('<svg ', f'<svg width="{n}" height="{n}" style="margin-right:10px" ', 1)
-    css = f'<style>{FONTS} body{{margin:0}} .t{{font-family:Fredoka,Arial}} .c{{background:#fff;color:#c2541b;border-radius:999px;padding:10px 22px;font-size:26px}}</style>'
+    css = f'<style>{FONTS} body{{margin:0}} .t{{font-family:Fredoka,Arial}} .c{{background:#fff;color:#c2541b;border-radius:999px;padding:10px 22px;font-size:26px;white-space:nowrap}}</style>'
     og = f'''{css}<div style="position:relative;width:1200px;height:630px;overflow:hidden;background:#fff3e6;font-family:Nunito,Arial;color:#2b2420">
       <img src="{img}" style="position:absolute;left:560px;top:55px;width:600px;height:400px;border-radius:22px;box-shadow:0 14px 34px rgba(80,40,10,.22)">
       <div style="position:absolute;left:60px;top:0;bottom:0;width:470px;display:flex;flex-direction:column;justify-content:center;gap:18px">
