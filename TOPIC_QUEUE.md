@@ -39,7 +39,7 @@ The daily run takes topics from this table. Rules:
 | 27 | todo | heart-pattern-coloring-page | Coloring Pages | valentines-day | heart coloring page | Pattern practice, symmetry talk |
 | 28 | todo | st-patricks-day-coloring-page | Coloring Pages | st-patricks-day | st patricks day coloring page | Shamrocks and rainbow, original art |
 | 29 | done 2026-11-21 | rainbow-coloring-page | Coloring Pages |  | rainbow coloring page | Color order lesson using NOAA rainbow facts |
-| 30 | todo | spring-scavenger-hunt | Activities |  | spring scavenger hunt printable | Nature checklist with pictures |
+| 30 | skip | spring-scavenger-hunt | Activities |  | spring scavenger hunt printable | Nature checklist with pictures |
 | 31 | done 2026-11-22 | butterfly-coloring-page | Coloring Pages |  | butterfly coloring page | Symmetry activity, life cycle facts from an official source |
 | 32 | todo | easter-egg-coloring-page | Coloring Pages | easter | easter egg coloring page | Six patterned eggs as fillable shapes |
 | 33 | todo | bunny-coloring-page | Coloring Pages | easter | bunny coloring page | Original bunny with spring flowers |
@@ -52,21 +52,21 @@ The daily run takes topics from this table. Rules:
 | 40 | done 2026-11-24 | ocean-animals-coloring-page | Coloring Pages |  | ocean coloring page | Fish, turtle and whale with NOAA ocean facts |
 | 41 | todo | camping-coloring-page | Coloring Pages |  | camping coloring page | Tent and campfire scene with safety tips link |
 | 42 | todo | fourth-of-july-coloring-page | Coloring Pages |  | fourth of july coloring page | Fireworks and flag shapes, safety note |
-| 43 | todo | road-trip-bingo | Activities |  | road trip bingo printable | Four cards with car window sights |
+| 43 | done 2026-11-25 | road-trip-bingo | Activities |  | road trip bingo printable | Four cards with car window sights |
 | 44 | todo | back-to-school-all-about-me | Activities | back-to-school | all about me back to school | Editable grade and name, favorites boxes |
-| 45 | todo | apple-coloring-page | Coloring Pages |  | apple coloring page | Apple parts and counting seeds |
+| 45 | done 2026-11-25 | apple-coloring-page | Coloring Pages |  | apple coloring page | Apple parts and counting seeds |
 | 46 | todo | fall-leaves-coloring-page | Coloring Pages |  | fall leaves coloring page | Leaf shapes by tree type with USDA Forest Service facts |
-| 47 | todo | fall-scavenger-hunt | Activities |  | fall scavenger hunt printable | Nature checklist with pictures |
+| 47 | skip | fall-scavenger-hunt | Activities |  | fall scavenger hunt printable | Nature checklist with pictures |
 | 48 | todo | halloween-coloring-page | Coloring Pages | halloween | halloween coloring page | Friendly ghosts and cats, not scary |
 | 49 | todo | halloween-bingo | Activities | halloween | halloween bingo printable | Four cards plus caller sheet |
-| 50 | todo | farm-animals-coloring-page | Coloring Pages |  | farm animals coloring page | Animal sounds matching game |
-| 51 | todo | jungle-animals-coloring-page | Coloring Pages |  | jungle animals coloring page | Habitat facts from an official zoo source |
+| 50 | skip | farm-animals-coloring-page | Coloring Pages |  | farm animals coloring page | Animal sounds matching game |
+| 51 | skip | jungle-animals-coloring-page | Coloring Pages |  | jungle animals coloring page | Habitat facts from an official zoo source |
 | 52 | done 2026-11-24 | robot-coloring-page | Coloring Pages |  | robot coloring page | Design your own robot parts for STEM talk |
 | 53 | done 2026-11-23 | space-coloring-page | Coloring Pages |  | space coloring page | Planets in order with NASA facts |
 | 54 | done 2026-11-24 | truck-coloring-page | Coloring Pages |  | truck coloring page | Construction vehicles, what each one does |
 | 55 | todo | alphabet-tracing-practice | Activities |  | alphabet tracing printable | Upper and lower case with picture for each letter |
-| 56 | todo | number-tracing-1-to-10 | Activities |  | number tracing printable | Count and color objects for each number |
-| 57 | todo | shapes-coloring-page | Coloring Pages |  | shapes coloring page | Shape names and sides to count |
+| 56 | done 2026-11-25 | number-tracing-1-to-10 | Activities |  | number tracing printable | Count and color objects for each number |
+| 57 | done 2026-11-25 | shapes-coloring-page | Coloring Pages |  | shapes coloring page | Shape names and sides to count |
 | 58 | todo | birthday-coloring-page | Coloring Pages |  | birthday coloring page | Editable name and age on a cake to color |
 | 59 | done 2026-11-17 | turkey-color-by-number | Activities | thanksgiving | turkey color by number | Numbered shapes that work with tap to fill online, color key on the sheet |
 | 60 | done 2026-11-17 | thanksgiving-word-search | Activities | thanksgiving | thanksgiving word search printable | Big letters, circle words online with the pen, answer key version |
@@ -82,7 +82,7 @@ The daily run takes topics from this table. Rules:
 | 70 | done 2026-11-22 | dots-and-boxes-game | Activities |  | dots and boxes printable | Classic two player game, play online with the pen, rules by age |
 | 71 | done 2026-11-23 | tic-tac-toe-boards | Activities |  | tic tac toe printable | Redesigned 2026-11-24: Penguins vs Snowmen and Bees vs Ladybugs board with cut-out team pieces, slide mode |
 | 72 | skip | ocean-maze | Activities |  | ocean maze printable | Help the turtle reach the sea, easy and hard versions |
-| 73 | todo | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
+| 73 | skip | space-dot-to-dot | Activities |  | space dot to dot printable | Rocket and planet dot to dots with NASA facts |
 | 74 | done 2026-11-19 | gratitude-jar-cards | Holiday Printables | thanksgiving | gratitude jar printable | Editable prompt cards, cut lines, how to run a family gratitude jar |
 | 75 | done 2026-11-20 | christmas-wish-list-for-kids | Holiday Printables | christmas | christmas wish list printable | Editable name, picture boxes for pre-writers, one gift for someone else line |
 | 76 | done 2026-11-21 | christmas-thank-you-notes-for-kids | Holiday Printables | christmas | kids thank you notes printable | Fill in the blank notes with editable name, drawing box |

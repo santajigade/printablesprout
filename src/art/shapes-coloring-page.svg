@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+<rect x="20" y="20" width="810" height="1060" rx="28" class="f" fill="#fff" stroke="#222" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+<text x="425" y="92" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" class="f" fill="#fff" stroke="#222" stroke-width="3" paint-order="stroke" data-field="name" data-tpl="{name}'s Shape Town" data-empty="Shape Town Hunt">Shape Town Hunt</text>
+<circle cx="735.0" cy="195.0" r="40.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M785.0,195.0 L799.0,195.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M778.3,220.0 L790.4,227.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M760.0,238.3 L767.0,250.4" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M735.0,245.0 L735.0,259.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M710.0,238.3 L703.0,250.4" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M691.7,220.0 L679.6,227.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M685.0,195.0 L671.0,195.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M691.7,170.0 L679.6,163.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M710.0,151.7 L703.0,139.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M735.0,145.0 L735.0,131.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M760.0,151.7 L767.0,139.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M778.3,170.0 L790.4,163.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M560,270 Q548,236 582,232 Q594,204 628,214 Q656,200 670,232 Q700,236 690,270 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M60,140 Q240,200 420,150" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M72.0,150.9 L120.0,150.9 L96.0,200.9 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M144.0,166.1 L192.0,166.1 L168.0,216.1 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M216.0,172.5 L264.0,172.5 L240.0,222.5 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M288.0,170.1 L336.0,170.1 L312.0,220.1 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M360.0,158.9 L408.0,158.9 L384.0,208.9 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="470.0" y="255.0" width="72.0" height="72.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" transform="rotate(45 506.0 291.0)"/>
+<path d="M506,342 q-20,30 0,60 q20,30 0,60 q-14,20 -6,40" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M480.0,600.0 L575.0,420.0 L670.0,600.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M670.0,600.0 L740.0,470.0 L810.0,600.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="258.0" y="340.0" width="34.0" height="90.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M88.0,470.0 L210.0,330.0 L332.0,470.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="210.0" cy="425.0" r="24.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="110.0" y="470.0" width="200.0" height="200.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="132.0" y="500.0" width="54.0" height="54.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="234.0" y="500.0" width="54.0" height="54.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="180.0" y="576.0" width="60.0" height="94.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="228.0" cy="625.0" r="4" fill="#222" pointer-events="none"/>
+<rect x="398.0" y="530.0" width="32.0" height="150.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="414.0" cy="465.0" r="66.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M560,650 L560,700" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="8" />
+<path d="M606.0,610.0 L583.0,649.8 L537.0,649.8 L514.0,610.0 L537.0,570.2 L583.0,570.2 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<text x="560.0" y="605.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#222" pointer-events="none" >SHAPE</text>
+<text x="560.0" y="625.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#222" pointer-events="none" >TOWN</text>
+<path d="M50,690 Q220,672 420,690 Q620,708 800,684 L800,792 Q425,806 50,792 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="616.0" y="600.0" width="100.0" height="50.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="648.0" y="607.0" width="36.0" height="36.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="586.0" y="650.0" width="180.0" height="56.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="628.0" cy="712.0" r="24.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="724.0" cy="712.0" r="24.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M190.0,742.0 L175.0,768.0 L145.0,768.0 L130.0,742.0 L145.0,716.0 L175.0,716.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M280.0,760.0 L265.0,786.0 L235.0,786.0 L220.0,760.0 L235.0,734.0 L265.0,734.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M370.0,740.0 L355.0,766.0 L325.0,766.0 L310.0,740.0 L325.0,714.0 L355.0,714.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<path d="M440.0,692.0 L452.0,664.0 L466.0,690.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M470.0,690.0 L484.0,664.0 L496.0,692.0 Z" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="470.0" y="712.0" width="74.0" height="44.0" rx="0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="468.0" cy="708.0" r="28.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<circle cx="458.0" cy="704.0" r="3.5" fill="#222" pointer-events="none"/>
+<circle cx="478.0" cy="704.0" r="3.5" fill="#222" pointer-events="none"/>
+<path d="M462,716 Q468,722 474,716" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" />
+<path d="M544,745 q30,4 28,-18" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="4" />
+<circle cx="722.0" cy="188.0" r="4" fill="#222" pointer-events="none"/>
+<circle cx="748.0" cy="188.0" r="4" fill="#222" pointer-events="none"/>
+<path d="M722,206 Q735,218 748,206" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<circle cx="80.0" cy="735.0" r="22.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<rect x="50.0" y="815.0" width="750.0" height="235.0" rx="20" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" />
+<g data-variant="hunt">
+<text x="425.0" y="852.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#222" pointer-events="none" >Shape hunt! Count each shape in Shape Town and color the answer.</text>
+<circle cx="92.0" cy="896.0" r="16.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="903.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Circles</text>
+<circle cx="270.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="270.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >6</text>
+<circle cx="316.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="316.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >7</text>
+<circle cx="362.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="362.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >8</text>
+<rect x="77.0" y="931.0" width="30.0" height="30.0" rx="0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="953.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Squares</text>
+<circle cx="270.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="270.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >4</text>
+<circle cx="316.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="316.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >5</text>
+<circle cx="362.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="362.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >6</text>
+<path d="M74.0,1010.0 L92.0,979.0 L110.0,1010.0 Z" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="1003.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Triangles</text>
+<circle cx="270.0" cy="996.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="270.0" y="1003.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >9</text>
+<circle cx="316.0" cy="996.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="316.0" y="1003.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >10</text>
+<circle cx="362.0" cy="996.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="362.0" y="1003.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >11</text>
+<rect x="450.0" y="884.0" width="44.0" height="24.0" rx="0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="502.0" y="903.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Rectangles</text>
+<circle cx="650.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="650.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >5</text>
+<circle cx="696.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="696.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >6</text>
+<circle cx="742.0" cy="896.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="742.0" y="903.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >7</text>
+<path d="M489.0,946.0 L480.5,960.7 L463.5,960.7 L455.0,946.0 L463.5,931.3 L480.5,931.3 Z" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="502.0" y="953.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Hexagons</text>
+<circle cx="650.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="650.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >3</text>
+<circle cx="696.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="696.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >4</text>
+<circle cx="742.0" cy="946.0" r="19.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="742.0" y="953.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >5</text>
+<text x="450.0" y="1008.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#222" pointer-events="none" >Tricky one: the kite is a square too!</text>
+</g>
+<g data-variant="colorkey" style="display:none">
+<text x="425.0" y="852.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#222" pointer-events="none" >Color by shape: use the color key, then count all the shapes.</text>
+<circle cx="92.0" cy="896.0" r="16.0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="903.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Circles = yellow</text>
+<rect x="340.0" y="878.0" width="60.0" height="36.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="77.0" y="931.0" width="30.0" height="30.0" rx="0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="953.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Squares = blue</text>
+<rect x="340.0" y="928.0" width="60.0" height="36.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M74.0,1010.0 L92.0,979.0 L110.0,1010.0 Z" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="122.0" y="1003.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Triangles = red</text>
+<rect x="340.0" y="978.0" width="60.0" height="36.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<rect x="450.0" y="884.0" width="44.0" height="24.0" rx="0" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="502.0" y="903.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Rectangles = green</text>
+<rect x="720.0" y="878.0" width="60.0" height="36.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<path d="M489.0,946.0 L480.5,960.7 L463.5,960.7 L455.0,946.0 L463.5,931.3 L480.5,931.3 Z" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="502.0" y="953.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Hexagons = orange</text>
+<rect x="720.0" y="928.0" width="60.0" height="36.0" rx="10" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="450.0" y="1008.0" text-anchor="start" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#222" pointer-events="none" >Shapes in all:</text>
+<circle cx="618.0" cy="1001.0" r="21.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="618.0" y="1008.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >30</text>
+<circle cx="668.0" cy="1001.0" r="21.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="668.0" y="1008.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >32</text>
+<circle cx="718.0" cy="1001.0" r="21.0" class="f" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" />
+<text x="718.0" y="1008.0" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#222" pointer-events="none" >34</text>
+</g>
+<text x="805" y="1068" text-anchor="end" font-family="Trebuchet MS, Segoe UI, Arial, sans-serif" font-size="13" fill="#888">printablesprout.com</text>
+</svg>
