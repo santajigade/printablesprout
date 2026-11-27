@@ -9,7 +9,7 @@ PrintableSprout is a small site that makes free printables for parents and teach
 
 Most free printables online are scans of the same few pages, files hidden behind email sign-ups, or pages that print with half the picture cut off. We wanted the opposite: original line art, a page that prints right the first time on both US Letter and A4, and no sign-up wall.
 
-Every page also works on screen. Kids can color with tap-to-fill or a crayon tool on a phone, tablet or computer, and parents can type a child's name onto the sheet before printing.
+Every page also works on screen. Kids can color with tap-to-fill, a watercolor brush or a crayon tool on a phone, tablet or computer, and parents can type a child's name onto the sheet before printing.
 
 ## Who makes it
 

@@ -13,7 +13,7 @@ The daily learning games run (3 games a day since 2026-11-25, at least 1 a big g
 - `src/pages/pins.xml.ts` : Pinterest auto-publish RSS feed at `/pins.xml` (new printables become Pins automatically)
 - `src/content/pages/*.md` : trust pages (about, editorial policy, corrections, contact, privacy, terms, disclaimer)
 - `src/lib/site.ts` : site name, categories, occasions (with next dates for the seasonal banner), nav, author, AdSense and GA4 ids
-- `public/js/sprout.js` : the online coloring tool (tap to fill, crayon, undo, print, PNG download, name fields, versions)
+- `public/js/sprout.js` : the online coloring tool (tap to fill, watercolor wash and brush, crayon, undo, print, PNG download, name fields, versions)
 - `src/lib/games.ts`, `src/pages/games/`, `public/js/games/` (`kit.js` = shared sounds, confetti and game frame), `public/images/games/`, `src/styles/games.css` : the learning games at /games/ (child directed: no analytics, ads or external links)
 - `scripts/check_games.py` and `scripts/playtest_games.py` : game checks and the browser play test
 - `src/content/stories/<slug>.md`, `public/stories/<slug>/<keyword-name>.svg`, `src/pages/stories/` : illustrated kids' stories at /stories/<slug>/ (blog style). Draw illustrations with `scripts/stories/kit.py`; share images with `python3 scripts/stories/render_story.py <slug>`; Read Story narration (cute child-like voice) with `python3 scripts/stories/narrate.py <slug>`

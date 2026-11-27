@@ -28,12 +28,13 @@ const COLORS = [
     )}
     {draw ? (
     <div class="lbl">Tool
-      <div class="seg" data-seg="tool"><button type="button" data-v="crayon" class="on">Draw and write</button><button type="button" data-v="fill">Tap to fill</button></div>
+      <div class="seg" data-seg="tool"><button type="button" data-v="crayon" class="on">Draw and write</button><button type="button" data-v="fill">Tap to fill</button><button type="button" data-v="water">Watercolor</button></div>
       <div class="seg" data-seg="size"><button type="button" data-v="5" class="on">Thin</button><button type="button" data-v="12">Medium</button><button type="button" data-v="24">Thick</button></div>
     </div>
     ) : (
     <div class="lbl">Color tool
-      <div class="seg" data-seg="tool"><button type="button" data-v="fill" class="on">Tap to fill</button><button type="button" data-v="crayon">Crayon</button></div>
+      <div class="seg" data-seg="tool"><button type="button" data-v="fill" class="on">Tap to fill</button><button type="button" data-v="water">Watercolor</button><button type="button" data-v="crayon">Crayon</button></div>
+      <p class="tool-tip" data-tip="water" hidden>Watercolor: tap a shape to wash it with paint, or drag to paint with the brush. Tap again to add a deeper layer. White lifts the paint off.</p>
       <div class="seg" data-seg="size"><button type="button" data-v="5">Thin</button><button type="button" data-v="12" class="on">Medium</button><button type="button" data-v="24">Thick</button></div>
     </div>
     )}
