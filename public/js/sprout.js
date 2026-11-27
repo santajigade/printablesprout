@@ -11,33 +11,6 @@
   var fills = Array.prototype.slice.call(svg.querySelectorAll('.f'));
   fills.forEach(function (el) { el.dataset.orig = el.getAttribute('fill') || '#fff'; });
 
-  // Watercolor filters: ragged soft edges, uneven pigment and darker pooled edges.
-  // They live inside the SVG so print and PNG download keep the paint look.
-  var defs = document.createElementNS(NS, 'defs');
-  defs.innerHTML =
-    '<filter id="wc-wash" x="-3%" y="-3%" width="106%" height="106%" color-interpolation-filters="sRGB">' +
-      '<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="4" result="n"/>' +
-      '<feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" result="d"/>' +
-      '<feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="9" result="n2"/>' +
-      '<feColorMatrix in="n2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.9 0 0 0 -0.35" result="a"/>' +
-      '<feComposite in="d" in2="a" operator="in" result="tex"/>' +
-      '<feMorphology in="d" operator="erode" radius="2.5" result="inner"/>' +
-      '<feComposite in="d" in2="inner" operator="out" result="edge"/>' +
-      '<feMerge><feMergeNode in="tex"/><feMergeNode in="edge"/></feMerge>' +
-    '</filter>' +
-    '<filter id="wc-brush" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">' +
-      '<feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="2" result="n"/>' +
-      '<feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G" result="d"/>' +
-      '<feGaussianBlur in="d" stdDeviation="0.7" result="b"/>' +
-      '<feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" result="n2"/>' +
-      '<feColorMatrix in="n2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7 0 0 0 -0.2" result="a"/>' +
-      '<feComposite in="b" in2="a" operator="in" result="tex"/>' +
-      '<feMorphology in="b" operator="erode" radius="1.5" result="inner"/>' +
-      '<feComposite in="b" in2="inner" operator="out" result="edge"/>' +
-      '<feMerge><feMergeNode in="tex"/><feMergeNode in="edge"/></feMerge>' +
-    '</filter>';
-  svg.insertBefore(defs, svg.firstChild);
-
   // Ink layer for crayon and watercolor brush strokes, on top of the art
   var ink = document.createElementNS(NS, 'g');
   ink.setAttribute('id', 'ink');
@@ -92,11 +65,24 @@
     });
   });
 
+  // Watercolor helpers
+  function tint(hex) {
+    var n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+    function mix(v) { return Math.round(v * 0.62 + 255 * 0.38); }
+    return 'rgb(' + mix(r) + ',' + mix(g) + ',' + mix(b) + ')';
+  }
+  function edgeOf(shape) {
+    var n = shape.nextSibling;
+    return n && n.nodeType === 1 && n.classList.contains('wc') ? n : null;
+  }
+
   // Tap to fill
   svg.addEventListener('click', function (e) {
     if (state.tool !== 'fill') return;
     var t = e.target.closest && e.target.closest('.f'); if (!t) return;
-    undo.push({ t: 'fill', el: t, prev: t.getAttribute('fill') });
+    var oldEdge = edgeOf(t);
+    undo.push({ t: 'wash', el: t, prev: t.getAttribute('fill'), oldEdge: oldEdge, newEdge: null });
+    if (oldEdge) oldEdge.remove();
     t.setAttribute('fill', state.color);
   });
 
@@ -122,7 +108,7 @@
     if (state.tool === 'water') {
       cur.setAttribute('stroke-width', Math.round(state.size * 1.8));
       if (isWhite()) { cur.setAttribute('opacity', '0.9'); }
-      else { cur.setAttribute('opacity', '0.55'); cur.setAttribute('filter', 'url(#wc-brush)'); cur.setAttribute('style', 'mix-blend-mode:multiply'); }
+      else { cur.setAttribute('stroke', tint(state.color)); cur.setAttribute('opacity', '0.8'); }
     } else {
       cur.setAttribute('stroke-width', state.size); cur.setAttribute('opacity', '0.88');
     }
@@ -135,22 +121,25 @@
     pts.push(q[0] + ' ' + q[1]);
     cur.setAttribute('d', 'M' + pts[0] + ' L' + pts.slice(1).join(' L'));
   });
+  // Watercolor wash: one even, soft shade per shape (a lighter tint of the color)
+  // with a faint darker painted edge. Tapping again replaces the color, it never
+  // stacks layers, so the shade stays uniform. Plain SVG, no filters, so it looks
+  // the same in every browser, in print and in the PNG download.
   function wash(shape) {
-    if (isWhite()) {
-      // White in watercolor mode lifts the paint off the tapped shape
-      var n = shape.nextSibling;
-      while (n && n.nodeType === 1 && n.classList.contains('wc')) { var nx = n.nextSibling; undo.push({ t: 'unwash', el: n, after: shape }); n.remove(); n = nx; }
-      return;
+    var oldEdge = edgeOf(shape);
+    var rec = { t: 'wash', el: shape, prev: shape.getAttribute('fill'), oldEdge: oldEdge, newEdge: null };
+    if (oldEdge) oldEdge.remove();
+    if (isWhite()) { shape.setAttribute('fill', shape.dataset.orig || '#fff'); undo.push(rec); return; }
+    shape.setAttribute('fill', tint(state.color));
+    if (!shape.hasAttribute('data-field')) {
+      var c = shape.cloneNode(false);
+      ['class', 'id', 'stroke-dasharray', 'data-orig', 'data-field', 'data-tpl', 'data-empty'].forEach(function (a) { c.removeAttribute(a); });
+      c.setAttribute('class', 'wc'); c.setAttribute('fill', 'none'); c.setAttribute('stroke', state.color);
+      c.setAttribute('stroke-width', '6'); c.setAttribute('stroke-opacity', '0.22'); c.setAttribute('pointer-events', 'none');
+      shape.parentNode.insertBefore(c, shape.nextSibling);
+      rec.newEdge = c;
     }
-    if (shape.hasAttribute('data-field')) { undo.push({ t: 'fill', el: shape, prev: shape.getAttribute('fill') }); shape.setAttribute('fill', state.color); return; }
-    var c = shape.cloneNode(false);
-    ['class', 'id', 'stroke', 'stroke-width', 'stroke-dasharray', 'data-orig'].forEach(function (a) { c.removeAttribute(a); });
-    c.setAttribute('class', 'wc'); c.setAttribute('fill', state.color); c.setAttribute('stroke', 'none');
-    c.setAttribute('opacity', '0.72'); c.setAttribute('filter', 'url(#wc-wash)');
-    c.setAttribute('pointer-events', 'none'); c.setAttribute('style', 'mix-blend-mode:multiply');
-    var last = shape; while (last.nextSibling && last.nextSibling.nodeType === 1 && last.nextSibling.classList.contains('wc')) last = last.nextSibling;
-    last.parentNode.insertBefore(c, last.nextSibling);
-    undo.push({ t: 'stroke', el: c });
+    undo.push(rec);
   }
   function end() {
     if (!cur) return;
@@ -169,7 +158,11 @@
     if (act === 'undo') {
       var a = undo.pop(); if (!a) return;
       if (a.t === 'fill') a.el.setAttribute('fill', a.prev);
-      else if (a.t === 'unwash') a.after.parentNode.insertBefore(a.el, a.after.nextSibling);
+      else if (a.t === 'wash') {
+        a.el.setAttribute('fill', a.prev);
+        if (a.newEdge) a.newEdge.remove();
+        if (a.oldEdge) a.el.parentNode.insertBefore(a.oldEdge, a.el.nextSibling);
+      }
       else a.el.remove();
     }
     if (act === 'clear') {
